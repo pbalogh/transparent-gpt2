@@ -1,0 +1,242 @@
+[
+  {
+    "prompt": "In 1969, Neil Armstrong landed on the",
+    "target": "moon",
+    "model_pred": " moon",
+    "target_prob": 0.6727,
+    "static_ranks": {
+      "5": 18582,
+      "50": 1605,
+      "200": 18477,
+      "500": 17532,
+      "3045": 5659
+    },
+    "context_ranks": {
+      "5": 13923,
+      "50": 1669,
+      "200": 2673,
+      "500": 3835,
+      "3045": 2807
+    }
+  },
+  {
+    "prompt": "Water freezes at zero degrees",
+    "target": "C",
+    "model_pred": " C",
+    "target_prob": 0.163,
+    "static_ranks": {
+      "5": 6402,
+      "50": 30919,
+      "200": 20836,
+      "500": 1432,
+      "3045": 67
+    },
+    "context_ranks": {
+      "5": 1,
+      "50": 1,
+      "200": 1,
+      "500": 1,
+      "3045": 1
+    }
+  },
+  {
+    "prompt": "The playwright was William",
+    "target": "Shakespeare",
+    "model_pred": " Shakespeare",
+    "target_prob": 0.3349,
+    "static_ranks": {
+      "5": 27202,
+      "50": 37810,
+      "200": 7586,
+      "500": 18841,
+      "3045": 15666
+    },
+    "context_ranks": {
+      "5": 1957,
+      "50": 11992,
+      "200": 8492,
+      "500": 5735,
+      "3045": 5515
+    }
+  },
+  {
+    "prompt": "Einstein's theory of",
+    "target": "relativity",
+    "model_pred": " relativity",
+    "target_prob": 0.4583,
+    "static_ranks": {
+      "5": 40511,
+      "50": 27691,
+      "200": 14345,
+      "500": 18614,
+      "3045": 45230
+    },
+    "context_ranks": {
+      "5": 9271,
+      "50": 15192,
+      "200": 19063,
+      "500": 10886,
+      "3045": 328
+    }
+  },
+  {
+    "prompt": "The speed of light is 300,000 km per",
+    "target": "second",
+    "model_pred": " second",
+    "target_prob": 0.6855,
+    "static_ranks": {
+      "5": 8023,
+      "50": 583,
+      "200": 936,
+      "500": 479,
+      "3045": 209
+    },
+    "context_ranks": {
+      "5": 398,
+      "50": 1,
+      "200": 1,
+      "500": 1,
+      "3045": 1
+    }
+  },
+  {
+    "prompt": "The French Revolution began in",
+    "target": "17",
+    "model_pred": " 17",
+    "target_prob": 0.4669,
+    "static_ranks": {
+      "5": 19214,
+      "50": 25374,
+      "200": 15505,
+      "500": 338,
+      "3045": 492
+    },
+    "context_ranks": {
+      "5": 2,
+      "50": 2,
+      "200": 3,
+      "500": 9,
+      "3045": 5
+    }
+  },
+  {
+    "prompt": "The chemical symbol for gold is",
+    "target": "Au",
+    "model_pred": " the",
+    "target_prob": 0.0001,
+    "static_ranks": {
+      "5": 15181,
+      "50": 37296,
+      "200": 6278,
+      "500": 18833,
+      "3045": 12846
+    },
+    "context_ranks": {
+      "5": 17886,
+      "50": 402,
+      "200": 764,
+      "500": 698,
+      "3045": 440
+    }
+  },
+  {
+    "prompt": "The largest planet in our solar system is",
+    "target": "Jupiter",
+    "model_pred": " about",
+    "target_prob": 0.027,
+    "static_ranks": {
+      "5": 44463,
+      "50": 41596,
+      "200": 2736,
+      "500": 16667,
+      "3045": 13339
+    },
+    "context_ranks": {
+      "5": 17062,
+      "50": 27270,
+      "200": 14036,
+      "500": 12189,
+      "3045": 13482
+    }
+  },
+  {
+    "prompt": "The capital of France is",
+    "target": "Paris",
+    "model_pred": " the",
+    "target_prob": 0.0322,
+    "static_ranks": {
+      "5": 42748,
+      "50": 42234,
+      "200": 2757,
+      "500": 17977,
+      "3045": 3639
+    },
+    "context_ranks": {
+      "5": 14961,
+      "50": 17401,
+      "200": 5138,
+      "500": 5279,
+      "3045": 7402
+    }
+  },
+  {
+    "prompt": "DNA stands for deoxyribonucleic",
+    "target": "acid",
+    "model_pred": " acid",
+    "target_prob": 0.9856,
+    "static_ranks": {
+      "5": 22393,
+      "50": 15734,
+      "200": 19254,
+      "500": 18824,
+      "3045": 5877
+    },
+    "context_ranks": {
+      "5": 5716,
+      "50": 8132,
+      "200": 3533,
+      "500": 2448,
+      "3045": 1740
+    }
+  },
+  {
+    "prompt": "The Mona Lisa was painted by Leonardo da",
+    "target": "Vinci",
+    "model_pred": " Vin",
+    "target_prob": 0.9992,
+    "static_ranks": {
+      "5": 46834,
+      "50": 46305,
+      "200": 34629,
+      "500": 9800,
+      "3045": 9709
+    },
+    "context_ranks": {
+      "5": 1351,
+      "50": 488,
+      "200": 267,
+      "500": 85,
+      "3045": 9
+    }
+  },
+  {
+    "prompt": "The Great Wall of",
+    "target": "China",
+    "model_pred": " China",
+    "target_prob": 0.9277,
+    "static_ranks": {
+      "5": 28256,
+      "50": 35606,
+      "200": 5856,
+      "500": 32115,
+      "3045": 2029
+    },
+    "context_ranks": {
+      "5": 5468,
+      "50": 279,
+      "200": 89,
+      "500": 24,
+      "3045": 332
+    }
+  }
+]

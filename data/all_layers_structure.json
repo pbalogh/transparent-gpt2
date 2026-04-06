@@ -1,0 +1,242 @@
+[
+  {
+    "layer": 0,
+    "exception_neuron": 2637,
+    "exception_fire_rate": 0.0609,
+    "exception_corr": -0.2117,
+    "max_jaccard": 0.0643,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.06,
+    "consensus_mean_rate": 0.99,
+    "anticorr_spread": -0.0488,
+    "consensus_neurons": [
+      1903,
+      2691,
+      1385,
+      455,
+      2952,
+      37,
+      892
+    ]
+  },
+  {
+    "layer": 1,
+    "exception_neuron": 2814,
+    "exception_fire_rate": 0.0799,
+    "exception_corr": -0.317,
+    "max_jaccard": 0.092,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.162,
+    "consensus_mean_rate": 0.9235,
+    "anticorr_spread": -0.0301,
+    "consensus_neurons": [
+      734,
+      351,
+      2136,
+      821,
+      2589,
+      2665,
+      975
+    ]
+  },
+  {
+    "layer": 2,
+    "exception_neuron": 2670,
+    "exception_fire_rate": 0.1511,
+    "exception_corr": -0.3549,
+    "max_jaccard": 0.1571,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.076,
+    "consensus_mean_rate": 0.9363,
+    "anticorr_spread": -0.0593,
+    "consensus_neurons": [
+      1173,
+      763,
+      1793,
+      2712,
+      241,
+      2714,
+      820
+    ]
+  },
+  {
+    "layer": 3,
+    "exception_neuron": 2108,
+    "exception_fire_rate": 0.0719,
+    "exception_corr": -0.1359,
+    "max_jaccard": 0.0827,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.167,
+    "consensus_mean_rate": 0.9123,
+    "anticorr_spread": -0.0455,
+    "consensus_neurons": [
+      1259,
+      1718,
+      1700,
+      1470,
+      614,
+      1545,
+      2664
+    ]
+  },
+  {
+    "layer": 4,
+    "exception_neuron": 2656,
+    "exception_fire_rate": 0.1404,
+    "exception_corr": -0.1116,
+    "max_jaccard": 0.1598,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.161,
+    "consensus_mean_rate": 0.9643,
+    "anticorr_spread": -0.1222,
+    "consensus_neurons": [
+      2942,
+      2183,
+      2422,
+      463,
+      2755,
+      787,
+      1894
+    ]
+  },
+  {
+    "layer": 5,
+    "exception_neuron": 628,
+    "exception_fire_rate": 0.1206,
+    "exception_corr": -0.1763,
+    "max_jaccard": 0.1302,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.109,
+    "consensus_mean_rate": 0.9153,
+    "anticorr_spread": -0.0785,
+    "consensus_neurons": [
+      2865,
+      1856,
+      2852,
+      1505,
+      2256,
+      1888,
+      1790
+    ]
+  },
+  {
+    "layer": 6,
+    "exception_neuron": 162,
+    "exception_fire_rate": 0.1496,
+    "exception_corr": -0.2025,
+    "max_jaccard": 0.179,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.213,
+    "consensus_mean_rate": 0.9144,
+    "anticorr_spread": -0.0974,
+    "consensus_neurons": [
+      1825,
+      578,
+      311,
+      2037,
+      834,
+      3039,
+      437
+    ]
+  },
+  {
+    "layer": 7,
+    "exception_neuron": 1364,
+    "exception_fire_rate": 0.3573,
+    "exception_corr": -0.2395,
+    "max_jaccard": 0.3574,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.062,
+    "consensus_mean_rate": 0.8869,
+    "anticorr_spread": -0.2456,
+    "consensus_neurons": [
+      2651,
+      1756,
+      159,
+      2489,
+      232,
+      2402,
+      2367
+    ]
+  },
+  {
+    "layer": 8,
+    "exception_neuron": 841,
+    "exception_fire_rate": 0.2446,
+    "exception_corr": -0.1475,
+    "max_jaccard": 0.2558,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.093,
+    "consensus_mean_rate": 0.862,
+    "anticorr_spread": -0.1803,
+    "consensus_neurons": [
+      3018,
+      304,
+      2834,
+      2365,
+      737,
+      1640,
+      1253
+    ]
+  },
+  {
+    "layer": 9,
+    "exception_neuron": 2139,
+    "exception_fire_rate": 0.3117,
+    "exception_corr": -0.1664,
+    "max_jaccard": 0.3131,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.073,
+    "consensus_mean_rate": 0.8725,
+    "anticorr_spread": -0.2352,
+    "consensus_neurons": [
+      2995,
+      2646,
+      1981,
+      2798,
+      1305,
+      1889,
+      840
+    ]
+  },
+  {
+    "layer": 10,
+    "exception_neuron": 1624,
+    "exception_fire_rate": 0.3852,
+    "exception_corr": -0.1731,
+    "max_jaccard": 0.3839,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.049,
+    "consensus_mean_rate": 0.9417,
+    "anticorr_spread": -0.325,
+    "consensus_neurons": [
+      534,
+      653,
+      1690,
+      1973,
+      379,
+      1793,
+      900
+    ]
+  },
+  {
+    "layer": 11,
+    "exception_neuron": 3066,
+    "exception_fire_rate": 0.1088,
+    "exception_corr": -0.2265,
+    "max_jaccard": 0.1234,
+    "high_jaccard_count": 0,
+    "max_enrichment": 1.145,
+    "consensus_mean_rate": 0.976,
+    "anticorr_spread": -0.0806,
+    "consensus_neurons": [
+      2362,
+      2408,
+      2462,
+      1611,
+      2044,
+      740,
+      2910
+    ]
+  }
+]

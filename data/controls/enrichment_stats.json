@@ -1,0 +1,380 @@
+{
+  "2123": {
+    "tier": "core",
+    "base_rate": 0.6878205128205128,
+    "exc_rate": 1.0,
+    "enrichment": 1.4538676607642125,
+    "p_value": 0.0,
+    "significant_bonferroni": true,
+    "contingency": [
+      34336,
+      0,
+      0,
+      15584
+    ]
+  },
+  "2910": {
+    "tier": "core",
+    "base_rate": 0.9996594551282051,
+    "exc_rate": 0.9996213886300093,
+    "enrichment": 0.9999619205340373,
+    "p_value": 0.8268990915792954,
+    "significant_bonferroni": false,
+    "contingency": [
+      34323,
+      13,
+      15580,
+      4
+    ]
+  },
+  "740": {
+    "tier": "core",
+    "base_rate": 0.9985777243589744,
+    "exc_rate": 0.9983399347623485,
+    "enrichment": 0.9997618717193211,
+    "p_value": 0.9894049895997399,
+    "significant_bonferroni": false,
+    "contingency": [
+      34279,
+      57,
+      15570,
+      14
+    ]
+  },
+  "1611": {
+    "tier": "core",
+    "base_rate": 0.9791666666666666,
+    "exc_rate": 0.9803995806150979,
+    "enrichment": 1.0012591461601,
+    "p_value": 0.002532234120030297,
+    "significant_bonferroni": false,
+    "contingency": [
+      33663,
+      673,
+      15217,
+      367
+    ]
+  },
+  "2044": {
+    "tier": "core",
+    "base_rate": 0.9834334935897436,
+    "exc_rate": 0.9820305219012115,
+    "enrichment": 0.9985733944413354,
+    "p_value": 0.9999110673542093,
+    "significant_bonferroni": false,
+    "contingency": [
+      33719,
+      617,
+      15374,
+      210
+    ]
+  },
+  "584": {
+    "tier": "differentiator",
+    "base_rate": 0.03938301282051282,
+    "exc_rate": 0.04860787511649581,
+    "enrichment": 1.2342345502621928,
+    "p_value": 3.85866520298292e-63,
+    "significant_bonferroni": true,
+    "contingency": [
+      1669,
+      32667,
+      297,
+      15287
+    ]
+  },
+  "2378": {
+    "tier": "differentiator",
+    "base_rate": 0.031810897435897434,
+    "exc_rate": 0.03730778191985089,
+    "enrichment": 1.1727987868003504,
+    "p_value": 1.5747322270590555e-27,
+    "significant_bonferroni": true,
+    "contingency": [
+      1281,
+      33055,
+      307,
+      15277
+    ]
+  },
+  "611": {
+    "tier": "differentiator",
+    "base_rate": 0.6861979166666666,
+    "exc_rate": 0.7190121155638397,
+    "enrichment": 1.0478203126243433,
+    "p_value": 1.1932120198181413e-119,
+    "significant_bonferroni": true,
+    "contingency": [
+      24688,
+      9648,
+      9567,
+      6017
+    ]
+  },
+  "2173": {
+    "tier": "differentiator",
+    "base_rate": 0.8267828525641026,
+    "exc_rate": 0.8246738117427772,
+    "enrichment": 0.9974490994645274,
+    "p_value": 0.9688152987278972,
+    "significant_bonferroni": false,
+    "contingency": [
+      28316,
+      6020,
+      12957,
+      2627
+    ]
+  },
+  "1602": {
+    "tier": "differentiator",
+    "base_rate": 0.20416666666666666,
+    "exc_rate": 0.2064888164026095,
+    "enrichment": 1.011373794625026,
+    "p_value": 0.028655637839930567,
+    "significant_bonferroni": false,
+    "contingency": [
+      7090,
+      27246,
+      3102,
+      12482
+    ]
+  },
+  "1715": {
+    "tier": "differentiator",
+    "base_rate": 0.405488782051282,
+    "exc_rate": 0.3893581081081081,
+    "enrichment": 0.9602191856909771,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      13369,
+      20967,
+      6873,
+      8711
+    ]
+  },
+  "935": {
+    "tier": "differentiator",
+    "base_rate": 0.6701722756410257,
+    "exc_rate": 0.6629485088536813,
+    "enrichment": 0.9892210300994102,
+    "p_value": 0.9999998451416351,
+    "significant_bonferroni": false,
+    "contingency": [
+      22763,
+      11573,
+      10692,
+      4892
+    ]
+  },
+  "2856": {
+    "tier": "differentiator",
+    "base_rate": 0.8042467948717948,
+    "exc_rate": 0.7982001397949674,
+    "enrichment": 0.9924815925716044,
+    "p_value": 0.9999998211916795,
+    "significant_bonferroni": false,
+    "contingency": [
+      27407,
+      6929,
+      12741,
+      2843
+    ]
+  },
+  "1427": {
+    "tier": "differentiator",
+    "base_rate": 0.594931891025641,
+    "exc_rate": 0.5690237651444549,
+    "enrichment": 0.9564519463958782,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      19538,
+      14798,
+      10161,
+      5423
+    ]
+  },
+  "377": {
+    "tier": "differentiator",
+    "base_rate": 0.7175280448717949,
+    "exc_rate": 0.7089934762348555,
+    "enrichment": 0.9881055957353356,
+    "p_value": 0.9999999998706312,
+    "significant_bonferroni": false,
+    "contingency": [
+      24344,
+      9992,
+      11475,
+      4109
+    ]
+  },
+  "737": {
+    "tier": "specialist",
+    "base_rate": 0.02922676282051282,
+    "exc_rate": 0.031919850885368126,
+    "enrichment": 1.0921445895802446,
+    "p_value": 3.774109921502898e-08,
+    "significant_bonferroni": true,
+    "contingency": [
+      1096,
+      33240,
+      363,
+      15221
+    ]
+  },
+  "1375": {
+    "tier": "specialist",
+    "base_rate": 0.7603966346153846,
+    "exc_rate": 0.760834109972041,
+    "enrichment": 1.0005753252141596,
+    "p_value": 0.3709837670722498,
+    "significant_bonferroni": false,
+    "contingency": [
+      26124,
+      8212,
+      11835,
+      3749
+    ]
+  },
+  "1037": {
+    "tier": "specialist",
+    "base_rate": 0.7340745192307693,
+    "exc_rate": 0.7270212022367195,
+    "enrichment": 0.9903915517985273,
+    "p_value": 0.9999999491214021,
+    "significant_bonferroni": false,
+    "contingency": [
+      24963,
+      9373,
+      11682,
+      3902
+    ]
+  },
+  "1994": {
+    "tier": "specialist",
+    "base_rate": 0.6297676282051282,
+    "exc_rate": 0.6049918452935694,
+    "enrichment": 0.9606588497059286,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      20773,
+      13563,
+      10665,
+      4919
+    ]
+  },
+  "1224": {
+    "tier": "specialist",
+    "base_rate": 0.7621394230769231,
+    "exc_rate": 0.7507280987884436,
+    "enrichment": 0.985027248370896,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      25777,
+      8559,
+      12269,
+      3315
+    ]
+  },
+  "2": {
+    "tier": "consensus",
+    "base_rate": 0.8921274038461539,
+    "exc_rate": 0.8856593662628145,
+    "enrichment": 0.9927498723215381,
+    "p_value": 0.9999999999988001,
+    "significant_bonferroni": false,
+    "contingency": [
+      30410,
+      3926,
+      14125,
+      1459
+    ]
+  },
+  "2361": {
+    "tier": "consensus",
+    "base_rate": 0.8508213141025641,
+    "exc_rate": 0.8509144920782852,
+    "enrichment": 1.0001095153285144,
+    "p_value": 0.4703591761527859,
+    "significant_bonferroni": false,
+    "contingency": [
+      29217,
+      5119,
+      13256,
+      2328
+    ]
+  },
+  "2460": {
+    "tier": "consensus",
+    "base_rate": 0.8594751602564102,
+    "exc_rate": 0.8541472506989748,
+    "enrichment": 0.9938009731940991,
+    "p_value": 0.9999998561797154,
+    "significant_bonferroni": false,
+    "contingency": [
+      29328,
+      5008,
+      13577,
+      2007
+    ]
+  },
+  "2928": {
+    "tier": "consensus",
+    "base_rate": 0.930829326923077,
+    "exc_rate": 0.9240156104380243,
+    "enrichment": 0.9926799507836996,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      31727,
+      2609,
+      14740,
+      844
+    ]
+  },
+  "1831": {
+    "tier": "consensus",
+    "base_rate": 0.8040464743589744,
+    "exc_rate": 0.7790074557315937,
+    "enrichment": 0.9688587420928088,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      26748,
+      7588,
+      13390,
+      2194
+    ]
+  },
+  "1245": {
+    "tier": "consensus",
+    "base_rate": 0.8529046474358974,
+    "exc_rate": 0.8490796831314072,
+    "enrichment": 0.9955153670272647,
+    "p_value": 0.9998468808882774,
+    "significant_bonferroni": false,
+    "contingency": [
+      29154,
+      5182,
+      13423,
+      2161
+    ]
+  },
+  "2600": {
+    "tier": "consensus",
+    "base_rate": 0.8107972756410257,
+    "exc_rate": 0.7914433830382106,
+    "enrichment": 0.9761298006489801,
+    "p_value": 1.0,
+    "significant_bonferroni": false,
+    "contingency": [
+      27175,
+      7161,
+      13300,
+      2284
+    ]
+  }
+}

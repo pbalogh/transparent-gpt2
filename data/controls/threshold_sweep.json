@@ -1,0 +1,62 @@
+{
+  "0.01": {
+    "threshold": 0.01,
+    "exception_fire_rate": 0.991045673076923,
+    "consensus_mean_fire_rate": 0.9821399954212453,
+    "core_jaccard_mean": 0.9949198289369805,
+    "core_jaccard_min": 0.9890222159899037,
+    "exc_at_0_consensus": null,
+    "exc_at_7_consensus": 0.9910833704859563,
+    "anticorrelation_spread": null
+  },
+  "0.05": {
+    "threshold": 0.05,
+    "exception_fire_rate": 0.88828125,
+    "consensus_mean_fire_rate": 0.9264537545787546,
+    "core_jaccard_mean": 0.9479442900625201,
+    "core_jaccard_min": 0.880740755602817,
+    "exc_at_0_consensus": 1.0,
+    "exc_at_7_consensus": 0.8881317978246961,
+    "anticorrelation_spread": 0.11186820217530391
+  },
+  "0.1": {
+    "threshold": 0.1,
+    "exception_fire_rate": 0.6878205128205128,
+    "consensus_mean_fire_rate": 0.8572859432234432,
+    "core_jaccard_mean": 0.8615475201641235,
+    "core_jaccard_min": 0.6783142224904446,
+    "exc_at_0_consensus": 0.9772727272727273,
+    "exc_at_7_consensus": 0.6537502493516856,
+    "anticorrelation_spread": 0.3235224779210417
+  },
+  "0.25": {
+    "threshold": 0.25,
+    "exception_fire_rate": 0.06969150641025641,
+    "consensus_mean_fire_rate": 0.6669471153846154,
+    "core_jaccard_mean": 0.5961672409095782,
+    "core_jaccard_min": 0.060860375481785405,
+    "exc_at_0_consensus": 0.8095238095238095,
+    "exc_at_7_consensus": 0.0006401024163866218,
+    "anticorrelation_spread": 0.808883707107423
+  },
+  "0.5": {
+    "threshold": 0.5,
+    "exception_fire_rate": 0.05424679487179487,
+    "consensus_mean_fire_rate": 0.5039921016483516,
+    "core_jaccard_mean": 0.5580954995031961,
+    "core_jaccard_min": 0.044017839829358155,
+    "exc_at_0_consensus": 0.5583079268292683,
+    "exc_at_7_consensus": 0.0,
+    "anticorrelation_spread": 0.5583079268292683
+  },
+  "1.0": {
+    "threshold": 1.0,
+    "exception_fire_rate": 0.038461538461538464,
+    "consensus_mean_fire_rate": 0.2247481684981685,
+    "core_jaccard_mean": 0.4450809727200764,
+    "core_jaccard_min": 0.02725715562396048,
+    "exc_at_0_consensus": 0.14478180220638484,
+    "exc_at_7_consensus": 0.0,
+    "anticorrelation_spread": 0.14478180220638484
+  }
+}

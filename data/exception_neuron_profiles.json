@@ -1,0 +1,4797 @@
+{
+  "exception_total": 23654,
+  "neurons": {
+    "2378": {
+      "fire_count": 8482,
+      "fire_pct": 35.86,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " =",
+          396
+        ],
+        [
+          " '",
+          238
+        ],
+        [
+          "-",
+          191
+        ],
+        [
+          " such",
+          87
+        ],
+        [
+          " 18",
+          81
+        ],
+        [
+          " F",
+          81
+        ],
+        [
+          "j",
+          79
+        ],
+        [
+          " Tru",
+          73
+        ],
+        [
+          " @",
+          70
+        ],
+        [
+          ".",
+          69
+        ],
+        [
+          " Sap",
+          64
+        ],
+        [
+          "g",
+          62
+        ],
+        [
+          " of",
+          60
+        ],
+        [
+          "urt",
+          57
+        ],
+        [
+          "ol",
+          54
+        ],
+        [
+          " ant",
+          50
+        ],
+        [
+          "z",
+          43
+        ],
+        [
+          "alky",
+          41
+        ],
+        [
+          "\u00ed",
+          40
+        ],
+        [
+          " part",
+          39
+        ],
+        [
+          " Mad",
+          38
+        ],
+        [
+          " Little",
+          37
+        ],
+        [
+          " Blue",
+          37
+        ],
+        [
+          " Mark",
+          37
+        ],
+        [
+          " V",
+          35
+        ],
+        [
+          " No",
+          34
+        ],
+        [
+          " in",
+          34
+        ],
+        [
+          " World",
+          33
+        ],
+        [
+          " December",
+          32
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " commonly[ referred] to",
+        " V[alky]ria",
+        " [\n\n] The",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " ,[ along] with",
+        " V[alky]ria",
+        " [\n\n] It",
+        " ,[ along] with",
+        " of[ V]alky",
+        " V[alky]ria",
+        " ,[ V]alky",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " previous[ V]alky",
+        " V[alky]ira",
+        " ,[ V]alky",
+        " @[-]@",
+        " game[ ']s",
+        " game[ ']s",
+        " [\n\n] The",
+        " game[ ']s",
+        " from[ V]alky",
+        " V[alky]ira",
+        " @[-]@",
+        " the[ expense] of",
+        " ,[ such] as",
+        " Battle[ Pot]entials",
+        " [\n\n] Tro",
+        " Shock[tro]opers",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " and[ No].",
+        " V[alky]ria",
+        " [\n\n] As",
+        " the[ Nam]eless",
+        " e[chel]ons",
+        " ab[and]ons",
+        " Cal[am]ity",
+        " the[ Nam]eless",
+        " the[ Nam]eless",
+        " evidence[ exoner]ating",
+        " [\n\n] Part",
+        " partly[ due] to",
+        " manpower[ Gall]ia"
+      ],
+      "pushes_toward": [
+        [
+          "ertodd",
+          -0.004
+        ],
+        [
+          "GoldMagikarp",
+          -0.005
+        ],
+        [
+          "jriwal",
+          -0.01
+        ],
+        [
+          "anooga",
+          -0.01
+        ],
+        [
+          "arnaev",
+          -0.01
+        ],
+        [
+          "\ufffd\ufffd",
+          -0.013
+        ],
+        [
+          "uliffe",
+          -0.014
+        ],
+        [
+          "cloneembedreportprint",
+          -0.015
+        ],
+        [
+          "guiActiveUn",
+          -0.015
+        ],
+        [
+          "\ufffd\u9192",
+          -0.016
+        ]
+      ],
+      "pushes_away": [
+        "in",
+        "and",
+        "to",
+        "the",
+        "a",
+        "(",
+        "on",
+        "for",
+        "",
+        "of"
+      ]
+    },
+    "584": {
+      "fire_count": 8833,
+      "fire_pct": 37.34,
+      "top_triggers": [
+        [
+          "\n\n",
+          1799
+        ],
+        [
+          " =",
+          393
+        ],
+        [
+          " '",
+          215
+        ],
+        [
+          "-",
+          186
+        ],
+        [
+          " 18",
+          92
+        ],
+        [
+          " such",
+          87
+        ],
+        [
+          "j",
+          82
+        ],
+        [
+          " F",
+          80
+        ],
+        [
+          " Tru",
+          74
+        ],
+        [
+          ".",
+          73
+        ],
+        [
+          " of",
+          71
+        ],
+        [
+          " @",
+          70
+        ],
+        [
+          " Sap",
+          64
+        ],
+        [
+          "g",
+          63
+        ],
+        [
+          " on",
+          59
+        ],
+        [
+          "urt",
+          57
+        ],
+        [
+          "ol",
+          55
+        ],
+        [
+          " ant",
+          50
+        ],
+        [
+          "z",
+          44
+        ],
+        [
+          "alky",
+          42
+        ],
+        [
+          "\u00ed",
+          40
+        ],
+        [
+          " part",
+          39
+        ],
+        [
+          " in",
+          39
+        ],
+        [
+          " Blue",
+          37
+        ],
+        [
+          " Mark",
+          37
+        ],
+        [
+          " Mad",
+          36
+        ],
+        [
+          " V",
+          33
+        ],
+        [
+          " to",
+          33
+        ],
+        [
+          " No",
+          32
+        ],
+        [
+          " May",
+          32
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " commonly[ referred] to",
+        " V[alky]ria",
+        " [\n\n] The",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " ,[ along] with",
+        " V[alky]ria",
+        " [\n\n] It",
+        " ,[ along] with",
+        " of[ V]alky",
+        " V[alky]ria",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " previous[ V]alky",
+        " V[alky]ira",
+        " ,[ V]alky",
+        " @[-]@",
+        " un[vo]iced",
+        " game[ ']s",
+        " game[ ']s",
+        " [\n\n] The",
+        " game[ ']s",
+        " from[ V]alky",
+        " V[alky]ira",
+        " @[-]@",
+        " the[ expense] of",
+        " ,[ such] as",
+        " un[al]tered",
+        " Battle[ Pot]entials",
+        " [\n\n] Tro",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " and[ No].",
+        " V[alky]ria",
+        " [\n\n] As",
+        " the[ Nam]eless",
+        " e[chel]ons",
+        " ab[and]ons",
+        " Cal[am]ity",
+        " the[ Nam]eless",
+        " the[ Nam]eless",
+        " [\n\n] Part",
+        " partly[ due] to",
+        " manpower[ Gall]ia",
+        " the[ Nam]eless"
+      ],
+      "pushes_toward": [
+        [
+          "",
+          0.547
+        ],
+        [
+          "\u0005",
+          0.547
+        ],
+        [
+          "\u30b5\u30fc\u30c6\u30a3",
+          0.547
+        ],
+        [
+          "",
+          0.547
+        ],
+        [
+          "",
+          0.547
+        ],
+        [
+          "",
+          0.547
+        ],
+        [
+          "reportprint",
+          0.547
+        ],
+        [
+          "\u0006",
+          0.547
+        ],
+        [
+          "RandomRedditor",
+          0.547
+        ],
+        [
+          "\u0011",
+          0.547
+        ]
+      ],
+      "pushes_away": [
+        "the",
+        "a",
+        "in",
+        "and",
+        ",",
+        "to",
+        "(",
+        "",
+        ".",
+        "of"
+      ]
+    },
+    "2910": {
+      "fire_count": 23599,
+      "fire_pct": 99.77,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " of",
+          407
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          " the",
+          378
+        ],
+        [
+          " in",
+          348
+        ],
+        [
+          " '",
+          322
+        ],
+        [
+          " to",
+          320
+        ],
+        [
+          " (",
+          219
+        ],
+        [
+          " and",
+          205
+        ],
+        [
+          "-",
+          202
+        ],
+        [
+          "s",
+          193
+        ],
+        [
+          " ,",
+          181
+        ],
+        [
+          " on",
+          164
+        ],
+        [
+          ".",
+          160
+        ],
+        [
+          "@",
+          144
+        ],
+        [
+          " \u2013",
+          134
+        ],
+        [
+          "\ufffd",
+          125
+        ],
+        [
+          " was",
+          124
+        ],
+        [
+          " F",
+          110
+        ],
+        [
+          "j",
+          109
+        ],
+        [
+          " 18",
+          106
+        ],
+        [
+          " such",
+          88
+        ],
+        [
+          " a",
+          86
+        ],
+        [
+          " an",
+          78
+        ],
+        [
+          "g",
+          78
+        ],
+        [
+          " K",
+          77
+        ],
+        [
+          " @",
+          75
+        ],
+        [
+          "z",
+          75
+        ],
+        [
+          " Tru",
+          75
+        ],
+        [
+          " R",
+          72
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        "\ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " designer[ R]ait",
+        " R[ait]a",
+        " Hon[j]ou",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " '[n] .",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " received[ downloadable] content",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " an[ original] video",
+        " of[ V]alky"
+      ],
+      "pushes_toward": [
+        [
+          "the",
+          0.521
+        ],
+        [
+          "in",
+          0.479
+        ],
+        [
+          "and",
+          0.474
+        ],
+        [
+          "a",
+          0.471
+        ],
+        [
+          ",",
+          0.449
+        ],
+        [
+          "to",
+          0.424
+        ],
+        [
+          ".",
+          0.411
+        ],
+        [
+          "(",
+          0.405
+        ],
+        [
+          "-",
+          0.393
+        ],
+        [
+          "",
+          0.387
+        ]
+      ],
+      "pushes_away": [
+        "",
+        "",
+        "\u0011",
+        "oreAndOnline",
+        "",
+        "\u30b5\u30fc\u30c6\u30a3",
+        "reportprint",
+        "\u001b",
+        "\u0001",
+        ""
+      ]
+    },
+    "611": {
+      "fire_count": 9508,
+      "fire_pct": 40.2,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " =",
+          366
+        ],
+        [
+          " the",
+          366
+        ],
+        [
+          " of",
+          361
+        ],
+        [
+          " in",
+          342
+        ],
+        [
+          " to",
+          314
+        ],
+        [
+          " and",
+          202
+        ],
+        [
+          "s",
+          177
+        ],
+        [
+          " ,",
+          165
+        ],
+        [
+          " on",
+          164
+        ],
+        [
+          " \u2013",
+          128
+        ],
+        [
+          "@",
+          125
+        ],
+        [
+          " was",
+          123
+        ],
+        [
+          " (",
+          100
+        ],
+        [
+          " such",
+          88
+        ],
+        [
+          " 18",
+          83
+        ],
+        [
+          " a",
+          82
+        ],
+        [
+          " an",
+          71
+        ],
+        [
+          " In",
+          51
+        ],
+        [
+          " number",
+          51
+        ],
+        [
+          " $",
+          50
+        ],
+        [
+          " at",
+          47
+        ],
+        [
+          " its",
+          46
+        ],
+        [
+          " Little",
+          43
+        ],
+        [
+          " December",
+          42
+        ],
+        [
+          " their",
+          41
+        ],
+        [
+          " May",
+          40
+        ],
+        [
+          " November",
+          39
+        ],
+        [
+          " by",
+          37
+        ],
+        [
+          " On",
+          36
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " commonly[ referred] to",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " the[ Second] Euro",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " ,[ such] as",
+        " ,[ along] with",
+        " II[ director] Takes",
+        " '[n] .",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " received[ downloadable] content",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " an[ original] video",
+        " was[ not] localized",
+        " released[ in] 2014",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " with[ animated] character",
+        " can[ be] freely",
+        " be[ freely] scanned",
+        " as[ they] are",
+        " [\n\n] The",
+        " can[ only] act",
+        " can[ be] granted",
+        " the[ expense] of",
+        " ,[ such] as",
+        " )[ getting] low",
+        " that[ remain] un",
+        " acquire[ and] link",
+        " Abilities[ that] grant",
+        " Kurt[ can] activate",
+        " [\n\n] Tro",
+        " Scouts[ ,] Shock",
+        " can[ switch] classes",
+        " does[ not] greatly",
+        " points[ are] awarded"
+      ],
+      "pushes_toward": [
+        [
+          "Leilan",
+          -0.0
+        ],
+        [
+          "Archdemon",
+          -0.001
+        ],
+        [
+          "guiActiveUnfocused",
+          -0.002
+        ],
+        [
+          "CLSID",
+          -0.003
+        ],
+        [
+          "guiName",
+          -0.003
+        ],
+        [
+          "\u25fc",
+          -0.003
+        ],
+        [
+          "isSpecialOrderable",
+          -0.004
+        ],
+        [
+          "fixme",
+          -0.004
+        ],
+        [
+          "SourceFile",
+          -0.004
+        ],
+        [
+          "Canaver",
+          -0.004
+        ]
+      ],
+      "pushes_away": [
+        "the",
+        "in",
+        "a",
+        "and",
+        "to",
+        "for",
+        "on",
+        "(",
+        "an",
+        "that"
+      ]
+    },
+    "2123": {
+      "fire_count": 23654,
+      "fire_pct": 100.0,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " of",
+          408
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          " the",
+          379
+        ],
+        [
+          " in",
+          348
+        ],
+        [
+          " '",
+          322
+        ],
+        [
+          " to",
+          320
+        ],
+        [
+          " and",
+          220
+        ],
+        [
+          " (",
+          219
+        ],
+        [
+          "-",
+          202
+        ],
+        [
+          "s",
+          193
+        ],
+        [
+          " ,",
+          191
+        ],
+        [
+          " on",
+          170
+        ],
+        [
+          ".",
+          160
+        ],
+        [
+          "@",
+          145
+        ],
+        [
+          " \u2013",
+          137
+        ],
+        [
+          "\ufffd",
+          125
+        ],
+        [
+          " was",
+          124
+        ],
+        [
+          " F",
+          110
+        ],
+        [
+          "j",
+          109
+        ],
+        [
+          " 18",
+          106
+        ],
+        [
+          " such",
+          88
+        ],
+        [
+          " a",
+          86
+        ],
+        [
+          " an",
+          78
+        ],
+        [
+          "g",
+          78
+        ],
+        [
+          " K",
+          77
+        ],
+        [
+          " @",
+          75
+        ],
+        [
+          "z",
+          75
+        ],
+        [
+          " Tru",
+          75
+        ],
+        [
+          " R",
+          72
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        "\ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " designer[ R]ait",
+        " R[ait]a",
+        " Hon[j]ou",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " '[n] .",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " received[ downloadable] content",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " an[ original] video",
+        " of[ V]alky"
+      ],
+      "pushes_toward": [
+        [
+          "\u30b5\u30fc\u30c6\u30a3",
+          0.592
+        ],
+        [
+          "",
+          0.592
+        ],
+        [
+          "oreAndOnline",
+          0.591
+        ],
+        [
+          "\u0011",
+          0.591
+        ],
+        [
+          "",
+          0.591
+        ],
+        [
+          "\u0007",
+          0.591
+        ],
+        [
+          "",
+          0.59
+        ],
+        [
+          "\u0001",
+          0.59
+        ],
+        [
+          "\u0002",
+          0.59
+        ],
+        [
+          "\ufffd",
+          0.59
+        ]
+      ],
+      "pushes_away": [
+        "the",
+        "a",
+        "and",
+        "in",
+        ",",
+        "to",
+        "(",
+        "-",
+        "",
+        "."
+      ]
+    },
+    "1611": {
+      "fire_count": 22263,
+      "fire_pct": 94.12,
+      "top_triggers": [
+        [
+          "\n\n",
+          1595
+        ],
+        [
+          " of",
+          368
+        ],
+        [
+          " in",
+          346
+        ],
+        [
+          " the",
+          339
+        ],
+        [
+          " '",
+          301
+        ],
+        [
+          " to",
+          297
+        ],
+        [
+          " =",
+          288
+        ],
+        [
+          " (",
+          214
+        ],
+        [
+          "-",
+          202
+        ],
+        [
+          " and",
+          197
+        ],
+        [
+          " ,",
+          189
+        ],
+        [
+          "s",
+          179
+        ],
+        [
+          " on",
+          170
+        ],
+        [
+          ".",
+          154
+        ],
+        [
+          "@",
+          145
+        ],
+        [
+          " \u2013",
+          135
+        ],
+        [
+          "\ufffd",
+          120
+        ],
+        [
+          " F",
+          110
+        ],
+        [
+          "j",
+          109
+        ],
+        [
+          " 18",
+          106
+        ],
+        [
+          " was",
+          96
+        ],
+        [
+          " such",
+          86
+        ],
+        [
+          " a",
+          81
+        ],
+        [
+          "g",
+          77
+        ],
+        [
+          " K",
+          77
+        ],
+        [
+          " Tru",
+          75
+        ],
+        [
+          " R",
+          72
+        ],
+        [
+          "z",
+          71
+        ],
+        [
+          " $",
+          70
+        ],
+        [
+          " an",
+          70
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        "\ufffd[\ufffd]\ufffd",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " designer[ R]ait",
+        " R[ait]a",
+        " Hon[j]ou",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " '[n] .",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " of[ V]alky",
+        " V[alky]ria",
+        " ,[ V]alky",
+        " V[alky]ria",
+        " a[ fan] translation",
+        " released[ in] 2014"
+      ],
+      "pushes_toward": [
+        [
+          "the",
+          0.496
+        ],
+        [
+          "and",
+          0.447
+        ],
+        [
+          "a",
+          0.444
+        ],
+        [
+          "in",
+          0.443
+        ],
+        [
+          ",",
+          0.415
+        ],
+        [
+          "to",
+          0.399
+        ],
+        [
+          "(",
+          0.375
+        ],
+        [
+          "\"",
+          0.375
+        ],
+        [
+          "",
+          0.368
+        ],
+        [
+          ".",
+          0.367
+        ]
+      ],
+      "pushes_away": [
+        "\u30b5\u30fc\u30c6\u30a3",
+        "oreAndOnline",
+        "",
+        "\u0011",
+        "\u0007",
+        "\ufffd",
+        "\u0005",
+        "",
+        "\u0006",
+        "\u0004"
+      ]
+    },
+    "2679": {
+      "fire_count": 5016,
+      "fire_pct": 21.21,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          ".",
+          144
+        ],
+        [
+          "-",
+          144
+        ],
+        [
+          " (",
+          114
+        ],
+        [
+          "@",
+          111
+        ],
+        [
+          " \u2013",
+          106
+        ],
+        [
+          " 18",
+          98
+        ],
+        [
+          " $",
+          70
+        ],
+        [
+          " @",
+          63
+        ],
+        [
+          " such",
+          55
+        ],
+        [
+          " of",
+          55
+        ],
+        [
+          "ol",
+          39
+        ],
+        [
+          " in",
+          36
+        ],
+        [
+          " December",
+          35
+        ],
+        [
+          " Little",
+          32
+        ],
+        [
+          " May",
+          32
+        ],
+        [
+          " ,",
+          30
+        ],
+        [
+          " November",
+          29
+        ],
+        [
+          " No",
+          28
+        ],
+        [
+          " The",
+          27
+        ],
+        [
+          " According",
+          25
+        ],
+        [
+          " to",
+          25
+        ],
+        [
+          " part",
+          25
+        ],
+        [
+          " WAS",
+          25
+        ],
+        [
+          " '",
+          24
+        ],
+        [
+          " the",
+          23
+        ],
+        [
+          " and",
+          23
+        ],
+        [
+          " :",
+          23
+        ],
+        [
+          " United",
+          21
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " [\n\n] The",
+        " II[ director] Takes",
+        " [\n\n] It",
+        " ,[ along] with",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " [\n\n] The",
+        " the[ expense] of",
+        " [\n\n] Tro",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " and[ No].",
+        " No[.]13",
+        " [\n\n] As",
+        " [\n\n] Part",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " in[ early] 2010",
+        "roy[uki] Fuj",
+        "ay[uki] Sh",
+        " [\n\n] The",
+        " ,[ such] as",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " elements[ such] as",
+        " segments[ such] as",
+        "itsu[hiro] Oh",
+        "\ufffd[\ufffd]\u3046",
+        " [\n\n]\n",
+        "\n[ =] =",
+        " =[ =] =",
+        " Release[ =] =",
+        " [\n\n]\n",
+        " released[ January] 27",
+        " on[ November] 23",
+        " [\n\n] Unlike",
+        " .[ According] to",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " just[ over] 152",
+        " [\n\n] Fam",
+        "oh[iko] Mis",
+        " aspects[ such] as",
+        " [\n\n] PlayStation",
+        " [\n\n] In",
+        "s[ Richard] Eisen",
+        " [\n\n]\n",
+        " Legacy[ =] =",
+        " [\n\n]\n"
+      ],
+      "pushes_toward": [
+        [
+          ")].",
+          -0.018
+        ],
+        [
+          "FORMATION",
+          -0.019
+        ],
+        [
+          "20439",
+          -0.023
+        ],
+        [
+          "CRIP",
+          -0.024
+        ],
+        [
+          "OPLE",
+          -0.024
+        ],
+        [
+          "ACTED",
+          -0.024
+        ],
+        [
+          "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",
+          -0.025
+        ],
+        [
+          "ICLE",
+          -0.025
+        ],
+        [
+          "\u30c9\u30e9\u30b4\u30f3",
+          -0.025
+        ],
+        [
+          "VERTIS",
+          -0.025
+        ]
+      ],
+      "pushes_away": [
+        "a",
+        "to",
+        "an",
+        "in",
+        "as",
+        "the",
+        "that",
+        "on",
+        "of",
+        "have"
+      ]
+    },
+    "3066": {
+      "fire_count": 8872,
+      "fire_pct": 37.51,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          "-",
+          144
+        ],
+        [
+          " F",
+          105
+        ],
+        [
+          " 18",
+          89
+        ],
+        [
+          "j",
+          85
+        ],
+        [
+          " =",
+          82
+        ],
+        [
+          " Tru",
+          73
+        ],
+        [
+          " K",
+          65
+        ],
+        [
+          " Sap",
+          64
+        ],
+        [
+          "g",
+          60
+        ],
+        [
+          ".",
+          57
+        ],
+        [
+          "urt",
+          57
+        ],
+        [
+          " R",
+          56
+        ],
+        [
+          " '",
+          55
+        ],
+        [
+          " @",
+          55
+        ],
+        [
+          "ol",
+          55
+        ],
+        [
+          " T",
+          54
+        ],
+        [
+          " P",
+          54
+        ],
+        [
+          " ant",
+          52
+        ],
+        [
+          " V",
+          48
+        ],
+        [
+          " C",
+          48
+        ],
+        [
+          " $",
+          45
+        ],
+        [
+          " D",
+          44
+        ],
+        [
+          "z",
+          44
+        ],
+        [
+          " B",
+          42
+        ],
+        [
+          " Sh",
+          41
+        ],
+        [
+          " Mad",
+          41
+        ],
+        [
+          "alky",
+          40
+        ],
+        [
+          " S",
+          40
+        ],
+        [
+          "\u00ed",
+          40
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " V[alky]ria",
+        " of[ Gall]ia",
+        " [\n\n] The",
+        " on[ V]alky",
+        " V[alky]ria",
+        " designer[ R]ait",
+        " Hon[j]ou",
+        "oshi[ Sak]imoto",
+        " V[alky]ria",
+        "hi[ Oz]awa",
+        " [\n\n] It",
+        " of[ V]alky",
+        " V[alky]ria",
+        " ,[ V]alky",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " previous[ V]alky",
+        " V[alky]ira",
+        " ,[ V]alky",
+        " through[ un]vo",
+        " and[ re]played",
+        " [\n\n] The",
+        " from[ V]alky",
+        " V[alky]ira",
+        " @[-]@",
+        " the[ expense] of",
+        " remain[ un]al",
+        " grant[ bo]ons",
+        " Battle[ Pot]entials",
+        " [\n\n] Tro",
+        "\n\n[ Tro]ops",
+        " Shock[tro]opers",
+        " ,[ L]ancers",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " foreign[ des]er",
+        " the[ V]alky",
+        " and[ No].",
+        " No[.]13",
+        " seemingly[ j]inx",
+        " V[alky]ria",
+        " [\n\n] As",
+        " the[ Nam]eless",
+        " e[chel]ons",
+        " he[ ab]and",
+        " ab[and]ons"
+      ],
+      "pushes_toward": [
+        [
+          ",",
+          0.005
+        ],
+        [
+          "and",
+          -0.003
+        ],
+        [
+          "",
+          -0.013
+        ],
+        [
+          ".",
+          -0.022
+        ],
+        [
+          "-",
+          -0.029
+        ],
+        [
+          "to",
+          -0.034
+        ],
+        [
+          "in",
+          -0.035
+        ],
+        [
+          "/",
+          -0.038
+        ],
+        [
+          "(",
+          -0.038
+        ],
+        [
+          "\"",
+          -0.039
+        ]
+      ],
+      "pushes_away": [
+        "\u0011",
+        "",
+        "rawdownload",
+        "\u001b",
+        "\u0015",
+        "\ufffd",
+        "",
+        "\u9f8d\ufffd",
+        "\ufffd",
+        "\ufffd"
+      ]
+    },
+    "740": {
+      "fire_count": 23291,
+      "fire_pct": 98.47,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " of",
+          401
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          " the",
+          371
+        ],
+        [
+          " in",
+          347
+        ],
+        [
+          " '",
+          321
+        ],
+        [
+          " to",
+          320
+        ],
+        [
+          " and",
+          216
+        ],
+        [
+          " (",
+          211
+        ],
+        [
+          "-",
+          202
+        ],
+        [
+          "s",
+          193
+        ],
+        [
+          " ,",
+          190
+        ],
+        [
+          " on",
+          168
+        ],
+        [
+          ".",
+          159
+        ],
+        [
+          "@",
+          145
+        ],
+        [
+          " \u2013",
+          136
+        ],
+        [
+          "\ufffd",
+          125
+        ],
+        [
+          " was",
+          124
+        ],
+        [
+          " F",
+          110
+        ],
+        [
+          "j",
+          109
+        ],
+        [
+          " 18",
+          106
+        ],
+        [
+          " such",
+          88
+        ],
+        [
+          " a",
+          85
+        ],
+        [
+          " an",
+          78
+        ],
+        [
+          "g",
+          78
+        ],
+        [
+          " K",
+          76
+        ],
+        [
+          " @",
+          75
+        ],
+        [
+          "z",
+          75
+        ],
+        [
+          " Tru",
+          75
+        ],
+        [
+          " R",
+          70
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        "\ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " designer[ R]ait",
+        " R[ait]a",
+        " Hon[j]ou",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " '[n] .",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " received[ downloadable] content",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " an[ original] video",
+        " of[ V]alky"
+      ],
+      "pushes_toward": [
+        [
+          "\"",
+          0.057
+        ],
+        [
+          "new",
+          0.057
+        ],
+        [
+          "not",
+          0.043
+        ],
+        [
+          "livest",
+          0.043
+        ],
+        [
+          ",",
+          0.042
+        ],
+        [
+          "first",
+          0.041
+        ],
+        [
+          "machine",
+          0.041
+        ],
+        [
+          "land",
+          0.04
+        ],
+        [
+          "oun",
+          0.038
+        ],
+        [
+          "who",
+          0.038
+        ]
+      ],
+      "pushes_away": [
+        "\u001a",
+        "\u9f8d\u559a\u58eb",
+        "\u0011",
+        "\u0018",
+        "\u000e",
+        "\ufffd",
+        "\u24d8",
+        "\ufffd",
+        "externalToEVA",
+        "\u0005"
+      ]
+    },
+    "2921": {
+      "fire_count": 8701,
+      "fire_pct": 36.78,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " =",
+          396
+        ],
+        [
+          " of",
+          275
+        ],
+        [
+          " in",
+          265
+        ],
+        [
+          " '",
+          233
+        ],
+        [
+          "-",
+          178
+        ],
+        [
+          " (",
+          178
+        ],
+        [
+          ".",
+          154
+        ],
+        [
+          " on",
+          150
+        ],
+        [
+          "@",
+          133
+        ],
+        [
+          " \u2013",
+          128
+        ],
+        [
+          " 18",
+          104
+        ],
+        [
+          " such",
+          86
+        ],
+        [
+          " ,",
+          86
+        ],
+        [
+          " and",
+          76
+        ],
+        [
+          " $",
+          70
+        ],
+        [
+          " @",
+          70
+        ],
+        [
+          " to",
+          69
+        ],
+        [
+          " the",
+          65
+        ],
+        [
+          " number",
+          49
+        ],
+        [
+          " Tru",
+          43
+        ],
+        [
+          " May",
+          42
+        ],
+        [
+          " December",
+          42
+        ],
+        [
+          " November",
+          40
+        ],
+        [
+          " No",
+          39
+        ],
+        [
+          " Little",
+          39
+        ],
+        [
+          " The",
+          38
+        ],
+        [
+          " part",
+          38
+        ],
+        [
+          " In",
+          38
+        ],
+        [
+          " Mark",
+          37
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " commonly[ referred] to",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " ,[ such] as",
+        " ,[ along] with",
+        " II[ director] Takes",
+        " Takes[hi] Oz",
+        " May[ ']n",
+        " [\n\n] It",
+        " ,[ along] with",
+        " of[ V]alky",
+        " released[ in] 2014",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " @[-]@",
+        " game[ ']s",
+        " game[ ']s",
+        " [\n\n] The",
+        " game[ ']s",
+        " from[ V]alky",
+        " @[-]@",
+        " the[ expense] of",
+        " ,[ such] as",
+        " [\n\n] Tro",
+        " Scouts[ ,] Shock",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " and[ No].",
+        " No[.]13",
+        " [\n\n] As",
+        " Cal[am]ity",
+        " [\n\n] Part",
+        " partly[ due] to",
+        " ,[ Dah]au",
+        " of[ Max]imil",
+        " Max[imil]ian",
+        " the[ 422]nd",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " II[ in] early",
+        " in[ early] 2010",
+        " V[alky]ria",
+        " Takes[hi] Oz",
+        " for[ V]alky",
+        " V[alky]ria",
+        " development[ due] to"
+      ],
+      "pushes_toward": [
+        [
+          "\"]=>",
+          -0.048
+        ],
+        [
+          "gio",
+          -0.049
+        ],
+        [
+          "tons",
+          -0.05
+        ],
+        [
+          "neys",
+          -0.05
+        ],
+        [
+          "thouse",
+          -0.051
+        ],
+        [
+          "nor",
+          -0.051
+        ],
+        [
+          "coming",
+          -0.052
+        ],
+        [
+          "liest",
+          -0.052
+        ],
+        [
+          "rium",
+          -0.052
+        ],
+        [
+          "neau",
+          -0.053
+        ]
+      ],
+      "pushes_away": [
+        "",
+        "(",
+        "The",
+        "It",
+        "In",
+        "I",
+        "This",
+        "10",
+        "20",
+        "If"
+      ]
+    },
+    "2044": {
+      "fire_count": 21574,
+      "fire_pct": 91.21,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          " of",
+          361
+        ],
+        [
+          " in",
+          345
+        ],
+        [
+          " '",
+          317
+        ],
+        [
+          " to",
+          317
+        ],
+        [
+          " the",
+          314
+        ],
+        [
+          " and",
+          212
+        ],
+        [
+          "-",
+          202
+        ],
+        [
+          " (",
+          198
+        ],
+        [
+          "s",
+          183
+        ],
+        [
+          " ,",
+          172
+        ],
+        [
+          " on",
+          167
+        ],
+        [
+          "@",
+          145
+        ],
+        [
+          " \u2013",
+          123
+        ],
+        [
+          " was",
+          120
+        ],
+        [
+          "\ufffd",
+          118
+        ],
+        [
+          ".",
+          114
+        ],
+        [
+          " F",
+          110
+        ],
+        [
+          " 18",
+          103
+        ],
+        [
+          "j",
+          99
+        ],
+        [
+          " such",
+          88
+        ],
+        [
+          " a",
+          81
+        ],
+        [
+          "g",
+          78
+        ],
+        [
+          " an",
+          76
+        ],
+        [
+          " @",
+          75
+        ],
+        [
+          " Tru",
+          74
+        ],
+        [
+          " R",
+          70
+        ],
+        [
+          " $",
+          70
+        ],
+        [
+          " C",
+          68
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " \ufffd[\ufffd]\ufffd",
+        "\ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " designer[ R]ait",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " received[ downloadable] content",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " an[ original] video",
+        " of[ V]alky",
+        " V[alky]ria",
+        " ,[ V]alky",
+        " V[alky]ria",
+        " was[ not] localized",
+        " a[ fan] translation",
+        " released[ in] 2014"
+      ],
+      "pushes_toward": [
+        [
+          "the",
+          0.531
+        ],
+        [
+          "a",
+          0.487
+        ],
+        [
+          "and",
+          0.478
+        ],
+        [
+          "in",
+          0.474
+        ],
+        [
+          "of",
+          0.459
+        ],
+        [
+          ",",
+          0.446
+        ],
+        [
+          "to",
+          0.42
+        ],
+        [
+          "(",
+          0.419
+        ],
+        [
+          "",
+          0.408
+        ],
+        [
+          "that",
+          0.405
+        ]
+      ],
+      "pushes_away": [
+        "",
+        "\u30b5\u30fc\u30c6\u30a3",
+        "InstoreAndOnline",
+        "",
+        "oreAndOnline",
+        "\u0006",
+        "\u0002",
+        "\u0007",
+        "\u0011",
+        "TheNitrome"
+      ]
+    },
+    "1602": {
+      "fire_count": 12728,
+      "fire_pct": 53.81,
+      "top_triggers": [
+        [
+          "\n\n",
+          1789
+        ],
+        [
+          " =",
+          177
+        ],
+        [
+          " of",
+          164
+        ],
+        [
+          "j",
+          107
+        ],
+        [
+          " Tru",
+          75
+        ],
+        [
+          "g",
+          73
+        ],
+        [
+          "z",
+          69
+        ],
+        [
+          " Sap",
+          67
+        ],
+        [
+          ".",
+          65
+        ],
+        [
+          "ol",
+          63
+        ],
+        [
+          " K",
+          59
+        ],
+        [
+          " New",
+          58
+        ],
+        [
+          " F",
+          58
+        ],
+        [
+          "urt",
+          58
+        ],
+        [
+          " in",
+          56
+        ],
+        [
+          " the",
+          55
+        ],
+        [
+          " ant",
+          51
+        ],
+        [
+          " Little",
+          48
+        ],
+        [
+          "\u00ed",
+          48
+        ],
+        [
+          "alky",
+          46
+        ],
+        [
+          " Mad",
+          44
+        ],
+        [
+          " Sh",
+          41
+        ],
+        [
+          " G",
+          41
+        ],
+        [
+          "b",
+          41
+        ],
+        [
+          " Mark",
+          41
+        ],
+        [
+          " St",
+          41
+        ],
+        [
+          " The",
+          40
+        ],
+        [
+          " D",
+          40
+        ],
+        [
+          "\u0142",
+          40
+        ],
+        [
+          " Z",
+          38
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " V[alky]ria",
+        " R[ait]a",
+        " Hon[j]ou",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " [\n\n] It",
+        " V[alky]ria",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " V[alky]ira",
+        " through[ un]vo",
+        " and[ re]played",
+        " [\n\n] The",
+        " V[alky]ira",
+        " remain[ un]al",
+        " un[al]tered",
+        " Battle[ Pot]entials",
+        " [\n\n] Tro",
+        " Scouts[ ,] Shock",
+        " ,[ Shock]tro",
+        " Shock[tro]opers",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " foreign[ des]er",
+        " des[er]ters",
+        " V[alky]ria",
+        " and[ No].",
+        " V[alky]ria",
+        " [\n\n] As",
+        " the[ Nam]eless",
+        " e[chel]ons",
+        " successful[ inc]ursion",
+        " he[ ab]and"
+      ],
+      "pushes_toward": [
+        [
+          "skirts",
+          -0.008
+        ],
+        [
+          "nces",
+          -0.011
+        ],
+        [
+          "alore",
+          -0.011
+        ],
+        [
+          "pill",
+          -0.011
+        ],
+        [
+          "isites",
+          -0.012
+        ],
+        [
+          "renheit",
+          -0.012
+        ],
+        [
+          "isu",
+          -0.012
+        ],
+        [
+          "ghai",
+          -0.012
+        ],
+        [
+          "amaz",
+          -0.012
+        ],
+        [
+          "dot",
+          -0.013
+        ]
+      ],
+      "pushes_away": [
+        "difficult",
+        "personal",
+        "disappointment",
+        "surprising",
+        "unusual",
+        "experience",
+        "fear",
+        "current",
+        "relatively",
+        "start"
+      ]
+    },
+    "2462": {
+      "fire_count": 20810,
+      "fire_pct": 87.98,
+      "top_triggers": [
+        [
+          "\n\n",
+          1065
+        ],
+        [
+          " =",
+          377
+        ],
+        [
+          " the",
+          367
+        ],
+        [
+          " of",
+          305
+        ],
+        [
+          " in",
+          304
+        ],
+        [
+          " to",
+          293
+        ],
+        [
+          " '",
+          285
+        ],
+        [
+          " (",
+          216
+        ],
+        [
+          " and",
+          212
+        ],
+        [
+          " ,",
+          191
+        ],
+        [
+          "s",
+          191
+        ],
+        [
+          "-",
+          189
+        ],
+        [
+          ".",
+          156
+        ],
+        [
+          " on",
+          146
+        ],
+        [
+          "@",
+          142
+        ],
+        [
+          " \u2013",
+          135
+        ],
+        [
+          "\ufffd",
+          124
+        ],
+        [
+          " was",
+          114
+        ],
+        [
+          " F",
+          108
+        ],
+        [
+          " 18",
+          95
+        ],
+        [
+          " K",
+          77
+        ],
+        [
+          " a",
+          76
+        ],
+        [
+          " an",
+          75
+        ],
+        [
+          " R",
+          72
+        ],
+        [
+          "z",
+          71
+        ],
+        [
+          " C",
+          69
+        ],
+        [
+          " $",
+          68
+        ],
+        [
+          " @",
+          67
+        ],
+        [
+          " Sap",
+          67
+        ],
+        [
+          " \ufffd",
+          64
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        "\ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " large[ portion] of",
+        " on[ V]alky",
+        " V[alky]ria",
+        " designer[ R]ait",
+        " R[ait]a",
+        " Hon[j]ou",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " director[ Takes]hi",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " '[n] .",
+        " [\n\n] It",
+        " with[ positive] sales",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " received[ downloadable] content",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " an[ original] video",
+        " V[alky]ria",
+        " ,[ V]alky"
+      ],
+      "pushes_toward": [
+        [
+          "the",
+          0.467
+        ],
+        [
+          "in",
+          0.432
+        ],
+        [
+          "a",
+          0.421
+        ],
+        [
+          "and",
+          0.418
+        ],
+        [
+          ",",
+          0.392
+        ],
+        [
+          "to",
+          0.386
+        ],
+        [
+          "(",
+          0.376
+        ],
+        [
+          "",
+          0.363
+        ],
+        [
+          "\"",
+          0.358
+        ],
+        [
+          "of",
+          0.356
+        ]
+      ],
+      "pushes_away": [
+        "",
+        "\u0011",
+        "\b",
+        "",
+        "oreAndOnline",
+        "\u30b5\u30fc\u30c6\u30a3",
+        "\u0015",
+        "RandomRedditor",
+        "\u0016",
+        "\u0018"
+      ]
+    },
+    "2379": {
+      "fire_count": 10335,
+      "fire_pct": 43.69,
+      "top_triggers": [
+        [
+          "\n\n",
+          1583
+        ],
+        [
+          " to",
+          159
+        ],
+        [
+          "j",
+          100
+        ],
+        [
+          " 18",
+          83
+        ],
+        [
+          " Tru",
+          74
+        ],
+        [
+          "g",
+          73
+        ],
+        [
+          " Sap",
+          65
+        ],
+        [
+          " '",
+          62
+        ],
+        [
+          "urt",
+          59
+        ],
+        [
+          "ol",
+          58
+        ],
+        [
+          "z",
+          55
+        ],
+        [
+          " ant",
+          53
+        ],
+        [
+          " $",
+          51
+        ],
+        [
+          "\u00ed",
+          44
+        ],
+        [
+          " K",
+          42
+        ],
+        [
+          " Mad",
+          42
+        ],
+        [
+          " Sh",
+          41
+        ],
+        [
+          "b",
+          41
+        ],
+        [
+          " Z",
+          39
+        ],
+        [
+          "alky",
+          38
+        ],
+        [
+          " F",
+          38
+        ],
+        [
+          " Mark",
+          37
+        ],
+        [
+          "\u0142",
+          36
+        ],
+        [
+          " Ch",
+          34
+        ],
+        [
+          "od",
+          32
+        ],
+        [
+          "l",
+          31
+        ],
+        [
+          " Ne",
+          31
+        ],
+        [
+          " Uran",
+          31
+        ],
+        [
+          " P",
+          30
+        ],
+        [
+          " fl",
+          29
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " Cal[am]at",
+        " [\n\n] The",
+        " V[alky]ria",
+        " R[ait]a",
+        " Hon[j]ou",
+        "oshi[ Sak]imoto",
+        " V[alky]ria",
+        " director[ Takes]hi",
+        "hi[ Oz]awa",
+        " [\n\n] It",
+        " V[alky]ria",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " V[alky]ira",
+        " ,[ V]alky",
+        " through[ un]vo",
+        " un[vo]iced",
+        " can[ be] freely",
+        " be[ freely] scanned",
+        " and[ re]played",
+        " as[ they] are",
+        " [\n\n] The",
+        " V[alky]ira",
+        " can[ only] act",
+        " the[ expense] of",
+        " Action[ Gau]ge",
+        " remain[ un]al",
+        " un[al]tered",
+        " grant[ bo]ons",
+        " Battle[ Pot]entials",
+        " Abilities[ that] grant",
+        " Kurt[ can] activate",
+        " without[ de]pleting",
+        " [\n\n] Tro",
+        "\n\n[ Tro]ops",
+        " Shock[tro]opers",
+        " does[ not] greatly",
+        " points[ are] awarded",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " foreign[ des]er"
+      ],
+      "pushes_toward": [
+        [
+          "paralle",
+          0.025
+        ],
+        [
+          "farious",
+          0.016
+        ],
+        [
+          "conservancy",
+          0.013
+        ],
+        [
+          "ptives",
+          0.013
+        ],
+        [
+          "anyl",
+          0.013
+        ],
+        [
+          "etheless",
+          0.012
+        ],
+        [
+          "redit",
+          0.011
+        ],
+        [
+          "otos",
+          0.011
+        ],
+        [
+          "apego",
+          0.011
+        ],
+        [
+          "ihadi",
+          0.011
+        ]
+      ],
+      "pushes_away": [
+        "A",
+        "The",
+        "As",
+        "In",
+        "M",
+        "the",
+        "in",
+        "a",
+        "I",
+        "R"
+      ]
+    },
+    "737": {
+      "fire_count": 3325,
+      "fire_pct": 14.06,
+      "top_triggers": [
+        [
+          "\n\n",
+          1782
+        ],
+        [
+          "-",
+          162
+        ],
+        [
+          " 18",
+          74
+        ],
+        [
+          " Tru",
+          58
+        ],
+        [
+          " @",
+          46
+        ],
+        [
+          "ol",
+          45
+        ],
+        [
+          ".",
+          39
+        ],
+        [
+          " '",
+          37
+        ],
+        [
+          " Mark",
+          32
+        ],
+        [
+          "urt",
+          27
+        ],
+        [
+          " part",
+          25
+        ],
+        [
+          "z",
+          24
+        ],
+        [
+          " such",
+          23
+        ],
+        [
+          "ans",
+          23
+        ],
+        [
+          " $",
+          21
+        ],
+        [
+          "\u00ed",
+          21
+        ],
+        [
+          " WAS",
+          21
+        ],
+        [
+          " Black",
+          20
+        ],
+        [
+          "ny",
+          15
+        ],
+        [
+          "bal",
+          14
+        ],
+        [
+          " Gab",
+          13
+        ],
+        [
+          " (",
+          12
+        ],
+        [
+          "her",
+          12
+        ],
+        [
+          " No",
+          12
+        ],
+        [
+          "AS",
+          11
+        ],
+        [
+          " Z",
+          11
+        ],
+        [
+          " Kur",
+          11
+        ],
+        [
+          " un",
+          10
+        ],
+        [
+          " \u2013",
+          10
+        ],
+        [
+          " Ao",
+          10
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " [\n\n] The",
+        " [\n\n] It",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " @[-]@",
+        " through[ un]vo",
+        " and[ re]played",
+        " [\n\n] The",
+        " @[-]@",
+        " the[ expense] of",
+        " remain[ un]al",
+        " [\n\n] Tro",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " No[.]13",
+        " [\n\n] As",
+        " [\n\n] Part",
+        " ,[ Dah]au",
+        " is[ Dah]au",
+        " asking[ Cro]we",
+        " confronts[ Dah]au",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " [\n\n] The",
+        " ,[ such] as",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " elements[ such] as",
+        " May[ ']n",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " @[-]@",
+        " [\n\n] Unlike",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " [\n\n] Fam",
+        " aspects[ such] as",
+        " [\n\n] PlayStation",
+        " [\n\n] In",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " [\n\n] The",
+        " aspects[ such] as",
+        " [\n\n] Two",
+        " [\n\n]\n\n",
+        " [\n\n]\n",
+        " since[ 18]94"
+      ],
+      "pushes_toward": [
+        [
+          "",
+          -0.018
+        ],
+        [
+          "or",
+          -0.034
+        ],
+        [
+          "of",
+          -0.04
+        ],
+        [
+          "at",
+          -0.059
+        ],
+        [
+          "ro",
+          -0.059
+        ],
+        [
+          "in",
+          -0.061
+        ],
+        [
+          "on",
+          -0.063
+        ],
+        [
+          "\"",
+          -0.063
+        ],
+        [
+          "and",
+          -0.063
+        ],
+        [
+          "Ru",
+          -0.064
+        ]
+      ],
+      "pushes_away": [
+        "externalTo",
+        "",
+        "\u0012",
+        "\u0003",
+        "\u000f",
+        "RandomRedditor",
+        "\ufffd",
+        "\u0013",
+        "\u9f8d\ufffd",
+        "\b"
+      ]
+    },
+    "2173": {
+      "fire_count": 17751,
+      "fire_pct": 75.04,
+      "top_triggers": [
+        [
+          "\n\n",
+          1799
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          " '",
+          305
+        ],
+        [
+          " of",
+          305
+        ],
+        [
+          " in",
+          299
+        ],
+        [
+          " to",
+          256
+        ],
+        [
+          " the",
+          234
+        ],
+        [
+          " (",
+          207
+        ],
+        [
+          "-",
+          189
+        ],
+        [
+          ".",
+          150
+        ],
+        [
+          " and",
+          148
+        ],
+        [
+          "@",
+          135
+        ],
+        [
+          "\ufffd",
+          122
+        ],
+        [
+          " ,",
+          121
+        ],
+        [
+          " \u2013",
+          114
+        ],
+        [
+          " 18",
+          103
+        ],
+        [
+          "s",
+          101
+        ],
+        [
+          "j",
+          99
+        ],
+        [
+          " F",
+          98
+        ],
+        [
+          " on",
+          85
+        ],
+        [
+          " such",
+          82
+        ],
+        [
+          " was",
+          80
+        ],
+        [
+          " @",
+          75
+        ],
+        [
+          "g",
+          71
+        ],
+        [
+          " K",
+          71
+        ],
+        [
+          "z",
+          70
+        ],
+        [
+          " Sap",
+          67
+        ],
+        [
+          " Tru",
+          62
+        ],
+        [
+          " C",
+          60
+        ],
+        [
+          "urt",
+          60
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        " commonly[ referred] to",
+        " and[ Media].",
+        " .[ Released] in",
+        " Released[ in] January",
+        " in[ January] 2011",
+        " 2011[ in] Japan",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " the[ Second] Euro",
+        " Cal[am]at",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " on[ V]alky",
+        " V[alky]ria",
+        " ,[ such] as",
+        " designer[ R]ait",
+        " R[ait]a",
+        " composer[ Hit]oshi",
+        "oshi[ Sak]imoto",
+        " ,[ along] with",
+        " V[alky]ria",
+        " II[ director] Takes",
+        " Takes[hi] Oz",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " May[ ']n",
+        " '[n] .",
+        " [\n\n] It",
+        " sales[ in] Japan",
+        " and[ was] praised",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " of[ V]alky",
+        " V[alky]ria",
+        " ,[ V]alky",
+        " V[alky]ria",
+        " was[ not] localized",
+        " released[ in] 2014",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " previous[ V]alky",
+        " V[alky]ira"
+      ],
+      "pushes_toward": [
+        [
+          "the",
+          0.474
+        ],
+        [
+          "and",
+          0.435
+        ],
+        [
+          "a",
+          0.434
+        ],
+        [
+          "in",
+          0.424
+        ],
+        [
+          ",",
+          0.422
+        ],
+        [
+          ".",
+          0.383
+        ],
+        [
+          "to",
+          0.378
+        ],
+        [
+          "-",
+          0.368
+        ],
+        [
+          "",
+          0.358
+        ],
+        [
+          "(",
+          0.355
+        ]
+      ],
+      "pushes_away": [
+        "\u0011",
+        "\u30b5\u30fc\u30c6\u30a3",
+        "\u0007",
+        "\ufffd",
+        "oreAndOnline",
+        "",
+        "\u0002",
+        "",
+        "",
+        "\u0010"
+      ]
+    },
+    "2709": {
+      "fire_count": 8467,
+      "fire_pct": 35.8,
+      "top_triggers": [
+        [
+          "\n\n",
+          1803
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          " of",
+          362
+        ],
+        [
+          " the",
+          350
+        ],
+        [
+          " in",
+          336
+        ],
+        [
+          " to",
+          300
+        ],
+        [
+          " '",
+          284
+        ],
+        [
+          " (",
+          218
+        ],
+        [
+          " ,",
+          191
+        ],
+        [
+          " and",
+          183
+        ],
+        [
+          " on",
+          166
+        ],
+        [
+          "s",
+          153
+        ],
+        [
+          ".",
+          139
+        ],
+        [
+          "@",
+          139
+        ],
+        [
+          " \u2013",
+          136
+        ],
+        [
+          " was",
+          122
+        ],
+        [
+          " such",
+          81
+        ],
+        [
+          " a",
+          73
+        ],
+        [
+          " $",
+          69
+        ],
+        [
+          " an",
+          65
+        ],
+        [
+          " at",
+          51
+        ],
+        [
+          " In",
+          49
+        ],
+        [
+          " its",
+          46
+        ],
+        [
+          " 18",
+          44
+        ],
+        [
+          " their",
+          41
+        ],
+        [
+          " number",
+          37
+        ],
+        [
+          " by",
+          36
+        ],
+        [
+          " On",
+          36
+        ],
+        [
+          " The",
+          35
+        ],
+        [
+          " from",
+          35
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " .[ Released] in",
+        " Released[ in] January",
+        " 2011[ in] Japan",
+        " [\n\n] The",
+        " development[ in] 2010",
+        " ,[ such] as",
+        " ,[ along] with",
+        " May[ ']n",
+        " [\n\n] It",
+        " sales[ in] Japan",
+        " Japan[ ,] and",
+        " and[ was] praised",
+        " and[ western] critics",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " manga[ and] an",
+        " and[ an] original",
+        " was[ not] localized",
+        " released[ in] 2014",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " can[ be] freely",
+        " be[ freely] scanned",
+        " as[ they] are",
+        " game[ ']s",
+        " [\n\n] The",
+        " game[ ']s",
+        " can[ only] act",
+        " can[ be] granted",
+        " the[ expense] of",
+        " ,[ such] as",
+        " )[ getting] low",
+        " that[ remain] un",
+        " acquire[ and] link",
+        " Abilities[ that] grant",
+        " [\n\n] Tro",
+        " Scouts[ ,] Shock",
+        " does[ not] greatly",
+        " points[ are] awarded",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " No[.]13",
+        " [\n\n] As",
+        " to[ their] advantage",
+        " he[ ab]and",
+        " [\n\n] Part",
+        " [\n\n]\n",
+        " [\n\n]\n"
+      ],
+      "pushes_toward": [
+        [
+          "ratch",
+          0.046
+        ],
+        [
+          "ophy",
+          0.032
+        ],
+        [
+          "adle",
+          0.03
+        ],
+        [
+          "estation",
+          0.026
+        ],
+        [
+          "The",
+          0.025
+        ],
+        [
+          "aling",
+          0.023
+        ],
+        [
+          "res",
+          0.023
+        ],
+        [
+          "It",
+          0.017
+        ],
+        [
+          "This",
+          0.016
+        ],
+        [
+          "In",
+          0.016
+        ]
+      ],
+      "pushes_away": [
+        ",",
+        ".",
+        "'s",
+        ":",
+        ";",
+        ")",
+        ".\"",
+        "-",
+        "\"",
+        "/"
+      ]
+    },
+    "1715": {
+      "fire_count": 9942,
+      "fire_pct": 42.03,
+      "top_triggers": [
+        [
+          "\n\n",
+          1388
+        ],
+        [
+          " F",
+          108
+        ],
+        [
+          "j",
+          105
+        ],
+        [
+          " K",
+          75
+        ],
+        [
+          " Tru",
+          74
+        ],
+        [
+          "g",
+          73
+        ],
+        [
+          " R",
+          71
+        ],
+        [
+          "z",
+          67
+        ],
+        [
+          " T",
+          65
+        ],
+        [
+          " Sap",
+          64
+        ],
+        [
+          " V",
+          63
+        ],
+        [
+          " C",
+          63
+        ],
+        [
+          "ol",
+          63
+        ],
+        [
+          "urt",
+          61
+        ],
+        [
+          " P",
+          59
+        ],
+        [
+          " G",
+          57
+        ],
+        [
+          " D",
+          56
+        ],
+        [
+          " ant",
+          53
+        ],
+        [
+          " B",
+          52
+        ],
+        [
+          "b",
+          46
+        ],
+        [
+          " S",
+          45
+        ],
+        [
+          " Mad",
+          44
+        ],
+        [
+          " Z",
+          43
+        ],
+        [
+          "alky",
+          41
+        ],
+        [
+          "\ufffd",
+          41
+        ],
+        [
+          " H",
+          41
+        ],
+        [
+          " Sh",
+          41
+        ],
+        [
+          " N",
+          41
+        ],
+        [
+          " St",
+          41
+        ],
+        [
+          "\u0142",
+          41
+        ]
+      ],
+      "sample_contexts": [
+        " V[alky]ria",
+        " [\n\n]\n",
+        " Sen[j]\u014d",
+        " \ufffd[\ufffd]\ufffd",
+        " V[alky]ria",
+        " \"[ Nam]eless",
+        " of[ Gall]ia",
+        " Cal[am]at",
+        " [\n\n] The",
+        " on[ V]alky",
+        " V[alky]ria",
+        " designer[ R]ait",
+        " R[ait]a",
+        " Hon[j]ou",
+        "oshi[ Sak]imoto",
+        " V[alky]ria",
+        " director[ Takes]hi",
+        "hi[ Oz]awa",
+        " by[ May] '",
+        " [\n\n] It",
+        " of[ V]alky",
+        " V[alky]ria",
+        " ,[ V]alky",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " previous[ V]alky",
+        " V[alky]ira",
+        " ,[ V]alky",
+        " un[vo]iced",
+        " [\n\n] The",
+        " from[ V]alky",
+        " V[alky]ira",
+        " un[al]tered",
+        " grant[ bo]ons",
+        " Battle[ Pot]entials",
+        " [\n\n] Tro",
+        " Shock[tro]opers",
+        " ,[ L]ancers",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " des[er]ters",
+        " the[ V]alky",
+        " seemingly[ j]inx",
+        " V[alky]ria",
+        " [\n\n] As",
+        " the[ Nam]eless",
+        " e[chel]ons",
+        " plausible[ den]iability"
+      ],
+      "pushes_toward": [
+        [
+          "acebook",
+          0.174
+        ],
+        [
+          "archment",
+          0.173
+        ],
+        [
+          "ocaly",
+          0.169
+        ],
+        [
+          "incinn",
+          0.168
+        ],
+        [
+          "iscons",
+          0.167
+        ],
+        [
+          "imbabwe",
+          0.162
+        ],
+        [
+          "okane",
+          0.162
+        ],
+        [
+          "aughed",
+          0.159
+        ],
+        [
+          "aredevil",
+          0.158
+        ],
+        [
+          "erala",
+          0.157
+        ]
+      ],
+      "pushes_away": [
+        "to",
+        "in",
+        "of",
+        "more",
+        "as",
+        "the",
+        "long",
+        "it",
+        "right",
+        "this"
+      ]
+    },
+    "1800": {
+      "fire_count": 10862,
+      "fire_pct": 45.92,
+      "top_triggers": [
+        [
+          "\n\n",
+          1802
+        ],
+        [
+          " =",
+          397
+        ],
+        [
+          "-",
+          191
+        ],
+        [
+          " '",
+          181
+        ],
+        [
+          " of",
+          175
+        ],
+        [
+          " in",
+          112
+        ],
+        [
+          ".",
+          98
+        ],
+        [
+          "@",
+          90
+        ],
+        [
+          " such",
+          88
+        ],
+        [
+          " \u2013",
+          87
+        ],
+        [
+          " F",
+          83
+        ],
+        [
+          "j",
+          81
+        ],
+        [
+          " Tru",
+          73
+        ],
+        [
+          " ,",
+          72
+        ],
+        [
+          " the",
+          71
+        ],
+        [
+          " @",
+          70
+        ],
+        [
+          "g",
+          69
+        ],
+        [
+          " Sap",
+          67
+        ],
+        [
+          " and",
+          64
+        ],
+        [
+          "s",
+          59
+        ],
+        [
+          "urt",
+          57
+        ],
+        [
+          "ol",
+          57
+        ],
+        [
+          " P",
+          55
+        ],
+        [
+          " (",
+          50
+        ],
+        [
+          " number",
+          47
+        ],
+        [
+          " G",
+          44
+        ],
+        [
+          " to",
+          43
+        ],
+        [
+          "\u00ed",
+          43
+        ],
+        [
+          " ant",
+          43
+        ],
+        [
+          " 18",
+          41
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " commonly[ referred] to",
+        " V[alky]ria",
+        " [\n\n] The",
+        " large[ portion] of",
+        " V[alky]ria",
+        " ,[ such] as",
+        " R[ait]a",
+        " ,[ along] with",
+        " V[alky]ria",
+        " '[n] .",
+        " [\n\n] It",
+        " ,[ along] with",
+        " of[ V]alky",
+        " V[alky]ria",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " previous[ V]alky",
+        " V[alky]ira",
+        " ,[ V]alky",
+        " @[-]@",
+        " game[ ']s",
+        " [\n\n] The",
+        " from[ V]alky",
+        " V[alky]ira",
+        " @[-]@",
+        " the[ expense] of",
+        " ,[ such] as",
+        " that[ remain] un",
+        " [\n\n] Tro",
+        " does[ not] greatly",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " and[ No].",
+        " No[.]13",
+        " V[alky]ria",
+        " [\n\n] As",
+        " Cal[am]ity",
+        " Rand[g]riz",
+        " [\n\n] Part",
+        " partly[ due] to",
+        " manpower[ Gall]ia",
+        " ,[ Dah]au",
+        " Cal[am]ity",
+        " V[alky]rian",
+        " of[ Max]imil",
+        " Max[imil]ian",
+        " is[ Dah]au"
+      ],
+      "pushes_toward": [
+        [
+          "the",
+          0.252
+        ],
+        [
+          "in",
+          0.246
+        ],
+        [
+          "and",
+          0.234
+        ],
+        [
+          "of",
+          0.22
+        ],
+        [
+          "a",
+          0.219
+        ],
+        [
+          ",",
+          0.218
+        ],
+        [
+          "-",
+          0.213
+        ],
+        [
+          "to",
+          0.202
+        ],
+        [
+          "(",
+          0.2
+        ],
+        [
+          "\"",
+          0.198
+        ]
+      ],
+      "pushes_away": [
+        "\u0014",
+        "\u0007",
+        "externalTo",
+        "\u0010",
+        "",
+        "\u0006",
+        "\u30b5\u30fc\u30c6\u30a3",
+        "quickShip",
+        "",
+        "\u0011"
+      ]
+    },
+    "971": {
+      "fire_count": 8079,
+      "fire_pct": 34.15,
+      "top_triggers": [
+        [
+          "\n\n",
+          1737
+        ],
+        [
+          " =",
+          318
+        ],
+        [
+          " to",
+          218
+        ],
+        [
+          " '",
+          174
+        ],
+        [
+          "-",
+          142
+        ],
+        [
+          " 18",
+          96
+        ],
+        [
+          " such",
+          87
+        ],
+        [
+          " (",
+          70
+        ],
+        [
+          " @",
+          69
+        ],
+        [
+          " Tru",
+          69
+        ],
+        [
+          "g",
+          63
+        ],
+        [
+          " was",
+          62
+        ],
+        [
+          " Sap",
+          62
+        ],
+        [
+          " $",
+          60
+        ],
+        [
+          ".",
+          59
+        ],
+        [
+          "urt",
+          56
+        ],
+        [
+          "ol",
+          54
+        ],
+        [
+          " ant",
+          48
+        ],
+        [
+          "@",
+          47
+        ],
+        [
+          "j",
+          45
+        ],
+        [
+          "z",
+          42
+        ],
+        [
+          " \u2013",
+          40
+        ],
+        [
+          " and",
+          39
+        ],
+        [
+          "\u00ed",
+          39
+        ],
+        [
+          " Mark",
+          37
+        ],
+        [
+          " part",
+          36
+        ],
+        [
+          " December",
+          30
+        ],
+        [
+          " According",
+          29
+        ],
+        [
+          " May",
+          29
+        ],
+        [
+          " Uran",
+          29
+        ]
+      ],
+      "sample_contexts": [
+        " [\n\n]\n",
+        " commonly[ referred] to",
+        " [\n\n] The",
+        " large[ portion] of",
+        " ,[ such] as",
+        " ,[ along] with",
+        " [\n\n] It",
+        " and[ was] praised",
+        " ,[ along] with",
+        " It[ was] also",
+        " was[ also] adapted",
+        " V[alky]ria",
+        " V[alky]ria",
+        " V[alky]ria",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " through[ un]vo",
+        " can[ be] freely",
+        " be[ freely] scanned",
+        " and[ re]played",
+        " as[ they] are",
+        " game[ ']s",
+        " game[ ']s",
+        " [\n\n] The",
+        " game[ ']s",
+        " can[ only] act",
+        " @[-]@",
+        " can[ be] granted",
+        " the[ expense] of",
+        " ,[ such] as",
+        " acquire[ and] link",
+        " Abilities[ that] grant",
+        " Kurt[ can] activate",
+        " [\n\n] Tro",
+        " does[ not] greatly",
+        " points[ are] awarded",
+        " [\n\n]\n",
+        " [\n\n]\n",
+        " and[ No].",
+        " V[alky]ria",
+        " [\n\n] As",
+        " the[ Nam]eless",
+        " the[ Nam]eless",
+        " the[ Nam]eless",
+        " [\n\n] Part",
+        " partly[ due] to",
+        " the[ Nam]eless",
+        " ,[ Dah]au",
+        " Cal[am]ity",
+        " is[ Dah]au"
+      ],
+      "pushes_toward": [
+        [
+          "urnal",
+          0.005
+        ],
+        [
+          "ouk",
+          0.002
+        ],
+        [
+          "}}}",
+          -0.0
+        ],
+        [
+          "iatrics",
+          -0.004
+        ],
+        [
+          "orneys",
+          -0.004
+        ],
+        [
+          "Lawyers",
+          -0.005
+        ],
+        [
+          "zn",
+          -0.007
+        ],
+        [
+          "judicial",
+          -0.008
+        ],
+        [
+          "ruary",
+          -0.008
+        ],
+        [
+          "0000000000000000",
+          -0.01
+        ]
+      ],
+      "pushes_away": [
+        "on",
+        "of",
+        "and",
+        "that",
+        "W",
+        "an",
+        "in",
+        "She",
+        "Palestin",
+        "In"
+      ]
+    }
+  },
+  "cofiring_pairs": [
+    [
+      2910,
+      2123,
+      0.9977
+    ],
+    [
+      2123,
+      740,
+      0.9847
+    ],
+    [
+      2910,
+      740,
+      0.9827
+    ],
+    [
+      2123,
+      1611,
+      0.9412
+    ],
+    [
+      2910,
+      1611,
+      0.9392
+    ],
+    [
+      1611,
+      740,
+      0.9275
+    ],
+    [
+      2123,
+      2044,
+      0.9121
+    ],
+    [
+      2910,
+      2044,
+      0.9101
+    ],
+    [
+      740,
+      2044,
+      0.904
+    ],
+    [
+      2378,
+      584,
+      0.889
+    ],
+    [
+      2123,
+      2462,
+      0.8798
+    ],
+    [
+      2910,
+      2462,
+      0.8778
+    ],
+    [
+      740,
+      2462,
+      0.8662
+    ],
+    [
+      1611,
+      2044,
+      0.8575
+    ],
+    [
+      1611,
+      2462,
+      0.8429
+    ],
+    [
+      2044,
+      2462,
+      0.7959
+    ],
+    [
+      2123,
+      2173,
+      0.7504
+    ],
+    [
+      2910,
+      2173,
+      0.7502
+    ],
+    [
+      740,
+      2173,
+      0.7453
+    ],
+    [
+      1611,
+      2173,
+      0.7303
+    ],
+    [
+      611,
+      2709,
+      0.7147
+    ],
+    [
+      2044,
+      2173,
+      0.6985
+    ],
+    [
+      2462,
+      2173,
+      0.6808
+    ],
+    [
+      2379,
+      1715,
+      0.6616
+    ],
+    [
+      3066,
+      2379,
+      0.6223
+    ],
+    [
+      2378,
+      1800,
+      0.589
+    ],
+    [
+      584,
+      1800,
+      0.5873
+    ],
+    [
+      2378,
+      971,
+      0.5868
+    ],
+    [
+      1602,
+      1715,
+      0.5812
+    ],
+    [
+      3066,
+      1715,
+      0.5786
+    ]
+  ]
+}

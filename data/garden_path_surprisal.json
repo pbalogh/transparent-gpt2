@@ -1,0 +1,4247 @@
+{
+  "n_pairs": 15,
+  "stimuli": [
+    {
+      "id": "vgp1",
+      "label": "struggled/scratched",
+      "intransitive": "After the dog struggled the vet took off the muzzle.",
+      "transitive": "After the dog scratched the vet took off the muzzle.",
+      "disambig_word": "took",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " dog",
+          "token_id": 3290,
+          "surprisal": 11.8864,
+          "consensus": 5,
+          "n2123_act": 0.1308,
+          "n2123_fires": true,
+          "mlp_delta_norm": 70.1688
+        },
+        {
+          "position": 3,
+          "token": " struggled",
+          "token_id": 11615,
+          "surprisal": 14.06,
+          "consensus": 6,
+          "n2123_act": 0.0749,
+          "n2123_fires": false,
+          "mlp_delta_norm": 68.5528
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 7.4646,
+          "consensus": 6,
+          "n2123_act": 0.1119,
+          "n2123_fires": true,
+          "mlp_delta_norm": 52.2057
+        },
+        {
+          "position": 5,
+          "token": " vet",
+          "token_id": 20202,
+          "surprisal": 8.5949,
+          "consensus": 6,
+          "n2123_act": 0.1627,
+          "n2123_fires": true,
+          "mlp_delta_norm": 69.4698
+        },
+        {
+          "position": 6,
+          "token": " took",
+          "token_id": 1718,
+          "surprisal": 5.371,
+          "consensus": 7,
+          "n2123_act": 0.0738,
+          "n2123_fires": false,
+          "mlp_delta_norm": 71.9263
+        },
+        {
+          "position": 7,
+          "token": " off",
+          "token_id": 572,
+          "surprisal": 6.1555,
+          "consensus": 5,
+          "n2123_act": 0.1427,
+          "n2123_fires": true,
+          "mlp_delta_norm": 56.9586
+        },
+        {
+          "position": 8,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.9844,
+          "consensus": 6,
+          "n2123_act": 0.1659,
+          "n2123_fires": true,
+          "mlp_delta_norm": 68.4666
+        },
+        {
+          "position": 9,
+          "token": " muzzle",
+          "token_id": 31746,
+          "surprisal": 9.2083,
+          "consensus": 5,
+          "n2123_act": 0.1683,
+          "n2123_fires": true,
+          "mlp_delta_norm": 51.9497
+        },
+        {
+          "position": 10,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.2202,
+          "consensus": 7,
+          "n2123_act": 0.1205,
+          "n2123_fires": true,
+          "mlp_delta_norm": 92.8759
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " dog",
+          "token_id": 3290,
+          "surprisal": 11.8864,
+          "consensus": 5,
+          "n2123_act": 0.1308,
+          "n2123_fires": true,
+          "mlp_delta_norm": 70.1688
+        },
+        {
+          "position": 3,
+          "token": " scratched",
+          "token_id": 37468,
+          "surprisal": 14.6792,
+          "consensus": 7,
+          "n2123_act": 0.0442,
+          "n2123_fires": false,
+          "mlp_delta_norm": 63.0955
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.7319,
+          "consensus": 5,
+          "n2123_act": 0.1071,
+          "n2123_fires": true,
+          "mlp_delta_norm": 68.0677
+        },
+        {
+          "position": 5,
+          "token": " vet",
+          "token_id": 20202,
+          "surprisal": 11.5262,
+          "consensus": 5,
+          "n2123_act": 0.0906,
+          "n2123_fires": false,
+          "mlp_delta_norm": 50.8289
+        },
+        {
+          "position": 6,
+          "token": " took",
+          "token_id": 1718,
+          "surprisal": 11.6035,
+          "consensus": 6,
+          "n2123_act": 0.0845,
+          "n2123_fires": false,
+          "mlp_delta_norm": 89.9422
+        },
+        {
+          "position": 7,
+          "token": " off",
+          "token_id": 572,
+          "surprisal": 5.3201,
+          "consensus": 5,
+          "n2123_act": 0.1174,
+          "n2123_fires": true,
+          "mlp_delta_norm": 61.6329
+        },
+        {
+          "position": 8,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3217,
+          "consensus": 6,
+          "n2123_act": 0.1689,
+          "n2123_fires": true,
+          "mlp_delta_norm": 68.5163
+        },
+        {
+          "position": 9,
+          "token": " muzzle",
+          "token_id": 31746,
+          "surprisal": 9.6747,
+          "consensus": 5,
+          "n2123_act": 0.1623,
+          "n2123_fires": true,
+          "mlp_delta_norm": 49.9768
+        },
+        {
+          "position": 10,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.0797,
+          "consensus": 7,
+          "n2123_act": 0.129,
+          "n2123_fires": true,
+          "mlp_delta_norm": 96.4675
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": -6.2325,
+        "consensus": 1,
+        "n2123": -0.0107,
+        "delta_norm": -18.0159
+      }
+    },
+    {
+      "id": "vgp2",
+      "label": "sneezed/visited",
+      "intransitive": "After the child sneezed the doctor prescribed a course of medicine.",
+      "transitive": "After the child visited the doctor prescribed a course of medicine.",
+      "disambig_word": "prescribed",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " child",
+          "token_id": 1200,
+          "surprisal": 11.3365,
+          "consensus": 6,
+          "n2123_act": 0.0544,
+          "n2123_fires": false,
+          "mlp_delta_norm": 87.0143
+        },
+        {
+          "position": 3,
+          "token": " sne",
+          "token_id": 10505,
+          "surprisal": 15.3479,
+          "consensus": 6,
+          "n2123_act": 0.2605,
+          "n2123_fires": true,
+          "mlp_delta_norm": 191.6107
+        },
+        {
+          "position": 4,
+          "token": "ez",
+          "token_id": 8471,
+          "surprisal": 0.3875,
+          "consensus": 4,
+          "n2123_act": 0.2568,
+          "n2123_fires": true,
+          "mlp_delta_norm": 116.1808
+        },
+        {
+          "position": 5,
+          "token": "ed",
+          "token_id": 276,
+          "surprisal": 0.4558,
+          "consensus": 7,
+          "n2123_act": 0.1463,
+          "n2123_fires": true,
+          "mlp_delta_norm": 71.6671
+        },
+        {
+          "position": 6,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.9607,
+          "consensus": 7,
+          "n2123_act": 0.0904,
+          "n2123_fires": false,
+          "mlp_delta_norm": 69.2143
+        },
+        {
+          "position": 7,
+          "token": " doctor",
+          "token_id": 6253,
+          "surprisal": 7.1406,
+          "consensus": 6,
+          "n2123_act": 0.159,
+          "n2123_fires": true,
+          "mlp_delta_norm": 119.7457
+        },
+        {
+          "position": 8,
+          "token": " prescribed",
+          "token_id": 14798,
+          "surprisal": 6.7672,
+          "consensus": 2,
+          "n2123_act": 0.1665,
+          "n2123_fires": true,
+          "mlp_delta_norm": 128.0037
+        },
+        {
+          "position": 9,
+          "token": " a",
+          "token_id": 257,
+          "surprisal": 2.5291,
+          "consensus": 4,
+          "n2123_act": 0.1204,
+          "n2123_fires": true,
+          "mlp_delta_norm": 118.9008
+        },
+        {
+          "position": 10,
+          "token": " course",
+          "token_id": 1781,
+          "surprisal": 9.0807,
+          "consensus": 5,
+          "n2123_act": 0.083,
+          "n2123_fires": false,
+          "mlp_delta_norm": 51.7241
+        },
+        {
+          "position": 11,
+          "token": " of",
+          "token_id": 286,
+          "surprisal": 0.0563,
+          "consensus": 6,
+          "n2123_act": 0.0329,
+          "n2123_fires": false,
+          "mlp_delta_norm": 117.6707
+        },
+        {
+          "position": 12,
+          "token": " medicine",
+          "token_id": 9007,
+          "surprisal": 7.6289,
+          "consensus": 5,
+          "n2123_act": 0.1571,
+          "n2123_fires": true,
+          "mlp_delta_norm": 104.0927
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.588,
+          "consensus": 6,
+          "n2123_act": 0.0963,
+          "n2123_fires": false,
+          "mlp_delta_norm": 104.7995
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " child",
+          "token_id": 1200,
+          "surprisal": 11.3365,
+          "consensus": 6,
+          "n2123_act": 0.0544,
+          "n2123_fires": false,
+          "mlp_delta_norm": 87.0143
+        },
+        {
+          "position": 3,
+          "token": " visited",
+          "token_id": 8672,
+          "surprisal": 13.6826,
+          "consensus": 4,
+          "n2123_act": 0.029,
+          "n2123_fires": false,
+          "mlp_delta_norm": 61.5012
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.8973,
+          "consensus": 7,
+          "n2123_act": 0.083,
+          "n2123_fires": false,
+          "mlp_delta_norm": 88.5813
+        },
+        {
+          "position": 5,
+          "token": " doctor",
+          "token_id": 6253,
+          "surprisal": 4.8683,
+          "consensus": 6,
+          "n2123_act": 0.0572,
+          "n2123_fires": false,
+          "mlp_delta_norm": 58.4863
+        },
+        {
+          "position": 6,
+          "token": " prescribed",
+          "token_id": 14798,
+          "surprisal": 16.241,
+          "consensus": 6,
+          "n2123_act": 0.1411,
+          "n2123_fires": true,
+          "mlp_delta_norm": 79.2733
+        },
+        {
+          "position": 7,
+          "token": " a",
+          "token_id": 257,
+          "surprisal": 3.9383,
+          "consensus": 5,
+          "n2123_act": 0.1614,
+          "n2123_fires": true,
+          "mlp_delta_norm": 80.3127
+        },
+        {
+          "position": 8,
+          "token": " course",
+          "token_id": 1781,
+          "surprisal": 7.9996,
+          "consensus": 5,
+          "n2123_act": 0.0477,
+          "n2123_fires": false,
+          "mlp_delta_norm": 41.9034
+        },
+        {
+          "position": 9,
+          "token": " of",
+          "token_id": 286,
+          "surprisal": 0.1108,
+          "consensus": 6,
+          "n2123_act": 0.1409,
+          "n2123_fires": true,
+          "mlp_delta_norm": 95.8784
+        },
+        {
+          "position": 10,
+          "token": " medicine",
+          "token_id": 9007,
+          "surprisal": 6.4307,
+          "consensus": 7,
+          "n2123_act": 0.1352,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.2626
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.2878,
+          "consensus": 6,
+          "n2123_act": 0.1119,
+          "n2123_fires": true,
+          "mlp_delta_norm": 100.8765
+        }
+      ],
+      "disambig_pos_intr": 8,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 7,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": -9.4738,
+        "consensus": -4,
+        "n2123": 0.0254,
+        "delta_norm": 48.7304
+      }
+    },
+    {
+      "id": "vgp3",
+      "label": "dozed/watched",
+      "intransitive": "While the man dozed the woman next to him read her book quietly.",
+      "transitive": "While the man watched the woman next to him read her book quietly.",
+      "disambig_word": "next",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " man",
+          "token_id": 582,
+          "surprisal": 9.4825,
+          "consensus": 5,
+          "n2123_act": 0.0488,
+          "n2123_fires": false,
+          "mlp_delta_norm": 85.9067
+        },
+        {
+          "position": 3,
+          "token": " do",
+          "token_id": 466,
+          "surprisal": 14.9873,
+          "consensus": 4,
+          "n2123_act": 0.0268,
+          "n2123_fires": false,
+          "mlp_delta_norm": 87.02
+        },
+        {
+          "position": 4,
+          "token": "zed",
+          "token_id": 8863,
+          "surprisal": 3.7841,
+          "consensus": 5,
+          "n2123_act": 0.1536,
+          "n2123_fires": true,
+          "mlp_delta_norm": 81.2966
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 11.0533,
+          "consensus": 7,
+          "n2123_act": 0.0516,
+          "n2123_fires": false,
+          "mlp_delta_norm": 45.5845
+        },
+        {
+          "position": 6,
+          "token": " woman",
+          "token_id": 2415,
+          "surprisal": 6.3206,
+          "consensus": 6,
+          "n2123_act": 0.0627,
+          "n2123_fires": false,
+          "mlp_delta_norm": 85.5114
+        },
+        {
+          "position": 7,
+          "token": " next",
+          "token_id": 1306,
+          "surprisal": 8.9023,
+          "consensus": 3,
+          "n2123_act": 0.0933,
+          "n2123_fires": false,
+          "mlp_delta_norm": 59.1428
+        },
+        {
+          "position": 8,
+          "token": " to",
+          "token_id": 284,
+          "surprisal": 0.1125,
+          "consensus": 6,
+          "n2123_act": 0.038,
+          "n2123_fires": false,
+          "mlp_delta_norm": 46.9427
+        },
+        {
+          "position": 9,
+          "token": " him",
+          "token_id": 683,
+          "surprisal": 0.9003,
+          "consensus": 5,
+          "n2123_act": 0.037,
+          "n2123_fires": false,
+          "mlp_delta_norm": 79.6461
+        },
+        {
+          "position": 10,
+          "token": " read",
+          "token_id": 1100,
+          "surprisal": 14.734,
+          "consensus": 7,
+          "n2123_act": 0.0969,
+          "n2123_fires": false,
+          "mlp_delta_norm": 38.8592
+        },
+        {
+          "position": 11,
+          "token": " her",
+          "token_id": 607,
+          "surprisal": 4.316,
+          "consensus": 6,
+          "n2123_act": 0.1696,
+          "n2123_fires": true,
+          "mlp_delta_norm": 64.9843
+        },
+        {
+          "position": 12,
+          "token": " book",
+          "token_id": 1492,
+          "surprisal": 6.0059,
+          "consensus": 7,
+          "n2123_act": 0.071,
+          "n2123_fires": false,
+          "mlp_delta_norm": 55.5994
+        },
+        {
+          "position": 13,
+          "token": " quietly",
+          "token_id": 12703,
+          "surprisal": 10.878,
+          "consensus": 4,
+          "n2123_act": 0.1052,
+          "n2123_fires": true,
+          "mlp_delta_norm": 86.9855
+        },
+        {
+          "position": 14,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.042,
+          "consensus": 4,
+          "n2123_act": 0.0783,
+          "n2123_fires": false,
+          "mlp_delta_norm": 91.5719
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " man",
+          "token_id": 582,
+          "surprisal": 9.4825,
+          "consensus": 5,
+          "n2123_act": 0.0488,
+          "n2123_fires": false,
+          "mlp_delta_norm": 85.9067
+        },
+        {
+          "position": 3,
+          "token": " watched",
+          "token_id": 7342,
+          "surprisal": 11.365,
+          "consensus": 5,
+          "n2123_act": 0.0294,
+          "n2123_fires": false,
+          "mlp_delta_norm": 61.0358
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.5754,
+          "consensus": 6,
+          "n2123_act": 0.0458,
+          "n2123_fires": false,
+          "mlp_delta_norm": 66.2208
+        },
+        {
+          "position": 5,
+          "token": " woman",
+          "token_id": 2415,
+          "surprisal": 6.3989,
+          "consensus": 6,
+          "n2123_act": 0.1124,
+          "n2123_fires": true,
+          "mlp_delta_norm": 136.302
+        },
+        {
+          "position": 6,
+          "token": " next",
+          "token_id": 1306,
+          "surprisal": 11.4968,
+          "consensus": 3,
+          "n2123_act": 0.1177,
+          "n2123_fires": true,
+          "mlp_delta_norm": 63.4089
+        },
+        {
+          "position": 7,
+          "token": " to",
+          "token_id": 284,
+          "surprisal": 0.2198,
+          "consensus": 5,
+          "n2123_act": 0.0519,
+          "n2123_fires": false,
+          "mlp_delta_norm": 66.2404
+        },
+        {
+          "position": 8,
+          "token": " him",
+          "token_id": 683,
+          "surprisal": 0.4544,
+          "consensus": 5,
+          "n2123_act": 0.1459,
+          "n2123_fires": true,
+          "mlp_delta_norm": 191.5542
+        },
+        {
+          "position": 9,
+          "token": " read",
+          "token_id": 1100,
+          "surprisal": 10.6451,
+          "consensus": 7,
+          "n2123_act": 0.0915,
+          "n2123_fires": false,
+          "mlp_delta_norm": 41.158
+        },
+        {
+          "position": 10,
+          "token": " her",
+          "token_id": 607,
+          "surprisal": 3.7436,
+          "consensus": 3,
+          "n2123_act": 0.1592,
+          "n2123_fires": true,
+          "mlp_delta_norm": 68.0408
+        },
+        {
+          "position": 11,
+          "token": " book",
+          "token_id": 1492,
+          "surprisal": 4.8497,
+          "consensus": 7,
+          "n2123_act": 0.082,
+          "n2123_fires": false,
+          "mlp_delta_norm": 47.6361
+        },
+        {
+          "position": 12,
+          "token": " quietly",
+          "token_id": 12703,
+          "surprisal": 9.5047,
+          "consensus": 4,
+          "n2123_act": 0.1046,
+          "n2123_fires": true,
+          "mlp_delta_norm": 88.0881
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 6.6583,
+          "consensus": 5,
+          "n2123_act": 0.0759,
+          "n2123_fires": false,
+          "mlp_delta_norm": 72.5562
+        }
+      ],
+      "disambig_pos_intr": 7,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 6,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": -2.5945,
+        "consensus": 0,
+        "n2123": -0.0244,
+        "delta_norm": -4.2661
+      }
+    },
+    {
+      "id": "vgp4",
+      "label": "escaped/attacked",
+      "intransitive": "After the prisoner escaped the guard searched the entire building.",
+      "transitive": "After the prisoner attacked the guard searched the entire building.",
+      "disambig_word": "searched",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " prisoner",
+          "token_id": 17234,
+          "surprisal": 15.1842,
+          "consensus": 5,
+          "n2123_act": 0.0896,
+          "n2123_fires": false,
+          "mlp_delta_norm": 80.0474
+        },
+        {
+          "position": 3,
+          "token": " escaped",
+          "token_id": 13537,
+          "surprisal": 7.5168,
+          "consensus": 6,
+          "n2123_act": 0.0289,
+          "n2123_fires": false,
+          "mlp_delta_norm": 70.0637
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 4.4066,
+          "consensus": 7,
+          "n2123_act": 0.1509,
+          "n2123_fires": true,
+          "mlp_delta_norm": 96.6621
+        },
+        {
+          "position": 5,
+          "token": " guard",
+          "token_id": 4860,
+          "surprisal": 7.5906,
+          "consensus": 6,
+          "n2123_act": 0.1605,
+          "n2123_fires": true,
+          "mlp_delta_norm": 71.355
+        },
+        {
+          "position": 6,
+          "token": " searched",
+          "token_id": 16499,
+          "surprisal": 16.9776,
+          "consensus": 5,
+          "n2123_act": 0.083,
+          "n2123_fires": false,
+          "mlp_delta_norm": 42.5048
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.8632,
+          "consensus": 6,
+          "n2123_act": 0.1397,
+          "n2123_fires": true,
+          "mlp_delta_norm": 84.4467
+        },
+        {
+          "position": 8,
+          "token": " entire",
+          "token_id": 2104,
+          "surprisal": 7.8651,
+          "consensus": 6,
+          "n2123_act": 0.1237,
+          "n2123_fires": true,
+          "mlp_delta_norm": 88.4748
+        },
+        {
+          "position": 9,
+          "token": " building",
+          "token_id": 2615,
+          "surprisal": 3.9016,
+          "consensus": 7,
+          "n2123_act": 0.0781,
+          "n2123_fires": false,
+          "mlp_delta_norm": 70.0109
+        },
+        {
+          "position": 10,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.2462,
+          "consensus": 5,
+          "n2123_act": 0.1529,
+          "n2123_fires": true,
+          "mlp_delta_norm": 108.1298
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " prisoner",
+          "token_id": 17234,
+          "surprisal": 15.1842,
+          "consensus": 5,
+          "n2123_act": 0.0896,
+          "n2123_fires": false,
+          "mlp_delta_norm": 80.0474
+        },
+        {
+          "position": 3,
+          "token": " attacked",
+          "token_id": 7384,
+          "surprisal": 12.3088,
+          "consensus": 7,
+          "n2123_act": 0.0261,
+          "n2123_fires": false,
+          "mlp_delta_norm": 60.5718
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.827,
+          "consensus": 7,
+          "n2123_act": 0.0743,
+          "n2123_fires": false,
+          "mlp_delta_norm": 79.0349
+        },
+        {
+          "position": 5,
+          "token": " guard",
+          "token_id": 4860,
+          "surprisal": 5.452,
+          "consensus": 4,
+          "n2123_act": 0.116,
+          "n2123_fires": true,
+          "mlp_delta_norm": 55.2109
+        },
+        {
+          "position": 6,
+          "token": " searched",
+          "token_id": 16499,
+          "surprisal": 19.3751,
+          "consensus": 4,
+          "n2123_act": 0.0739,
+          "n2123_fires": false,
+          "mlp_delta_norm": 42.986
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.9255,
+          "consensus": 6,
+          "n2123_act": 0.1261,
+          "n2123_fires": true,
+          "mlp_delta_norm": 76.4211
+        },
+        {
+          "position": 8,
+          "token": " entire",
+          "token_id": 2104,
+          "surprisal": 8.1755,
+          "consensus": 6,
+          "n2123_act": 0.1125,
+          "n2123_fires": true,
+          "mlp_delta_norm": 81.7374
+        },
+        {
+          "position": 9,
+          "token": " building",
+          "token_id": 2615,
+          "surprisal": 3.9536,
+          "consensus": 7,
+          "n2123_act": 0.0706,
+          "n2123_fires": false,
+          "mlp_delta_norm": 69.1504
+        },
+        {
+          "position": 10,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.9125,
+          "consensus": 6,
+          "n2123_act": 0.1459,
+          "n2123_fires": true,
+          "mlp_delta_norm": 103.4692
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": -2.3975,
+        "consensus": 1,
+        "n2123": 0.0091,
+        "delta_norm": -0.4812
+      }
+    },
+    {
+      "id": "vgp5",
+      "label": "slept/ignored",
+      "intransitive": "While the student slept the professor standing nearby noticed the textbook.",
+      "transitive": "While the student ignored the professor standing nearby noticed the textbook.",
+      "disambig_word": "standing",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " student",
+          "token_id": 3710,
+          "surprisal": 11.7512,
+          "consensus": 6,
+          "n2123_act": 0.0668,
+          "n2123_fires": false,
+          "mlp_delta_norm": 55.6341
+        },
+        {
+          "position": 3,
+          "token": " slept",
+          "token_id": 21256,
+          "surprisal": 13.789,
+          "consensus": 6,
+          "n2123_act": 0.1463,
+          "n2123_fires": true,
+          "mlp_delta_norm": 94.3515
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.4902,
+          "consensus": 7,
+          "n2123_act": 0.0973,
+          "n2123_fires": false,
+          "mlp_delta_norm": 67.1086
+        },
+        {
+          "position": 5,
+          "token": " professor",
+          "token_id": 6240,
+          "surprisal": 12.3161,
+          "consensus": 7,
+          "n2123_act": 0.1169,
+          "n2123_fires": true,
+          "mlp_delta_norm": 106.5792
+        },
+        {
+          "position": 6,
+          "token": " standing",
+          "token_id": 5055,
+          "surprisal": 13.1966,
+          "consensus": 6,
+          "n2123_act": 0.1677,
+          "n2123_fires": true,
+          "mlp_delta_norm": 123.2343
+        },
+        {
+          "position": 7,
+          "token": " nearby",
+          "token_id": 6716,
+          "surprisal": 5.5893,
+          "consensus": 5,
+          "n2123_act": 0.1079,
+          "n2123_fires": true,
+          "mlp_delta_norm": 142.8759
+        },
+        {
+          "position": 8,
+          "token": " noticed",
+          "token_id": 6810,
+          "surprisal": 9.2783,
+          "consensus": 5,
+          "n2123_act": 0.0384,
+          "n2123_fires": false,
+          "mlp_delta_norm": 57.3609
+        },
+        {
+          "position": 9,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.4986,
+          "consensus": 5,
+          "n2123_act": 0.0655,
+          "n2123_fires": false,
+          "mlp_delta_norm": 52.3552
+        },
+        {
+          "position": 10,
+          "token": " textbook",
+          "token_id": 28979,
+          "surprisal": 11.9534,
+          "consensus": 6,
+          "n2123_act": 0.1111,
+          "n2123_fires": true,
+          "mlp_delta_norm": 55.6063
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 4.078,
+          "consensus": 5,
+          "n2123_act": 0.0861,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.3475
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " student",
+          "token_id": 3710,
+          "surprisal": 11.7512,
+          "consensus": 6,
+          "n2123_act": 0.0668,
+          "n2123_fires": false,
+          "mlp_delta_norm": 55.6341
+        },
+        {
+          "position": 3,
+          "token": " ignored",
+          "token_id": 9514,
+          "surprisal": 14.1504,
+          "consensus": 5,
+          "n2123_act": 0.0219,
+          "n2123_fires": false,
+          "mlp_delta_norm": 57.7134
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.7351,
+          "consensus": 6,
+          "n2123_act": 0.0848,
+          "n2123_fires": false,
+          "mlp_delta_norm": 61.6484
+        },
+        {
+          "position": 5,
+          "token": " professor",
+          "token_id": 6240,
+          "surprisal": 7.7141,
+          "consensus": 5,
+          "n2123_act": 0.0637,
+          "n2123_fires": false,
+          "mlp_delta_norm": 55.8389
+        },
+        {
+          "position": 6,
+          "token": " standing",
+          "token_id": 5055,
+          "surprisal": 11.3249,
+          "consensus": 5,
+          "n2123_act": 0.0966,
+          "n2123_fires": false,
+          "mlp_delta_norm": 136.7331
+        },
+        {
+          "position": 7,
+          "token": " nearby",
+          "token_id": 6716,
+          "surprisal": 4.3675,
+          "consensus": 5,
+          "n2123_act": 0.0533,
+          "n2123_fires": false,
+          "mlp_delta_norm": 108.3847
+        },
+        {
+          "position": 8,
+          "token": " noticed",
+          "token_id": 6810,
+          "surprisal": 16.7091,
+          "consensus": 6,
+          "n2123_act": 0.0398,
+          "n2123_fires": false,
+          "mlp_delta_norm": 56.7586
+        },
+        {
+          "position": 9,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.5334,
+          "consensus": 5,
+          "n2123_act": 0.0669,
+          "n2123_fires": false,
+          "mlp_delta_norm": 56.515
+        },
+        {
+          "position": 10,
+          "token": " textbook",
+          "token_id": 28979,
+          "surprisal": 10.6071,
+          "consensus": 6,
+          "n2123_act": 0.115,
+          "n2123_fires": true,
+          "mlp_delta_norm": 54.9267
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 5.1514,
+          "consensus": 6,
+          "n2123_act": 0.0887,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.4607
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 1.8717,
+        "consensus": 1,
+        "n2123": 0.0711,
+        "delta_norm": -13.4988
+      }
+    },
+    {
+      "id": "add1",
+      "label": "cried/woke",
+      "intransitive": "After the baby cried the mother in the next room came running.",
+      "transitive": "After the baby woke the mother in the next room came running.",
+      "disambig_word": "in",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " baby",
+          "token_id": 5156,
+          "surprisal": 11.2509,
+          "consensus": 7,
+          "n2123_act": 0.1478,
+          "n2123_fires": true,
+          "mlp_delta_norm": 83.4771
+        },
+        {
+          "position": 3,
+          "token": " cried",
+          "token_id": 16896,
+          "surprisal": 11.6612,
+          "consensus": 7,
+          "n2123_act": 0.1079,
+          "n2123_fires": true,
+          "mlp_delta_norm": 71.6969
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.5302,
+          "consensus": 7,
+          "n2123_act": 0.0961,
+          "n2123_fires": false,
+          "mlp_delta_norm": 63.9249
+        },
+        {
+          "position": 5,
+          "token": " mother",
+          "token_id": 2802,
+          "surprisal": 4.5469,
+          "consensus": 7,
+          "n2123_act": 0.1312,
+          "n2123_fires": true,
+          "mlp_delta_norm": 123.5415
+        },
+        {
+          "position": 6,
+          "token": " in",
+          "token_id": 287,
+          "surprisal": 9.0291,
+          "consensus": 6,
+          "n2123_act": 0.0959,
+          "n2123_fires": false,
+          "mlp_delta_norm": 49.4902
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.9801,
+          "consensus": 5,
+          "n2123_act": 0.085,
+          "n2123_fires": false,
+          "mlp_delta_norm": 81.1622
+        },
+        {
+          "position": 8,
+          "token": " next",
+          "token_id": 1306,
+          "surprisal": 9.3139,
+          "consensus": 6,
+          "n2123_act": 0.1011,
+          "n2123_fires": true,
+          "mlp_delta_norm": 67.1706
+        },
+        {
+          "position": 9,
+          "token": " room",
+          "token_id": 2119,
+          "surprisal": 0.5568,
+          "consensus": 7,
+          "n2123_act": 0.0651,
+          "n2123_fires": false,
+          "mlp_delta_norm": 62.5545
+        },
+        {
+          "position": 10,
+          "token": " came",
+          "token_id": 1625,
+          "surprisal": 8.4777,
+          "consensus": 6,
+          "n2123_act": 0.1525,
+          "n2123_fires": true,
+          "mlp_delta_norm": 138.3849
+        },
+        {
+          "position": 11,
+          "token": " running",
+          "token_id": 2491,
+          "surprisal": 5.8825,
+          "consensus": 6,
+          "n2123_act": 0.17,
+          "n2123_fires": true,
+          "mlp_delta_norm": 151.3672
+        },
+        {
+          "position": 12,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 4.3899,
+          "consensus": 7,
+          "n2123_act": 0.1429,
+          "n2123_fires": true,
+          "mlp_delta_norm": 91.9537
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " baby",
+          "token_id": 5156,
+          "surprisal": 11.2509,
+          "consensus": 7,
+          "n2123_act": 0.1478,
+          "n2123_fires": true,
+          "mlp_delta_norm": 83.4771
+        },
+        {
+          "position": 3,
+          "token": " woke",
+          "token_id": 19092,
+          "surprisal": 9.2713,
+          "consensus": 6,
+          "n2123_act": 0.1174,
+          "n2123_fires": true,
+          "mlp_delta_norm": 78.479
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 7.6811,
+          "consensus": 7,
+          "n2123_act": 0.0773,
+          "n2123_fires": false,
+          "mlp_delta_norm": 65.8365
+        },
+        {
+          "position": 5,
+          "token": " mother",
+          "token_id": 2802,
+          "surprisal": 3.4046,
+          "consensus": 7,
+          "n2123_act": 0.1011,
+          "n2123_fires": true,
+          "mlp_delta_norm": 96.2249
+        },
+        {
+          "position": 6,
+          "token": " in",
+          "token_id": 287,
+          "surprisal": 6.9488,
+          "consensus": 6,
+          "n2123_act": 0.1124,
+          "n2123_fires": true,
+          "mlp_delta_norm": 45.5499
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.4782,
+          "consensus": 5,
+          "n2123_act": 0.1269,
+          "n2123_fires": true,
+          "mlp_delta_norm": 81.7436
+        },
+        {
+          "position": 8,
+          "token": " next",
+          "token_id": 1306,
+          "surprisal": 9.8504,
+          "consensus": 6,
+          "n2123_act": 0.1319,
+          "n2123_fires": true,
+          "mlp_delta_norm": 66.9472
+        },
+        {
+          "position": 9,
+          "token": " room",
+          "token_id": 2119,
+          "surprisal": 0.4536,
+          "consensus": 7,
+          "n2123_act": 0.0459,
+          "n2123_fires": false,
+          "mlp_delta_norm": 53.2776
+        },
+        {
+          "position": 10,
+          "token": " came",
+          "token_id": 1625,
+          "surprisal": 10.8316,
+          "consensus": 7,
+          "n2123_act": 0.1679,
+          "n2123_fires": true,
+          "mlp_delta_norm": 118.5341
+        },
+        {
+          "position": 11,
+          "token": " running",
+          "token_id": 2491,
+          "surprisal": 6.1439,
+          "consensus": 6,
+          "n2123_act": 0.1699,
+          "n2123_fires": true,
+          "mlp_delta_norm": 143.1639
+        },
+        {
+          "position": 12,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 4.4839,
+          "consensus": 7,
+          "n2123_act": 0.1502,
+          "n2123_fires": true,
+          "mlp_delta_norm": 86.5878
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 2.0803,
+        "consensus": 0,
+        "n2123": -0.0165,
+        "delta_norm": 3.9403
+      }
+    },
+    {
+      "id": "add2",
+      "label": "purred/bit",
+      "intransitive": "While the cat purred the owner sitting nearby stroked its fur.",
+      "transitive": "While the cat bit the owner sitting nearby stroked its fur.",
+      "disambig_word": "sitting",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " cat",
+          "token_id": 3797,
+          "surprisal": 12.6676,
+          "consensus": 4,
+          "n2123_act": 0.1333,
+          "n2123_fires": true,
+          "mlp_delta_norm": 61.7801
+        },
+        {
+          "position": 3,
+          "token": " pur",
+          "token_id": 1308,
+          "surprisal": 12.9627,
+          "consensus": 7,
+          "n2123_act": 0.0577,
+          "n2123_fires": false,
+          "mlp_delta_norm": 90.7753
+        },
+        {
+          "position": 4,
+          "token": "red",
+          "token_id": 445,
+          "surprisal": 6.1289,
+          "consensus": 7,
+          "n2123_act": 0.1462,
+          "n2123_fires": true,
+          "mlp_delta_norm": 82.7033
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 7.6451,
+          "consensus": 7,
+          "n2123_act": 0.079,
+          "n2123_fires": false,
+          "mlp_delta_norm": 58.0418
+        },
+        {
+          "position": 6,
+          "token": " owner",
+          "token_id": 4870,
+          "surprisal": 10.3515,
+          "consensus": 6,
+          "n2123_act": 0.1016,
+          "n2123_fires": true,
+          "mlp_delta_norm": 100.6032
+        },
+        {
+          "position": 7,
+          "token": " sitting",
+          "token_id": 5586,
+          "surprisal": 14.4585,
+          "consensus": 7,
+          "n2123_act": 0.1345,
+          "n2123_fires": true,
+          "mlp_delta_norm": 91.9359
+        },
+        {
+          "position": 8,
+          "token": " nearby",
+          "token_id": 6716,
+          "surprisal": 6.2761,
+          "consensus": 5,
+          "n2123_act": 0.0814,
+          "n2123_fires": false,
+          "mlp_delta_norm": 139.9792
+        },
+        {
+          "position": 9,
+          "token": " stro",
+          "token_id": 9660,
+          "surprisal": 13.2057,
+          "consensus": 7,
+          "n2123_act": 0.2898,
+          "n2123_fires": true,
+          "mlp_delta_norm": 121.303
+        },
+        {
+          "position": 10,
+          "token": "ked",
+          "token_id": 9091,
+          "surprisal": 0.97,
+          "consensus": 7,
+          "n2123_act": 0.0633,
+          "n2123_fires": false,
+          "mlp_delta_norm": 56.7679
+        },
+        {
+          "position": 11,
+          "token": " its",
+          "token_id": 663,
+          "surprisal": 4.1987,
+          "consensus": 4,
+          "n2123_act": 0.0833,
+          "n2123_fires": false,
+          "mlp_delta_norm": 86.5488
+        },
+        {
+          "position": 12,
+          "token": " fur",
+          "token_id": 9230,
+          "surprisal": 4.5093,
+          "consensus": 5,
+          "n2123_act": 0.1507,
+          "n2123_fires": true,
+          "mlp_delta_norm": 54.9175
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.6628,
+          "consensus": 6,
+          "n2123_act": 0.0826,
+          "n2123_fires": false,
+          "mlp_delta_norm": 87.0404
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " cat",
+          "token_id": 3797,
+          "surprisal": 12.6676,
+          "consensus": 4,
+          "n2123_act": 0.1333,
+          "n2123_fires": true,
+          "mlp_delta_norm": 61.7801
+        },
+        {
+          "position": 3,
+          "token": " bit",
+          "token_id": 1643,
+          "surprisal": 11.0021,
+          "consensus": 6,
+          "n2123_act": 0.0176,
+          "n2123_fires": false,
+          "mlp_delta_norm": 48.364
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.6051,
+          "consensus": 4,
+          "n2123_act": 0.0956,
+          "n2123_fires": false,
+          "mlp_delta_norm": 46.9132
+        },
+        {
+          "position": 5,
+          "token": " owner",
+          "token_id": 4870,
+          "surprisal": 8.4034,
+          "consensus": 5,
+          "n2123_act": 0.0367,
+          "n2123_fires": false,
+          "mlp_delta_norm": 53.4308
+        },
+        {
+          "position": 6,
+          "token": " sitting",
+          "token_id": 5586,
+          "surprisal": 14.2014,
+          "consensus": 6,
+          "n2123_act": 0.152,
+          "n2123_fires": true,
+          "mlp_delta_norm": 77.4031
+        },
+        {
+          "position": 7,
+          "token": " nearby",
+          "token_id": 6716,
+          "surprisal": 6.4089,
+          "consensus": 5,
+          "n2123_act": 0.032,
+          "n2123_fires": false,
+          "mlp_delta_norm": 91.8244
+        },
+        {
+          "position": 8,
+          "token": " stro",
+          "token_id": 9660,
+          "surprisal": 18.7431,
+          "consensus": 7,
+          "n2123_act": 0.0962,
+          "n2123_fires": false,
+          "mlp_delta_norm": 110.9006
+        },
+        {
+          "position": 9,
+          "token": "ked",
+          "token_id": 9091,
+          "surprisal": 0.588,
+          "consensus": 7,
+          "n2123_act": 0.0642,
+          "n2123_fires": false,
+          "mlp_delta_norm": 49.6249
+        },
+        {
+          "position": 10,
+          "token": " its",
+          "token_id": 663,
+          "surprisal": 5.0011,
+          "consensus": 3,
+          "n2123_act": 0.0886,
+          "n2123_fires": false,
+          "mlp_delta_norm": 89.507
+        },
+        {
+          "position": 11,
+          "token": " fur",
+          "token_id": 9230,
+          "surprisal": 5.5834,
+          "consensus": 5,
+          "n2123_act": 0.1539,
+          "n2123_fires": true,
+          "mlp_delta_norm": 53.0472
+        },
+        {
+          "position": 12,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.254,
+          "consensus": 6,
+          "n2123_act": 0.0754,
+          "n2123_fires": false,
+          "mlp_delta_norm": 80.9908
+        }
+      ],
+      "disambig_pos_intr": 7,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 6,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 0.2571,
+        "consensus": 1,
+        "n2123": -0.0175,
+        "delta_norm": 14.5328
+      }
+    },
+    {
+      "id": "add3",
+      "label": "fainted/alarmed",
+      "intransitive": "After the patient fainted the nurse on duty called for assistance.",
+      "transitive": "After the patient alarmed the nurse on duty called for assistance.",
+      "disambig_word": "on",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " patient",
+          "token_id": 5827,
+          "surprisal": 13.3627,
+          "consensus": 6,
+          "n2123_act": 0.1314,
+          "n2123_fires": true,
+          "mlp_delta_norm": 104.6264
+        },
+        {
+          "position": 3,
+          "token": " f",
+          "token_id": 277,
+          "surprisal": 13.2821,
+          "consensus": 6,
+          "n2123_act": 0.8619,
+          "n2123_fires": true,
+          "mlp_delta_norm": 130.601
+        },
+        {
+          "position": 4,
+          "token": "ainted",
+          "token_id": 14215,
+          "surprisal": 0.2482,
+          "consensus": 6,
+          "n2123_act": 0.0696,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.2764
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.0376,
+          "consensus": 7,
+          "n2123_act": 0.1356,
+          "n2123_fires": true,
+          "mlp_delta_norm": 96.9093
+        },
+        {
+          "position": 6,
+          "token": " nurse",
+          "token_id": 15849,
+          "surprisal": 3.773,
+          "consensus": 6,
+          "n2123_act": 0.1655,
+          "n2123_fires": true,
+          "mlp_delta_norm": 120.2386
+        },
+        {
+          "position": 7,
+          "token": " on",
+          "token_id": 319,
+          "surprisal": 9.295,
+          "consensus": 6,
+          "n2123_act": 0.1424,
+          "n2123_fires": true,
+          "mlp_delta_norm": 62.687
+        },
+        {
+          "position": 8,
+          "token": " duty",
+          "token_id": 7077,
+          "surprisal": 3.4517,
+          "consensus": 6,
+          "n2123_act": 0.1676,
+          "n2123_fires": true,
+          "mlp_delta_norm": 140.4585
+        },
+        {
+          "position": 9,
+          "token": " called",
+          "token_id": 1444,
+          "surprisal": 5.6539,
+          "consensus": 7,
+          "n2123_act": 0.1239,
+          "n2123_fires": true,
+          "mlp_delta_norm": 85.1697
+        },
+        {
+          "position": 10,
+          "token": " for",
+          "token_id": 329,
+          "surprisal": 3.4615,
+          "consensus": 4,
+          "n2123_act": 0.17,
+          "n2123_fires": true,
+          "mlp_delta_norm": 85.4479
+        },
+        {
+          "position": 11,
+          "token": " assistance",
+          "token_id": 6829,
+          "surprisal": 4.8682,
+          "consensus": 6,
+          "n2123_act": 0.1026,
+          "n2123_fires": true,
+          "mlp_delta_norm": 76.8391
+        },
+        {
+          "position": 12,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 1.2296,
+          "consensus": 7,
+          "n2123_act": 0.1538,
+          "n2123_fires": true,
+          "mlp_delta_norm": 99.892
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " patient",
+          "token_id": 5827,
+          "surprisal": 13.3627,
+          "consensus": 6,
+          "n2123_act": 0.1314,
+          "n2123_fires": true,
+          "mlp_delta_norm": 104.6264
+        },
+        {
+          "position": 3,
+          "token": " alarmed",
+          "token_id": 32064,
+          "surprisal": 20.0069,
+          "consensus": 4,
+          "n2123_act": 0.0982,
+          "n2123_fires": false,
+          "mlp_delta_norm": 60.0637
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 4.1975,
+          "consensus": 7,
+          "n2123_act": 0.1666,
+          "n2123_fires": true,
+          "mlp_delta_norm": 94.2467
+        },
+        {
+          "position": 5,
+          "token": " nurse",
+          "token_id": 15849,
+          "surprisal": 3.3884,
+          "consensus": 7,
+          "n2123_act": 0.1606,
+          "n2123_fires": true,
+          "mlp_delta_norm": 65.9059
+        },
+        {
+          "position": 6,
+          "token": " on",
+          "token_id": 319,
+          "surprisal": 7.4977,
+          "consensus": 5,
+          "n2123_act": 0.1606,
+          "n2123_fires": true,
+          "mlp_delta_norm": 74.1944
+        },
+        {
+          "position": 7,
+          "token": " duty",
+          "token_id": 7077,
+          "surprisal": 3.3175,
+          "consensus": 5,
+          "n2123_act": 0.1128,
+          "n2123_fires": true,
+          "mlp_delta_norm": 83.0119
+        },
+        {
+          "position": 8,
+          "token": " called",
+          "token_id": 1444,
+          "surprisal": 11.0334,
+          "consensus": 6,
+          "n2123_act": 0.1277,
+          "n2123_fires": true,
+          "mlp_delta_norm": 87.2487
+        },
+        {
+          "position": 9,
+          "token": " for",
+          "token_id": 329,
+          "surprisal": 3.8129,
+          "consensus": 6,
+          "n2123_act": 0.1696,
+          "n2123_fires": true,
+          "mlp_delta_norm": 86.5541
+        },
+        {
+          "position": 10,
+          "token": " assistance",
+          "token_id": 6829,
+          "surprisal": 4.9458,
+          "consensus": 6,
+          "n2123_act": 0.0916,
+          "n2123_fires": false,
+          "mlp_delta_norm": 73.888
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 1.373,
+          "consensus": 7,
+          "n2123_act": 0.1561,
+          "n2123_fires": true,
+          "mlp_delta_norm": 102.7389
+        }
+      ],
+      "disambig_pos_intr": 7,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 6,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 1.7973,
+        "consensus": 1,
+        "n2123": -0.0182,
+        "delta_norm": -11.5074
+      }
+    },
+    {
+      "id": "add4",
+      "label": "galloped/threw",
+      "intransitive": "While the horse galloped the rider on its back held the reins tightly.",
+      "transitive": "While the horse threw the rider on its back held the reins tightly.",
+      "disambig_word": "on",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " horse",
+          "token_id": 8223,
+          "surprisal": 12.9912,
+          "consensus": 6,
+          "n2123_act": 0.0526,
+          "n2123_fires": false,
+          "mlp_delta_norm": 54.1098
+        },
+        {
+          "position": 3,
+          "token": " gall",
+          "token_id": 7976,
+          "surprisal": 10.7627,
+          "consensus": 6,
+          "n2123_act": 0.0849,
+          "n2123_fires": false,
+          "mlp_delta_norm": 106.1236
+        },
+        {
+          "position": 4,
+          "token": "oped",
+          "token_id": 19458,
+          "surprisal": 1.9463,
+          "consensus": 7,
+          "n2123_act": 0.1644,
+          "n2123_fires": true,
+          "mlp_delta_norm": 177.726
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 8.0467,
+          "consensus": 6,
+          "n2123_act": 0.0776,
+          "n2123_fires": false,
+          "mlp_delta_norm": 65.8061
+        },
+        {
+          "position": 6,
+          "token": " rider",
+          "token_id": 17876,
+          "surprisal": 9.8597,
+          "consensus": 6,
+          "n2123_act": 0.121,
+          "n2123_fires": true,
+          "mlp_delta_norm": 119.2217
+        },
+        {
+          "position": 7,
+          "token": " on",
+          "token_id": 319,
+          "surprisal": 5.4153,
+          "consensus": 4,
+          "n2123_act": 0.0267,
+          "n2123_fires": false,
+          "mlp_delta_norm": 51.3586
+        },
+        {
+          "position": 8,
+          "token": " its",
+          "token_id": 663,
+          "surprisal": 3.7954,
+          "consensus": 5,
+          "n2123_act": 0.1634,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.502
+        },
+        {
+          "position": 9,
+          "token": " back",
+          "token_id": 736,
+          "surprisal": 2.1608,
+          "consensus": 7,
+          "n2123_act": 0.0214,
+          "n2123_fires": false,
+          "mlp_delta_norm": 88.364
+        },
+        {
+          "position": 10,
+          "token": " held",
+          "token_id": 2714,
+          "surprisal": 14.1578,
+          "consensus": 5,
+          "n2123_act": 0.1369,
+          "n2123_fires": true,
+          "mlp_delta_norm": 89.4668
+        },
+        {
+          "position": 11,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.6667,
+          "consensus": 7,
+          "n2123_act": 0.1018,
+          "n2123_fires": true,
+          "mlp_delta_norm": 63.0597
+        },
+        {
+          "position": 12,
+          "token": " reins",
+          "token_id": 35627,
+          "surprisal": 3.8866,
+          "consensus": 7,
+          "n2123_act": 0.1374,
+          "n2123_fires": true,
+          "mlp_delta_norm": 102.2272
+        },
+        {
+          "position": 13,
+          "token": " tightly",
+          "token_id": 17707,
+          "surprisal": 7.1146,
+          "consensus": 5,
+          "n2123_act": 0.1663,
+          "n2123_fires": true,
+          "mlp_delta_norm": 126.8266
+        },
+        {
+          "position": 14,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.6923,
+          "consensus": 5,
+          "n2123_act": 0.1283,
+          "n2123_fires": true,
+          "mlp_delta_norm": 108.5377
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " horse",
+          "token_id": 8223,
+          "surprisal": 12.9912,
+          "consensus": 6,
+          "n2123_act": 0.0526,
+          "n2123_fires": false,
+          "mlp_delta_norm": 54.1098
+        },
+        {
+          "position": 3,
+          "token": " threw",
+          "token_id": 9617,
+          "surprisal": 15.9358,
+          "consensus": 6,
+          "n2123_act": 0.0504,
+          "n2123_fires": false,
+          "mlp_delta_norm": 70.7442
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2381,
+          "consensus": 5,
+          "n2123_act": 0.1092,
+          "n2123_fires": true,
+          "mlp_delta_norm": 58.7582
+        },
+        {
+          "position": 5,
+          "token": " rider",
+          "token_id": 17876,
+          "surprisal": 9.4878,
+          "consensus": 7,
+          "n2123_act": 0.1408,
+          "n2123_fires": true,
+          "mlp_delta_norm": 122.4516
+        },
+        {
+          "position": 6,
+          "token": " on",
+          "token_id": 319,
+          "surprisal": 5.6618,
+          "consensus": 4,
+          "n2123_act": 0.0369,
+          "n2123_fires": false,
+          "mlp_delta_norm": 47.9038
+        },
+        {
+          "position": 7,
+          "token": " its",
+          "token_id": 663,
+          "surprisal": 3.8717,
+          "consensus": 5,
+          "n2123_act": 0.1173,
+          "n2123_fires": true,
+          "mlp_delta_norm": 107.7628
+        },
+        {
+          "position": 8,
+          "token": " back",
+          "token_id": 736,
+          "surprisal": 0.4927,
+          "consensus": 5,
+          "n2123_act": 0.028,
+          "n2123_fires": false,
+          "mlp_delta_norm": 98.9607
+        },
+        {
+          "position": 9,
+          "token": " held",
+          "token_id": 2714,
+          "surprisal": 15.2048,
+          "consensus": 6,
+          "n2123_act": 0.1486,
+          "n2123_fires": true,
+          "mlp_delta_norm": 91.5797
+        },
+        {
+          "position": 10,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.7036,
+          "consensus": 7,
+          "n2123_act": 0.1055,
+          "n2123_fires": true,
+          "mlp_delta_norm": 58.664
+        },
+        {
+          "position": 11,
+          "token": " reins",
+          "token_id": 35627,
+          "surprisal": 5.1128,
+          "consensus": 7,
+          "n2123_act": 0.1478,
+          "n2123_fires": true,
+          "mlp_delta_norm": 98.112
+        },
+        {
+          "position": 12,
+          "token": " tightly",
+          "token_id": 17707,
+          "surprisal": 7.4648,
+          "consensus": 5,
+          "n2123_act": 0.1659,
+          "n2123_fires": true,
+          "mlp_delta_norm": 117.1337
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.376,
+          "consensus": 5,
+          "n2123_act": 0.1202,
+          "n2123_fires": true,
+          "mlp_delta_norm": 106.5768
+        }
+      ],
+      "disambig_pos_intr": 7,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 6,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": -0.2465,
+        "consensus": 0,
+        "n2123": -0.0102,
+        "delta_norm": 3.4548
+      }
+    },
+    {
+      "id": "add5",
+      "label": "erupted/destroyed",
+      "intransitive": "After the volcano erupted the residents of the town evacuated immediately.",
+      "transitive": "After the volcano destroyed the residents of the town evacuated immediately.",
+      "disambig_word": "of",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " volcano",
+          "token_id": 32410,
+          "surprisal": 14.6818,
+          "consensus": 5,
+          "n2123_act": 0.1618,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.6239
+        },
+        {
+          "position": 3,
+          "token": " erupted",
+          "token_id": 23681,
+          "surprisal": 1.8843,
+          "consensus": 5,
+          "n2123_act": 0.1256,
+          "n2123_fires": true,
+          "mlp_delta_norm": 88.1334
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.871,
+          "consensus": 7,
+          "n2123_act": 0.0483,
+          "n2123_fires": false,
+          "mlp_delta_norm": 77.7483
+        },
+        {
+          "position": 5,
+          "token": " residents",
+          "token_id": 5085,
+          "surprisal": 8.0032,
+          "consensus": 7,
+          "n2123_act": 0.1249,
+          "n2123_fires": true,
+          "mlp_delta_norm": 103.7629
+        },
+        {
+          "position": 6,
+          "token": " of",
+          "token_id": 286,
+          "surprisal": 1.5697,
+          "consensus": 7,
+          "n2123_act": 0.0832,
+          "n2123_fires": false,
+          "mlp_delta_norm": 109.8453
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.3049,
+          "consensus": 7,
+          "n2123_act": 0.072,
+          "n2123_fires": false,
+          "mlp_delta_norm": 93.6877
+        },
+        {
+          "position": 8,
+          "token": " town",
+          "token_id": 3240,
+          "surprisal": 3.1302,
+          "consensus": 7,
+          "n2123_act": 0.1329,
+          "n2123_fires": true,
+          "mlp_delta_norm": 85.9747
+        },
+        {
+          "position": 9,
+          "token": " evacuated",
+          "token_id": 23724,
+          "surprisal": 6.6863,
+          "consensus": 6,
+          "n2123_act": 0.138,
+          "n2123_fires": true,
+          "mlp_delta_norm": 62.3663
+        },
+        {
+          "position": 10,
+          "token": " immediately",
+          "token_id": 3393,
+          "surprisal": 7.7702,
+          "consensus": 7,
+          "n2123_act": 0.0656,
+          "n2123_fires": false,
+          "mlp_delta_norm": 62.2877
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 1.5336,
+          "consensus": 6,
+          "n2123_act": 0.1163,
+          "n2123_fires": true,
+          "mlp_delta_norm": 105.6083
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " volcano",
+          "token_id": 32410,
+          "surprisal": 14.6818,
+          "consensus": 5,
+          "n2123_act": 0.1618,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.6239
+        },
+        {
+          "position": 3,
+          "token": " destroyed",
+          "token_id": 6572,
+          "surprisal": 9.6041,
+          "consensus": 7,
+          "n2123_act": 0.0856,
+          "n2123_fires": false,
+          "mlp_delta_norm": 74.3917
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.9898,
+          "consensus": 7,
+          "n2123_act": 0.066,
+          "n2123_fires": false,
+          "mlp_delta_norm": 89.7818
+        },
+        {
+          "position": 5,
+          "token": " residents",
+          "token_id": 5085,
+          "surprisal": 11.7332,
+          "consensus": 5,
+          "n2123_act": 0.0329,
+          "n2123_fires": false,
+          "mlp_delta_norm": 50.338
+        },
+        {
+          "position": 6,
+          "token": " of",
+          "token_id": 286,
+          "surprisal": 1.3124,
+          "consensus": 7,
+          "n2123_act": 0.0912,
+          "n2123_fires": false,
+          "mlp_delta_norm": 95.7579
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.0269,
+          "consensus": 7,
+          "n2123_act": 0.0787,
+          "n2123_fires": false,
+          "mlp_delta_norm": 95.2074
+        },
+        {
+          "position": 8,
+          "token": " town",
+          "token_id": 3240,
+          "surprisal": 3.1528,
+          "consensus": 7,
+          "n2123_act": 0.031,
+          "n2123_fires": false,
+          "mlp_delta_norm": 51.8405
+        },
+        {
+          "position": 9,
+          "token": " evacuated",
+          "token_id": 23724,
+          "surprisal": 12.0312,
+          "consensus": 7,
+          "n2123_act": 0.0861,
+          "n2123_fires": false,
+          "mlp_delta_norm": 57.0933
+        },
+        {
+          "position": 10,
+          "token": " immediately",
+          "token_id": 3393,
+          "surprisal": 8.7646,
+          "consensus": 7,
+          "n2123_act": 0.0318,
+          "n2123_fires": false,
+          "mlp_delta_norm": 56.0637
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.1814,
+          "consensus": 6,
+          "n2123_act": 0.1087,
+          "n2123_fires": true,
+          "mlp_delta_norm": 108.0701
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 0.2573,
+        "consensus": 0,
+        "n2123": -0.008,
+        "delta_norm": 14.0874
+      }
+    },
+    {
+      "id": "add6",
+      "label": "sputtered/startled",
+      "intransitive": "While the engine sputtered the mechanic under the hood checked the spark plugs.",
+      "transitive": "While the engine startled the mechanic under the hood checked the spark plugs.",
+      "disambig_word": "under",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " engine",
+          "token_id": 3113,
+          "surprisal": 12.388,
+          "consensus": 6,
+          "n2123_act": 0.1239,
+          "n2123_fires": true,
+          "mlp_delta_norm": 63.3037
+        },
+        {
+          "position": 3,
+          "token": " sp",
+          "token_id": 599,
+          "surprisal": 10.1205,
+          "consensus": 6,
+          "n2123_act": 0.4319,
+          "n2123_fires": true,
+          "mlp_delta_norm": 158.8888
+        },
+        {
+          "position": 4,
+          "token": "uttered",
+          "token_id": 46322,
+          "surprisal": 4.5943,
+          "consensus": 6,
+          "n2123_act": 0.1017,
+          "n2123_fires": true,
+          "mlp_delta_norm": 118.9202
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 7.9205,
+          "consensus": 5,
+          "n2123_act": 0.0828,
+          "n2123_fires": false,
+          "mlp_delta_norm": 77.6536
+        },
+        {
+          "position": 6,
+          "token": " mechanic",
+          "token_id": 21600,
+          "surprisal": 13.914,
+          "consensus": 7,
+          "n2123_act": 0.1426,
+          "n2123_fires": true,
+          "mlp_delta_norm": 106.8912
+        },
+        {
+          "position": 7,
+          "token": " under",
+          "token_id": 739,
+          "surprisal": 12.8371,
+          "consensus": 5,
+          "n2123_act": 0.1216,
+          "n2123_fires": true,
+          "mlp_delta_norm": 59.8208
+        },
+        {
+          "position": 8,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.046,
+          "consensus": 5,
+          "n2123_act": 0.1677,
+          "n2123_fires": true,
+          "mlp_delta_norm": 72.2418
+        },
+        {
+          "position": 9,
+          "token": " hood",
+          "token_id": 14263,
+          "surprisal": 5.4142,
+          "consensus": 4,
+          "n2123_act": 0.0828,
+          "n2123_fires": false,
+          "mlp_delta_norm": 55.1237
+        },
+        {
+          "position": 10,
+          "token": " checked",
+          "token_id": 10667,
+          "surprisal": 12.1814,
+          "consensus": 6,
+          "n2123_act": 0.1122,
+          "n2123_fires": true,
+          "mlp_delta_norm": 55.9236
+        },
+        {
+          "position": 11,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.4914,
+          "consensus": 4,
+          "n2123_act": 0.1612,
+          "n2123_fires": true,
+          "mlp_delta_norm": 86.3186
+        },
+        {
+          "position": 12,
+          "token": " spark",
+          "token_id": 9009,
+          "surprisal": 8.637,
+          "consensus": 4,
+          "n2123_act": 0.512,
+          "n2123_fires": true,
+          "mlp_delta_norm": 95.9268
+        },
+        {
+          "position": 13,
+          "token": " plugs",
+          "token_id": 37008,
+          "surprisal": 1.1729,
+          "consensus": 7,
+          "n2123_act": 0.166,
+          "n2123_fires": true,
+          "mlp_delta_norm": 78.7781
+        },
+        {
+          "position": 14,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.3784,
+          "consensus": 6,
+          "n2123_act": 0.153,
+          "n2123_fires": true,
+          "mlp_delta_norm": 103.0091
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " engine",
+          "token_id": 3113,
+          "surprisal": 12.388,
+          "consensus": 6,
+          "n2123_act": 0.1239,
+          "n2123_fires": true,
+          "mlp_delta_norm": 63.3037
+        },
+        {
+          "position": 3,
+          "token": " startled",
+          "token_id": 36249,
+          "surprisal": 19.8366,
+          "consensus": 4,
+          "n2123_act": 0.0302,
+          "n2123_fires": false,
+          "mlp_delta_norm": 63.6441
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3413,
+          "consensus": 6,
+          "n2123_act": 0.0792,
+          "n2123_fires": false,
+          "mlp_delta_norm": 65.9219
+        },
+        {
+          "position": 5,
+          "token": " mechanic",
+          "token_id": 21600,
+          "surprisal": 12.9142,
+          "consensus": 4,
+          "n2123_act": 0.0926,
+          "n2123_fires": false,
+          "mlp_delta_norm": 65.7088
+        },
+        {
+          "position": 6,
+          "token": " under",
+          "token_id": 739,
+          "surprisal": 11.8999,
+          "consensus": 4,
+          "n2123_act": 0.1164,
+          "n2123_fires": true,
+          "mlp_delta_norm": 52.5777
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.9906,
+          "consensus": 3,
+          "n2123_act": 0.1699,
+          "n2123_fires": true,
+          "mlp_delta_norm": 69.0521
+        },
+        {
+          "position": 8,
+          "token": " hood",
+          "token_id": 14263,
+          "surprisal": 4.4851,
+          "consensus": 5,
+          "n2123_act": 0.045,
+          "n2123_fires": false,
+          "mlp_delta_norm": 49.0435
+        },
+        {
+          "position": 9,
+          "token": " checked",
+          "token_id": 10667,
+          "surprisal": 16.6918,
+          "consensus": 6,
+          "n2123_act": 0.1205,
+          "n2123_fires": true,
+          "mlp_delta_norm": 58.9982
+        },
+        {
+          "position": 10,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.4755,
+          "consensus": 5,
+          "n2123_act": 0.1509,
+          "n2123_fires": true,
+          "mlp_delta_norm": 87.8992
+        },
+        {
+          "position": 11,
+          "token": " spark",
+          "token_id": 9009,
+          "surprisal": 9.3065,
+          "consensus": 5,
+          "n2123_act": 0.3313,
+          "n2123_fires": true,
+          "mlp_delta_norm": 92.5697
+        },
+        {
+          "position": 12,
+          "token": " plugs",
+          "token_id": 37008,
+          "surprisal": 1.4556,
+          "consensus": 7,
+          "n2123_act": 0.1668,
+          "n2123_fires": true,
+          "mlp_delta_norm": 77.7288
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.7622,
+          "consensus": 5,
+          "n2123_act": 0.1349,
+          "n2123_fires": true,
+          "mlp_delta_norm": 96.5261
+        }
+      ],
+      "disambig_pos_intr": 7,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 6,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 0.9372,
+        "consensus": 1,
+        "n2123": 0.0052,
+        "delta_norm": 7.2431
+      }
+    },
+    {
+      "id": "add7",
+      "label": "lied/accused",
+      "intransitive": "After the witness lied the lawyer at the front of the courtroom objected.",
+      "transitive": "After the witness accused the lawyer at the front of the courtroom objected.",
+      "disambig_word": "at",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " witness",
+          "token_id": 4973,
+          "surprisal": 14.6405,
+          "consensus": 6,
+          "n2123_act": 0.164,
+          "n2123_fires": true,
+          "mlp_delta_norm": 86.6878
+        },
+        {
+          "position": 3,
+          "token": " lied",
+          "token_id": 19837,
+          "surprisal": 12.6721,
+          "consensus": 7,
+          "n2123_act": 0.1026,
+          "n2123_fires": true,
+          "mlp_delta_norm": 80.5526
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 8.4656,
+          "consensus": 5,
+          "n2123_act": 0.1326,
+          "n2123_fires": true,
+          "mlp_delta_norm": 94.3304
+        },
+        {
+          "position": 5,
+          "token": " lawyer",
+          "token_id": 6853,
+          "surprisal": 10.151,
+          "consensus": 5,
+          "n2123_act": 0.1567,
+          "n2123_fires": true,
+          "mlp_delta_norm": 108.0052
+        },
+        {
+          "position": 6,
+          "token": " at",
+          "token_id": 379,
+          "surprisal": 6.895,
+          "consensus": 7,
+          "n2123_act": 0.0643,
+          "n2123_fires": false,
+          "mlp_delta_norm": 60.6383
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.1354,
+          "consensus": 7,
+          "n2123_act": 0.1224,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.1089
+        },
+        {
+          "position": 8,
+          "token": " front",
+          "token_id": 2166,
+          "surprisal": 7.0497,
+          "consensus": 3,
+          "n2123_act": 0.156,
+          "n2123_fires": true,
+          "mlp_delta_norm": 100.0695
+        },
+        {
+          "position": 9,
+          "token": " of",
+          "token_id": 286,
+          "surprisal": 1.7131,
+          "consensus": 5,
+          "n2123_act": 0.0127,
+          "n2123_fires": false,
+          "mlp_delta_norm": 44.9192
+        },
+        {
+          "position": 10,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 0.18,
+          "consensus": 6,
+          "n2123_act": 0.0876,
+          "n2123_fires": false,
+          "mlp_delta_norm": 78.9055
+        },
+        {
+          "position": 11,
+          "token": " courtroom",
+          "token_id": 24832,
+          "surprisal": 1.6595,
+          "consensus": 5,
+          "n2123_act": 0.06,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5051
+        },
+        {
+          "position": 12,
+          "token": " objected",
+          "token_id": 29811,
+          "surprisal": 12.3349,
+          "consensus": 7,
+          "n2123_act": 0.0817,
+          "n2123_fires": false,
+          "mlp_delta_norm": 52.896
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.3815,
+          "consensus": 7,
+          "n2123_act": 0.0799,
+          "n2123_fires": false,
+          "mlp_delta_norm": 92.9333
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " witness",
+          "token_id": 4973,
+          "surprisal": 14.6405,
+          "consensus": 6,
+          "n2123_act": 0.164,
+          "n2123_fires": true,
+          "mlp_delta_norm": 86.6878
+        },
+        {
+          "position": 3,
+          "token": " accused",
+          "token_id": 5371,
+          "surprisal": 13.3358,
+          "consensus": 4,
+          "n2123_act": 0.0712,
+          "n2123_fires": false,
+          "mlp_delta_norm": 66.5837
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.1256,
+          "consensus": 7,
+          "n2123_act": 0.1409,
+          "n2123_fires": true,
+          "mlp_delta_norm": 97.8447
+        },
+        {
+          "position": 5,
+          "token": " lawyer",
+          "token_id": 6853,
+          "surprisal": 10.4782,
+          "consensus": 7,
+          "n2123_act": 0.0611,
+          "n2123_fires": false,
+          "mlp_delta_norm": 48.9497
+        },
+        {
+          "position": 6,
+          "token": " at",
+          "token_id": 379,
+          "surprisal": 8.2288,
+          "consensus": 7,
+          "n2123_act": 0.0695,
+          "n2123_fires": false,
+          "mlp_delta_norm": 53.6225
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 0.7177,
+          "consensus": 7,
+          "n2123_act": 0.1011,
+          "n2123_fires": true,
+          "mlp_delta_norm": 91.4188
+        },
+        {
+          "position": 8,
+          "token": " front",
+          "token_id": 2166,
+          "surprisal": 7.6568,
+          "consensus": 4,
+          "n2123_act": 0.1426,
+          "n2123_fires": true,
+          "mlp_delta_norm": 96.3819
+        },
+        {
+          "position": 9,
+          "token": " of",
+          "token_id": 286,
+          "surprisal": 1.2528,
+          "consensus": 6,
+          "n2123_act": 0.0158,
+          "n2123_fires": false,
+          "mlp_delta_norm": 46.7296
+        },
+        {
+          "position": 10,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 0.1969,
+          "consensus": 5,
+          "n2123_act": 0.0912,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.9525
+        },
+        {
+          "position": 11,
+          "token": " courtroom",
+          "token_id": 24832,
+          "surprisal": 2.6735,
+          "consensus": 7,
+          "n2123_act": 0.0465,
+          "n2123_fires": false,
+          "mlp_delta_norm": 56.2417
+        },
+        {
+          "position": 12,
+          "token": " objected",
+          "token_id": 29811,
+          "surprisal": 14.365,
+          "consensus": 7,
+          "n2123_act": 0.0707,
+          "n2123_fires": false,
+          "mlp_delta_norm": 50.8027
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 4.3688,
+          "consensus": 6,
+          "n2123_act": 0.0647,
+          "n2123_fires": false,
+          "mlp_delta_norm": 84.4547
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": -1.3338,
+        "consensus": 0,
+        "n2123": -0.0052,
+        "delta_norm": 7.0158
+      }
+    },
+    {
+      "id": "add8",
+      "label": "performed/impressed",
+      "intransitive": "While the singer performed the audience in the theater applauded loudly.",
+      "transitive": "While the singer impressed the audience in the theater applauded loudly.",
+      "disambig_word": "in",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " singer",
+          "token_id": 14015,
+          "surprisal": 12.9413,
+          "consensus": 6,
+          "n2123_act": 0.103,
+          "n2123_fires": true,
+          "mlp_delta_norm": 90.2915
+        },
+        {
+          "position": 3,
+          "token": " performed",
+          "token_id": 6157,
+          "surprisal": 7.8679,
+          "consensus": 5,
+          "n2123_act": 0.1063,
+          "n2123_fires": true,
+          "mlp_delta_norm": 71.1737
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 4.3778,
+          "consensus": 5,
+          "n2123_act": 0.1186,
+          "n2123_fires": true,
+          "mlp_delta_norm": 84.5164
+        },
+        {
+          "position": 5,
+          "token": " audience",
+          "token_id": 5386,
+          "surprisal": 13.3947,
+          "consensus": 5,
+          "n2123_act": 0.0971,
+          "n2123_fires": false,
+          "mlp_delta_norm": 63.2858
+        },
+        {
+          "position": 6,
+          "token": " in",
+          "token_id": 287,
+          "surprisal": 5.0075,
+          "consensus": 6,
+          "n2123_act": 0.089,
+          "n2123_fires": false,
+          "mlp_delta_norm": 49.8496
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.4098,
+          "consensus": 7,
+          "n2123_act": 0.0769,
+          "n2123_fires": false,
+          "mlp_delta_norm": 72.1306
+        },
+        {
+          "position": 8,
+          "token": " theater",
+          "token_id": 13766,
+          "surprisal": 7.3643,
+          "consensus": 6,
+          "n2123_act": 0.0412,
+          "n2123_fires": false,
+          "mlp_delta_norm": 53.9823
+        },
+        {
+          "position": 9,
+          "token": " applauded",
+          "token_id": 38911,
+          "surprisal": 14.5283,
+          "consensus": 6,
+          "n2123_act": 0.071,
+          "n2123_fires": false,
+          "mlp_delta_norm": 57.3693
+        },
+        {
+          "position": 10,
+          "token": " loudly",
+          "token_id": 23112,
+          "surprisal": 6.9422,
+          "consensus": 5,
+          "n2123_act": 0.0582,
+          "n2123_fires": false,
+          "mlp_delta_norm": 89.2136
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.8917,
+          "consensus": 6,
+          "n2123_act": 0.0975,
+          "n2123_fires": false,
+          "mlp_delta_norm": 100.3286
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " singer",
+          "token_id": 14015,
+          "surprisal": 12.9413,
+          "consensus": 6,
+          "n2123_act": 0.103,
+          "n2123_fires": true,
+          "mlp_delta_norm": 90.2915
+        },
+        {
+          "position": 3,
+          "token": " impressed",
+          "token_id": 12617,
+          "surprisal": 13.7401,
+          "consensus": 5,
+          "n2123_act": 0.1588,
+          "n2123_fires": true,
+          "mlp_delta_norm": 79.5242
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.9968,
+          "consensus": 5,
+          "n2123_act": 0.1685,
+          "n2123_fires": true,
+          "mlp_delta_norm": 70.5779
+        },
+        {
+          "position": 5,
+          "token": " audience",
+          "token_id": 5386,
+          "surprisal": 3.7331,
+          "consensus": 5,
+          "n2123_act": 0.0488,
+          "n2123_fires": false,
+          "mlp_delta_norm": 68.9518
+        },
+        {
+          "position": 6,
+          "token": " in",
+          "token_id": 287,
+          "surprisal": 5.3244,
+          "consensus": 7,
+          "n2123_act": 0.1691,
+          "n2123_fires": true,
+          "mlp_delta_norm": 71.8248
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.9283,
+          "consensus": 7,
+          "n2123_act": 0.1598,
+          "n2123_fires": true,
+          "mlp_delta_norm": 90.9383
+        },
+        {
+          "position": 8,
+          "token": " theater",
+          "token_id": 13766,
+          "surprisal": 10.0587,
+          "consensus": 5,
+          "n2123_act": 0.0623,
+          "n2123_fires": false,
+          "mlp_delta_norm": 49.7903
+        },
+        {
+          "position": 9,
+          "token": " applauded",
+          "token_id": 38911,
+          "surprisal": 18.5556,
+          "consensus": 6,
+          "n2123_act": 0.0845,
+          "n2123_fires": false,
+          "mlp_delta_norm": 53.7985
+        },
+        {
+          "position": 10,
+          "token": " loudly",
+          "token_id": 23112,
+          "surprisal": 7.7257,
+          "consensus": 5,
+          "n2123_act": 0.0679,
+          "n2123_fires": false,
+          "mlp_delta_norm": 89.6706
+        },
+        {
+          "position": 11,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.436,
+          "consensus": 6,
+          "n2123_act": 0.1054,
+          "n2123_fires": true,
+          "mlp_delta_norm": 95.8866
+        }
+      ],
+      "disambig_pos_intr": 2,
+      "disambig_pos_tran": 2,
+      "np_pos_intr": 5,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 0.0,
+        "consensus": 0,
+        "n2123": 0.0,
+        "delta_norm": 0.0
+      }
+    },
+    {
+      "id": "add9",
+      "label": "marched/disobeyed",
+      "intransitive": "After the soldier marched the commander at the base issued new orders.",
+      "transitive": "After the soldier disobeyed the commander at the base issued new orders.",
+      "disambig_word": "at",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " soldier",
+          "token_id": 10686,
+          "surprisal": 13.2684,
+          "consensus": 6,
+          "n2123_act": 0.1032,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.7529
+        },
+        {
+          "position": 3,
+          "token": " marched",
+          "token_id": 23558,
+          "surprisal": 11.3302,
+          "consensus": 5,
+          "n2123_act": 0.1164,
+          "n2123_fires": true,
+          "mlp_delta_norm": 142.2869
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.9001,
+          "consensus": 7,
+          "n2123_act": 0.0859,
+          "n2123_fires": false,
+          "mlp_delta_norm": 60.5897
+        },
+        {
+          "position": 5,
+          "token": " commander",
+          "token_id": 11561,
+          "surprisal": 8.8226,
+          "consensus": 7,
+          "n2123_act": 0.0995,
+          "n2123_fires": false,
+          "mlp_delta_norm": 97.1272
+        },
+        {
+          "position": 6,
+          "token": " at",
+          "token_id": 379,
+          "surprisal": 7.411,
+          "consensus": 7,
+          "n2123_act": 0.0918,
+          "n2123_fires": false,
+          "mlp_delta_norm": 79.9323
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.5191,
+          "consensus": 6,
+          "n2123_act": 0.0755,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.0665
+        },
+        {
+          "position": 8,
+          "token": " base",
+          "token_id": 2779,
+          "surprisal": 5.578,
+          "consensus": 6,
+          "n2123_act": 0.06,
+          "n2123_fires": false,
+          "mlp_delta_norm": 54.779
+        },
+        {
+          "position": 9,
+          "token": " issued",
+          "token_id": 4884,
+          "surprisal": 15.0694,
+          "consensus": 5,
+          "n2123_act": 0.0489,
+          "n2123_fires": false,
+          "mlp_delta_norm": 64.9982
+        },
+        {
+          "position": 10,
+          "token": " new",
+          "token_id": 649,
+          "surprisal": 10.7274,
+          "consensus": 6,
+          "n2123_act": 0.159,
+          "n2123_fires": true,
+          "mlp_delta_norm": 68.0418
+        },
+        {
+          "position": 11,
+          "token": " orders",
+          "token_id": 6266,
+          "surprisal": 0.7869,
+          "consensus": 5,
+          "n2123_act": 0.0452,
+          "n2123_fires": false,
+          "mlp_delta_norm": 96.5208
+        },
+        {
+          "position": 12,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.5504,
+          "consensus": 6,
+          "n2123_act": 0.0983,
+          "n2123_fires": false,
+          "mlp_delta_norm": 98.7982
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "After",
+          "token_id": 3260,
+          "surprisal": 0.0,
+          "consensus": 7,
+          "n2123_act": 0.0153,
+          "n2123_fires": false,
+          "mlp_delta_norm": 203.2944
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.3446,
+          "consensus": 7,
+          "n2123_act": 0.0506,
+          "n2123_fires": false,
+          "mlp_delta_norm": 82.5268
+        },
+        {
+          "position": 2,
+          "token": " soldier",
+          "token_id": 10686,
+          "surprisal": 13.2684,
+          "consensus": 6,
+          "n2123_act": 0.1032,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.7529
+        },
+        {
+          "position": 3,
+          "token": " disob",
+          "token_id": 30163,
+          "surprisal": 15.8344,
+          "consensus": 6,
+          "n2123_act": 1.2918,
+          "n2123_fires": true,
+          "mlp_delta_norm": 105.0289
+        },
+        {
+          "position": 4,
+          "token": "eyed",
+          "token_id": 18834,
+          "surprisal": 0.0255,
+          "consensus": 6,
+          "n2123_act": 0.0475,
+          "n2123_fires": false,
+          "mlp_delta_norm": 60.1118
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.8674,
+          "consensus": 5,
+          "n2123_act": 0.17,
+          "n2123_fires": true,
+          "mlp_delta_norm": 75.2671
+        },
+        {
+          "position": 6,
+          "token": " commander",
+          "token_id": 11561,
+          "surprisal": 7.4657,
+          "consensus": 6,
+          "n2123_act": 0.0897,
+          "n2123_fires": false,
+          "mlp_delta_norm": 56.4085
+        },
+        {
+          "position": 7,
+          "token": " at",
+          "token_id": 379,
+          "surprisal": 8.5271,
+          "consensus": 4,
+          "n2123_act": 0.1538,
+          "n2123_fires": true,
+          "mlp_delta_norm": 83.6143
+        },
+        {
+          "position": 8,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.8181,
+          "consensus": 6,
+          "n2123_act": 0.1585,
+          "n2123_fires": true,
+          "mlp_delta_norm": 89.0877
+        },
+        {
+          "position": 9,
+          "token": " base",
+          "token_id": 2779,
+          "surprisal": 5.388,
+          "consensus": 7,
+          "n2123_act": 0.0623,
+          "n2123_fires": false,
+          "mlp_delta_norm": 45.2014
+        },
+        {
+          "position": 10,
+          "token": " issued",
+          "token_id": 4884,
+          "surprisal": 15.7353,
+          "consensus": 5,
+          "n2123_act": 0.0584,
+          "n2123_fires": false,
+          "mlp_delta_norm": 54.4693
+        },
+        {
+          "position": 11,
+          "token": " new",
+          "token_id": 649,
+          "surprisal": 10.0166,
+          "consensus": 5,
+          "n2123_act": 0.1693,
+          "n2123_fires": true,
+          "mlp_delta_norm": 67.7054
+        },
+        {
+          "position": 12,
+          "token": " orders",
+          "token_id": 6266,
+          "surprisal": 0.5743,
+          "consensus": 6,
+          "n2123_act": 0.051,
+          "n2123_fires": false,
+          "mlp_delta_norm": 84.3022
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.0909,
+          "consensus": 6,
+          "n2123_act": 0.1009,
+          "n2123_fires": true,
+          "mlp_delta_norm": 92.562
+        }
+      ],
+      "disambig_pos_intr": 6,
+      "disambig_pos_tran": 7,
+      "np_pos_intr": 5,
+      "np_pos_tran": 6,
+      "effect": {
+        "surprisal": -1.1161,
+        "consensus": 3,
+        "n2123": -0.062,
+        "delta_norm": -3.682
+      }
+    },
+    {
+      "id": "add10",
+      "label": "blazed/trapped",
+      "intransitive": "While the fire blazed the firefighter near the entrance rescued the child.",
+      "transitive": "While the fire trapped the firefighter near the entrance rescued the child.",
+      "disambig_word": "near",
+      "trace_intransitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " fire",
+          "token_id": 2046,
+          "surprisal": 10.8993,
+          "consensus": 6,
+          "n2123_act": 0.1655,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.5951
+        },
+        {
+          "position": 3,
+          "token": " bl",
+          "token_id": 698,
+          "surprisal": 11.6234,
+          "consensus": 6,
+          "n2123_act": 1.3516,
+          "n2123_fires": true,
+          "mlp_delta_norm": 167.8155
+        },
+        {
+          "position": 4,
+          "token": "azed",
+          "token_id": 13865,
+          "surprisal": 1.2103,
+          "consensus": 6,
+          "n2123_act": 0.1475,
+          "n2123_fires": true,
+          "mlp_delta_norm": 102.5018
+        },
+        {
+          "position": 5,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 6.7323,
+          "consensus": 7,
+          "n2123_act": 0.1117,
+          "n2123_fires": true,
+          "mlp_delta_norm": 70.6773
+        },
+        {
+          "position": 6,
+          "token": " firefighter",
+          "token_id": 43105,
+          "surprisal": 16.6301,
+          "consensus": 5,
+          "n2123_act": 0.0988,
+          "n2123_fires": false,
+          "mlp_delta_norm": 52.9809
+        },
+        {
+          "position": 7,
+          "token": " near",
+          "token_id": 1474,
+          "surprisal": 12.1894,
+          "consensus": 5,
+          "n2123_act": 0.0837,
+          "n2123_fires": false,
+          "mlp_delta_norm": 140.6784
+        },
+        {
+          "position": 8,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.7819,
+          "consensus": 6,
+          "n2123_act": 0.1041,
+          "n2123_fires": true,
+          "mlp_delta_norm": 107.4274
+        },
+        {
+          "position": 9,
+          "token": " entrance",
+          "token_id": 10384,
+          "surprisal": 6.1443,
+          "consensus": 7,
+          "n2123_act": 0.0317,
+          "n2123_fires": false,
+          "mlp_delta_norm": 48.2396
+        },
+        {
+          "position": 10,
+          "token": " rescued",
+          "token_id": 19868,
+          "surprisal": 22.8556,
+          "consensus": 5,
+          "n2123_act": 0.1241,
+          "n2123_fires": true,
+          "mlp_delta_norm": 109.0507
+        },
+        {
+          "position": 11,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.7809,
+          "consensus": 7,
+          "n2123_act": 0.138,
+          "n2123_fires": true,
+          "mlp_delta_norm": 89.9463
+        },
+        {
+          "position": 12,
+          "token": " child",
+          "token_id": 1200,
+          "surprisal": 6.3819,
+          "consensus": 7,
+          "n2123_act": 0.0306,
+          "n2123_fires": false,
+          "mlp_delta_norm": 81.7416
+        },
+        {
+          "position": 13,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 3.0461,
+          "consensus": 7,
+          "n2123_act": 0.0778,
+          "n2123_fires": false,
+          "mlp_delta_norm": 92.8782
+        }
+      ],
+      "trace_transitive": [
+        {
+          "position": 0,
+          "token": "While",
+          "token_id": 3633,
+          "surprisal": 0.0,
+          "consensus": 6,
+          "n2123_act": 0.0172,
+          "n2123_fires": false,
+          "mlp_delta_norm": 200.3265
+        },
+        {
+          "position": 1,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 3.2444,
+          "consensus": 7,
+          "n2123_act": 0.0241,
+          "n2123_fires": false,
+          "mlp_delta_norm": 76.5787
+        },
+        {
+          "position": 2,
+          "token": " fire",
+          "token_id": 2046,
+          "surprisal": 10.8993,
+          "consensus": 6,
+          "n2123_act": 0.1655,
+          "n2123_fires": true,
+          "mlp_delta_norm": 93.5951
+        },
+        {
+          "position": 3,
+          "token": " trapped",
+          "token_id": 13640,
+          "surprisal": 13.3011,
+          "consensus": 5,
+          "n2123_act": 0.0523,
+          "n2123_fires": false,
+          "mlp_delta_norm": 75.7086
+        },
+        {
+          "position": 4,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.9981,
+          "consensus": 6,
+          "n2123_act": 0.0335,
+          "n2123_fires": false,
+          "mlp_delta_norm": 80.8404
+        },
+        {
+          "position": 5,
+          "token": " firefighter",
+          "token_id": 43105,
+          "surprisal": 9.5747,
+          "consensus": 5,
+          "n2123_act": 0.1245,
+          "n2123_fires": true,
+          "mlp_delta_norm": 75.0146
+        },
+        {
+          "position": 6,
+          "token": " near",
+          "token_id": 1474,
+          "surprisal": 8.292,
+          "consensus": 4,
+          "n2123_act": 0.0712,
+          "n2123_fires": false,
+          "mlp_delta_norm": 113.6577
+        },
+        {
+          "position": 7,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 1.4947,
+          "consensus": 5,
+          "n2123_act": 0.1264,
+          "n2123_fires": true,
+          "mlp_delta_norm": 113.4451
+        },
+        {
+          "position": 8,
+          "token": " entrance",
+          "token_id": 10384,
+          "surprisal": 6.0,
+          "consensus": 7,
+          "n2123_act": 0.0347,
+          "n2123_fires": false,
+          "mlp_delta_norm": 50.6931
+        },
+        {
+          "position": 9,
+          "token": " rescued",
+          "token_id": 19868,
+          "surprisal": 22.0862,
+          "consensus": 6,
+          "n2123_act": 0.1241,
+          "n2123_fires": true,
+          "mlp_delta_norm": 105.0672
+        },
+        {
+          "position": 10,
+          "token": " the",
+          "token_id": 262,
+          "surprisal": 2.569,
+          "consensus": 7,
+          "n2123_act": 0.153,
+          "n2123_fires": true,
+          "mlp_delta_norm": 95.1139
+        },
+        {
+          "position": 11,
+          "token": " child",
+          "token_id": 1200,
+          "surprisal": 6.6082,
+          "consensus": 7,
+          "n2123_act": 0.0303,
+          "n2123_fires": false,
+          "mlp_delta_norm": 75.0618
+        },
+        {
+          "position": 12,
+          "token": ".",
+          "token_id": 13,
+          "surprisal": 2.7671,
+          "consensus": 7,
+          "n2123_act": 0.0837,
+          "n2123_fires": false,
+          "mlp_delta_norm": 91.0923
+        }
+      ],
+      "disambig_pos_intr": 7,
+      "disambig_pos_tran": 6,
+      "np_pos_intr": 6,
+      "np_pos_tran": 5,
+      "effect": {
+        "surprisal": 3.8974,
+        "consensus": 1,
+        "n2123": 0.0125,
+        "delta_norm": 27.0207
+      }
+    }
+  ],
+  "aggregate": {
+    "surprisal": {
+      "intransitive_mean": 9.5504,
+      "transitive_mean": 10.3702,
+      "effect": -0.8198,
+      "cohens_d": -0.197,
+      "t": -0.9352,
+      "p": 0.365519
+    },
+    "consensus": {
+      "intransitive_mean": 5.5333,
+      "transitive_mean": 5.1333,
+      "effect": 0.4,
+      "cohens_d": 0.2942,
+      "t": 1.0654,
+      "p": 0.304713
+    },
+    "n2123": {
+      "intransitive_mean": 0.1021,
+      "transitive_mean": 0.1054,
+      "effect": -0.0033,
+      "cohens_d": -0.0917,
+      "t": -0.4458,
+      "p": 0.662583,
+      "fire_rate_intransitive": 0.4,
+      "fire_rate_transitive": 0.5333333333333333
+    },
+    "mlp_delta": {
+      "intransitive_mean": 81.4327,
+      "transitive_mean": 76.4611,
+      "effect": 4.9716,
+      "cohens_d": 0.1769,
+      "t": 1.1472,
+      "p": 0.27053
+    },
+    "correct_directions": 1
+  }
+}
