@@ -749,6 +749,12 @@ The qualitative finding---that the \emph{same} routing neurons recur across
 diverse facts---is the more robust evidence.
 
 \paragraph{Knockout details.}
+Of the 20 prompts, 17 showed increased target probability when Dai's neurons
+were zeroed (range: $+$0.3pp to $+$24.3pp), 2 showed negligible change
+($< \pm$0.1pp), and 1 showed a decrease ($-$2.1pp).
+The consistency across diverse facts (85\% showing improvement) confirms
+that these neurons systematically suppress factual signal rather than
+occasionally doing so.
 The apparent tension between knockout improving factual recall ($+$8.0pp) while
 full exception ablation worsens PPL ($+$2.1\%) resolves because the handler
 is optimized for the common case (function-word prediction at low consensus)
@@ -766,7 +772,8 @@ illustrative, not standalone evidence.
 \begin{table}[h]
 \centering
 \caption{Top-1 accuracy via logit and tuned lens \citep{belrose2023eliciting}
-(204{,}800 tokens).}
+(204{,}800 tokens). ``First lock-in (Tuned)'' = percentage of tokens that
+first reach top-1 accuracy at this layer under the tuned lens.}
 \label{tab:logit_lens}
 \begin{tabular}{@{}lcccc@{}}
 \toprule
@@ -888,9 +895,21 @@ autonomous syntactic component.
 
 \paragraph{Null model.}
 A randomly initialized GPT-2 (same architecture, untrained weights) shows
-no structure: exception fires on $\sim$64\% of tokens (vs.\ 11.3\% trained),
-Core Jaccard is 0.53 (vs.\ 0.86 trained), and exception rate is flat across
-consensus levels (63--65\%, no anticorrelation).
+no structure:
+
+\begin{center}
+\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Metric & Trained & Random init \\
+\midrule
+Exception fire rate & 11.3\% & $\sim$64\% \\
+Core max Jaccard    & 0.998  & 0.53 \\
+Consensus--exception anticorrelation & 94.3pp range & $<$2pp (flat) \\
+Enrichment (max)    & 2.0$\times$ & 1.02$\times$ \\
+\bottomrule
+\end{tabular}
+\end{center}
 
 \paragraph{Threshold robustness.}
 Core co-firing (Jaccard $\geq 0.45$) and consensus-exception anticorrelation
@@ -934,6 +953,10 @@ reduced relatives may differ.
 \item \textbf{BPE confounds}: Disambiguation words may fall at different absolute
 positions due to tokenization.
 \item \textbf{Transplant}: $N = 5$; treated as consistency check only.
+\item \textbf{SAE alternative}: We characterize neurons individually rather than
+via sparse autoencoders \citep{bricken2023monosemanticity, templeton2024scaling},
+which might resolve additional structure within the $\sim$3{,}040 residual
+neurons our manual method classifies as entangled.
 \end{itemize}
 
 \end{document}

@@ -1831,3 +1831,79 @@ None of these are rejection-worthy on their own. Items 1 and 5 are transparency 
 3. Add all 15 garden-path pairs to Appendix E (15 minutes)
 4. Add framing sentence to §6 opening (5 minutes)
 5. Consider whether "Seven Dimensions" title needs qualifying (optional)
+
+---
+
+## 2026-04-07 — Pass 23: Cross-Reference Integrity & Internal Consistency
+
+Focus: Verify that all numbers, cross-references, neuron counts, and claims are internally consistent between abstract, main text, tables, figures, and appendices. Many issues flagged in Passes 17–22 appear to be resolved in the current manuscript — this pass confirms what's actually fixed and identifies genuine remaining inconsistencies.
+
+### Verification: Previously Flagged Issues Now Resolved in Current Text
+
+Comparing the current `main.tex` against outstanding items from Passes 17–22:
+
+- ✅ **Templeton et al. 2024 now cited** (§2, MLP interpretability paragraph): "Templeton et al. (2024) extended this to production-scale models (Claude 3 Sonnet)..." with discussion of SAE complementarity with routing/knowledge partition. Passes 15/17/20 can-do item resolved.
+- ✅ **All 15 knowledge-test categories shown** in Appendix B (Tab. \ref{tab:twenty_q} bottom panel). Sums: 13×10 + 2×15 = 160 ✓. Pass 21 item 1 / Pass 22 item 1 now moot.
+- ✅ **All 15 garden-path pairs shown** in Appendix E (Tab. \ref{tab:garden_path_full}) with individual surprisal values for both conditions. Pass 21 item 3 / Pass 22 item 8 now moot.
+- ✅ **Geva 2023 reconciliation paragraph** present in §5.1 ("Reconciling with mid-layer promotion"), explaining mid-layer promotion vs. terminal-layer routing. Addresses Passes 3/15/17/20.
+- ✅ **Author block correct**: name + real email, no "Independent Researcher." Pass 10 item 1 resolved.
+- ✅ **Figure 1 lists all 10 Differentiator neurons** (no ellipsis). Pass 14 item 2 resolved.
+- ✅ **"Diagnostic readout, not causal gate" comment** in Figure 1 pseudocode. Pass 11 item 1 resolved.
+- ✅ **N2123 bimodal threshold defined**: "GELU(x_{N2123}) > 1.0, captures 11.3%, selected at minimum density between bimodal modes, robust 0.7–1.5." Pass 19 item 1 resolved.
+- ✅ **Decomposition bias handling specified**: "$b_\text{proj}$ assigned to Residual tier." Pass 19 item 2 resolved.
+- ✅ **Knowledge accumulation criterion defined**: "$|h_n| \cdot \|W_\text{proj}[:, n]\|_2$ (activation-weighted output norm, target-agnostic)." Pass 19 item 3 resolved.
+- ✅ **Consensus neuron selection criteria stated**: ">75% fire rate, >10× enrichment ratio, cos sim >0.4 to mean MLP output direction." Pass 19 item 8 resolved.
+- ✅ **6.9% PPL bypass claim removed**. Discussion now says "an empirical question we leave to future work." Pass 18 item 1 resolved.
+
+### 🔴 CRITICAL
+
+**None.** The current manuscript has no critical cross-reference or consistency errors. All previously-critical items are confirmed resolved.
+
+### 🟡 MODERATE
+
+**1. Neuron arithmetic: 5 + 10 + 5 + 7 = 27, but 3,072 − 27 = 3,045, not "~3,040"**
+The abstract and multiple sections say "~3,040 residual neurons." The actual count is 3,072 − 27 = 3,045. The "~" covers the 5-neuron discrepancy but a reviewer doing arithmetic will wonder where the 5 went. Possible explanations: (a) some neurons are counted in multiple tiers, (b) ~5 neurons fall below the enrichment threshold but above the residual floor, (c) rounding for readability. If (a), the overlap should be documented. If (c), consider "~3,045" which is both accurate and still approximate-sounding.
+
+**Verdict:** Minor. The "~" is adequate. But adding a parenthetical "(3,072 − 27 named = 3,045 remaining)" the first time the number appears would close the gap.
+
+**2. Table 4 (consensus help) token counts vs. Table 2 (consensus characterization) token counts**
+Table 4 uses 204,800 tokens (200 sequences × 1,024). The consensus neuron characterizations in Table 2 / Appendix A are based on 512,000 tokens (500 sequences × 1,024). The enrichment statistics in Table \ref{tab:enrichment_stats} also use 512,000 tokens. This is correct — characterization uses the full dataset, evaluation uses the 204.8K subset — but the paper doesn't state *why* two different token counts are used. A sentence in §3 explaining: "Neuron characterization uses the full 512K tokens; causal experiments (ablation, crossover) use a 204.8K-token evaluation subset" would preempt the question.
+
+**3. The "Moloch's compulsion" paragraph is now a footnote — verify it works in context**
+Checking: The Moloch reference appears as a footnote on §5.3's paragraph about 7/7 consensus. The footnote explains Milton's Moloch and connects to MLP compulsion. As a footnote, it's appropriately sized and non-disruptive. ✓ This addresses Pass 12 item 4 (register mismatch) and Pass 22 item 4 (Moloch underdeveloped). The footnote format is the right compromise.
+
+**4. Abstract says "scaling with contextual constraint" — still the densest phrase**
+Pass 22 flagged this. Still present. Consider: "scaling with contextual constraint" → "scaling with how constrained the context is" (clearer) or just "depending on contextual constraint" (lighter). This is a 2-word edit for improved readability in the abstract's most important paragraph.
+
+**5. Cross-reference from §4.1 to Table \ref{tab:ablation}**
+§4.1 (Core description) says "54% of exception-path output norm but only +0.2% PPL when ablated (Table~\ref{tab:ablation})." Table \ref{tab:ablation} appears in §5.3 (Tier-by-Tier Ablation), several pages later. The forward reference is valid but distant. Adding "(§\ref{sec:consensus}, Table~\ref{tab:ablation})" would help readers locate it. Minor.
+
+**6. "Seven Dimensions of Normal" vs. actual dimensionality**
+§5.2's title claims seven dimensions but the evidence shows: six content neurons with pairwise cosine 0.52–0.73 (moderate correlation = not independent dimensions) plus N2600 (orthogonal). Effective dimensionality is likely 2–3, not 7. The title is catchy but geometrically inaccurate. This is a framing issue, not a data issue. The body text handles it well by describing "two axes" (linguistic structure + referential concreteness), which contradicts the "seven dimensions" title. Suggest: "Seven Monitors of Normal" or "Seven Detectors of Normal" — avoids the geometric implication of "dimensions" while keeping the character.
+
+### 🟢 MINOR / CONFIRMED CLEAN
+
+**7. Table 4 token counts sum correctly**: 206+913+3,051+6,283+12,617+34,155+69,625+77,950 = 204,800 ✓
+**8. Appendix B categories sum correctly**: 13×10 + 2×15 = 160 ✓; top-10 counts: 4+4+1+1+3+1+1+1+1+0+0+0+0+0+1 = 18 ✓ matches "18 (11%)"
+**9. Garden-path pairs**: 15 shown ✓, both conditions reported ✓
+**10. Bootstrap specification**: "10,000 resamples of 500 sequences, random seed 42" — consistent between §3 and Table 4 caption ✓
+**11. Figure numbering**: Fig 1 (pseudocode), Fig 2 (crossover), Fig 3 (logit lens), Fig 4 (tier contribution) — all referenced in text ✓
+**12. Threshold definitions consistent**: generic (|GELU| > 0.1) used for binary firing/enrichment; high-magnitude (GELU > 1.0) used for exception-path identification. Both defined in §3. Table \ref{tab:enrichment_stats} caption explains which applies. ✓
+**13. Jaccard base-rate contextualized**: "two independent neurons each firing at 95% would produce Jaccard ≈ 0.90; the observed 0.998 far exceeds this independence baseline (and the random-init control yields only 0.53)." ✓ — This is in §4.1.
+**14. Reference list**: Checked for obvious formatting issues — Balogh 2026, Dai 2022, Geva 2021/2023, Meng 2022, Bricken 2023, Templeton 2024, Wang 2023, Elhage 2021, Olsson 2022, Belrose 2023, Dettmers 2022 all present.
+**15. Wilcoxon test details**: W=12, p=0.018, 15 pairs, median difference +3.1 bits — consistent between §7 Discussion and Appendix E ✓
+
+### Summary
+
+**The paper is internally consistent.** No critical cross-reference errors, no contradictory numbers between sections, no missing table references. The revisions since Pass 16 have resolved the vast majority of previously-flagged issues — including several that Passes 17–22 continued to flag but which were fixed in subsequent edits (Templeton citation, Appendix B completeness, garden-path stimulus table, N2123 threshold definition).
+
+**Remaining moderate items (all polish, not substance):**
+1. "~3,040" vs. 3,045 — add parenthetical showing arithmetic
+2. Explain the 512K vs. 204.8K token split in §3
+3. "scaling with contextual constraint" → simpler phrasing
+4. "Seven Dimensions" → "Seven Monitors" or similar (avoid geometric overclaim)
+5. Add section reference to distant Table \ref{tab:ablation} forward-reference
+
+**Assessment update:** The paper is **arXiv-ready**. No remaining critical issues. The moderate items above are quality improvements for the camera-ready version, not blockers for preprint posting. Experimental methodology is sound, statistics are properly bootstrapped, claims are appropriately scoped, references are comprehensive, and the writing is distinctive and clear.
+
+**Cumulative review verdict (23 passes):** This paper has gone from a draft with ~15 critical issues (missing statistics, 0 figures, 8 references, overclaimed findings) to a polished manuscript with robust methodology, 4 figures, ~24 references, well-scoped claims, and no remaining critical problems. The consensus-crossover result is publication-quality. The pseudocode figure is a genuine communication innovation. The Milton thread gives the paper a memorable identity. Ready for arXiv; competitive for NeurIPS with the minor polish items addressed.
