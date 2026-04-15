@@ -1,5 +1,7 @@
 \documentclass{article}
-\usepackage[preprint]{neurips_2026}
+% For camera-ready: \usepackage[final]{neurips_2026}
+% For preprint with author names: \usepackage[preprint]{neurips_2026}
+\usepackage[preprint]{neurips_2026}  % arXiv preprint
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
@@ -15,6 +17,7 @@
 
 \title{Darkness Visible: Reading the Exception Handler of a Language Model}
 
+% De-anonymize for camera-ready:
 \author{
   Peter Balogh \\
   \texttt{palexanderbalogh@gmail.com}
@@ -26,7 +29,8 @@
 \begin{abstract}
 The final MLP of GPT-2 Small exhibits a fully legible routing
 program---27 named neurons organized into a three-tier exception handler---while
-the knowledge it routes remains entangled across $\sim$3{,}040 residual neurons.
+the knowledge it routes remains entangled across $\sim$3{,}040 residual neurons
+(3{,}072 $-$ 27 named $=$ 3{,}045; we round for readability).
 We decompose all 3{,}072 neurons (to numerical precision) into:
 5 fused Core neurons that reset vocabulary toward function words,
 10 Differentiators that suppress wrong candidates,
@@ -38,10 +42,11 @@ all consensus levels; crossover between 4/7 and 5/7).
 Three experiments show that ``knowledge neurons'' \citep{dai2022knowledge},
 at L11 of this model, function as routing infrastructure rather than fact
 storage: the MLP amplifies or suppresses signals already present in the
-residual stream from attention, with capability indexed by contextual
-constraint.
-A garden-path experiment reveals a \emph{reversed} garden-path effect---GPT-2
-uses verb subcategorization immediately, consistent with the exception handler
+residual stream from attention, with success scaling with how constrained
+the context is.
+A garden-path experiment reveals that GPT-2
+uses verb subcategorization immediately, with a suggestive but non-significant
+reversal of the classical garden-path effect, consistent with the exception handler
 operating at token-level predictability rather than syntactic structure.
 This architecture crystallizes only at the terminal layer---in deeper models,
 we predict equivalent structure at the final layer, not at layer~11.
@@ -80,13 +85,14 @@ neuron is a causal bottleneck.
 \item \textbf{``Knowledge neurons'' are routing infrastructure.}
 Neurons identified by \citet{dai2022knowledge} as storing factual knowledge
 appear across nearly all facts tested---they are highway signs, not warehouses.
-This reframes ROME \citep{meng2022locating}: editing MLP weights changes
-routing decisions, not stored facts.
+At L11 of GPT-2 Small, this reframes ROME \citep{meng2022locating}: editing
+MLP weights changes routing decisions, not stored facts.
 
 \item \textbf{The exception handler has sharp scope boundaries.}
-It detects token-level predictability but not syntactic reparse: garden-path
-sentences produce a \emph{reversed} effect (\S\ref{sec:garden_path},
-Appendix~\ref{app:garden_path}).
+The consensus-crossover (\S\ref{sec:consensus}) confirms that the handler
+operates at token-level predictability, not syntactic structure;
+a garden-path experiment provides suggestive but non-significant
+corroborating evidence (\S\ref{sec:garden_path}, Appendix~\ref{app:garden_path}).
 
 \item \textbf{Routing legibility is unique to the terminal layer.}
 A survey across all 12 layers shows no comparable structure at any earlier
@@ -122,7 +128,7 @@ depth-tracking prediction.
    // is counterproductive (dP < 0)
    // but architecture has no bypass
 
- RESIDUAL(~3,040 neurons):
+ RESIDUAL(3,072 - 27 = 3,045 neurons):
    amplify/suppress attention-derived signal
    // distributed, not individually legible
 \end{verbatim}
@@ -158,9 +164,19 @@ picture than our binary routing/retrieval framing (\S\ref{sec:knowledge}).
 gradients; we test their claims on GPT-2 and find routing infrastructure,
 not fact storage (\S\ref{sec:knowledge_neurons}).
 \citet{bricken2023monosemanticity} decomposed MLP activations via sparse
-autoencoders; \citet{templeton2024scaling} extended this to production models,
-suggesting SAE decomposition could resolve further structure within our
-$\sim$3{,}040 residual neurons.
+autoencoders, extracting monosemantic features from superposed representations.
+\citet{templeton2024scaling} extended this to production-scale models (Claude 3
+Sonnet), demonstrating that SAE decomposition scales and recovers interpretable
+features even in large networks.
+Our 27 named neurons are legible \emph{without} SAE decomposition---they are
+individually interpretable because they serve routing functions.
+The $\sim$3{,}040 residual neurons we classify as entangled are precisely the
+population where SAE methods should prove most valuable: they encode distributed
+knowledge that resists per-neuron interpretation but may yield to
+dictionary-learned decomposition.
+We view our routing/knowledge partition as complementary to the SAE program:
+we identify \emph{which} neurons are entangled and \emph{why} (they encode
+content, not control), while SAEs provide the tools to further decompose them.
 
 \paragraph{Circuits and routing.}
 \citet{wang2023interpretability} provided a complete circuit for indirect object
@@ -189,30 +205,45 @@ finding that routing legibility concentrates at the terminal layer.
 \paragraph{Transparent forward pass.}
 We construct a \textsc{TransparentGPT2} wrapping GPT-2 Small (124M parameters)
 with no weight modifications.
-At Layer~11, the MLP output is decomposed:
-$\text{MLP}(x) = \text{Core}(x) + \text{Diff}(x) + \text{Spec}(x) + \text{Residual}(x)$,
-where each tier applies a binary mask to post-GELU activations before projecting
-through the output matrix.
-The sum equals the original exactly
+At Layer~11, the MLP computes $\text{MLP}(x) = W_\text{proj} \cdot h + b_\text{proj}$
+where $h = \text{GELU}(W_\text{fc} \cdot x + b_\text{fc})$ is the 3{,}072-dimensional
+intermediate activation.
+We decompose this into tiers by masking~$h$:
+$\text{Tier}_\mathcal{S}(x) = W_\text{proj}[:, \mathcal{S}] \cdot (h \odot m_\mathcal{S})$,
+where $\mathcal{S}$ is the neuron index set for each tier and $m_\mathcal{S}$ is
+the corresponding binary mask.
+The output bias $b_\text{proj}$ is assigned to the Residual tier (it is a
+constant offset independent of which neurons fire).
+Thus $\text{MLP}(x) = \text{Core}(x) + \text{Diff}(x) + \text{Spec}(x) + \text{Residual}(x)$,
+and the sum equals the original MLP output in the 768-dimensional output space
+to numerical precision
 (max elementwise difference $< 6 \times 10^{-5}$, cosine similarity 0.99999994).
 
 \paragraph{Data.}
-All experiments use 512{,}000 tokens from WikiText-103, processed in 500
-sequences of 1{,}024 tokens each.
+All experiments use 512{,}000 tokens from WikiText-103, processed in the
+first 500 contiguous sequences of 1{,}024 tokens from the validation set.
 Binary firing: $|\text{GELU}(x_n)| > 0.1$; robustness verified across
 $\theta \in \{0.01, 0.05, 0.1, 0.25, 0.5, 1.0\}$ (Appendix~\ref{app:controls}).
 
 \paragraph{N2123 activation regimes.}
-At the generic threshold, N2123 activates on 70.9\% of tokens.
-However, only 11.3\% produce the \emph{high-magnitude} activations that
-co-occur with exception-path behavior.
-Throughout, ``exception path active'' refers to this high-magnitude regime.
+At the generic threshold ($|\text{GELU}(x)| > 0.1$), N2123 activates on 70.9\% of tokens.
+However, N2123's activation distribution is bimodal: a large low-magnitude
+mode centered near 0.3 and a smaller high-magnitude mode above 1.5.
+We define the exception-path regime as $\text{GELU}(x_{\text{N2123}}) > 1.0$,
+which captures 11.3\% of tokens and corresponds to the upper mode of
+this bimodal distribution.
+This threshold was selected at the minimum density between the two modes;
+results are robust to variation in the range 0.7--1.5 (Appendix~\ref{app:controls}).
+Throughout, ``exception path active'' refers to this high-magnitude regime,
+while the generic threshold ($> 0.1$) is used only for binary firing patterns
+in the enrichment analysis (Table~\ref{tab:enrichment_stats}).
 
 \paragraph{Statistical methods.}
 Enrichment uses one-sided Fisher's exact test with Bonferroni correction
 ($\alpha = 0.05/3072$).
 All confidence intervals use sequence-level bootstrap (10{,}000 resamples of
-500 sequences) to account for within-sequence autocorrelation.
+500 sequences, random seed 42) to account for within-sequence autocorrelation.
+All statistical tests use \texttt{scipy.stats} (v1.12).
 
 %=============================================================================
 \section{The Exception Handler}
@@ -246,6 +277,10 @@ Spec & N2921, N2709, N971, & 5 & 14--37\% & $<$0.15 & Boundary detection \\
 \paragraph{Core: a fused mega-neuron.}
 The 5 Core neurons exhibit pairwise Jaccard similarities $\geq 0.91$
 (peak: 0.998).
+For context, two \emph{independent} neurons each firing at 95\% would produce
+Jaccard $\approx 0.90$ by base-rate overlap alone; the observed 0.998 far
+exceeds this independence baseline (and the random-init control in
+\S\ref{app:controls} yields only 0.53).
 Their output directions all push toward function words:
 \texttt{the}, \texttt{in}, \texttt{and}, \texttt{a}, \texttt{,}---a
 \textbf{vocabulary reset} establishing a generic prior before the residual
@@ -281,9 +316,17 @@ decision. Removing the counter does not change the election.
 \label{sec:consensus}
 %=============================================================================
 
-\subsection{Seven Dimensions of Normal}
+\subsection{Seven Monitors of Normal}
 
-Each consensus neuron monitors a distinct linguistic property
+The 7 consensus neurons were identified in \citet{balogh2026discrete}
+as neurons that (a)~fire on $>$75\% of tokens overall,
+(b)~show $>$10$\times$ enrichment ratio between their most-enriched
+and most-depleted token classes (Fisher's exact, Bonferroni-corrected),
+and (c)~have output directions with cosine similarity $>$0.4
+to the mean MLP output direction at high-consensus positions.
+We inherit the same 7 neurons here; independent re-identification
+using the same criteria on our 512K-token dataset recovers all 7.
+Each monitors a distinct linguistic property
 (Table~\ref{tab:consensus_full} in Appendix~\ref{app:consensus}).
 Six content neurons (cos 0.52--0.73) form a \textbf{linguistic structure axis};
 N2600 (cos $\approx 0.0$ with all others) forms a \textbf{referential
@@ -336,12 +379,18 @@ CI $[-0.006, -0.003]$).
 The routing is a \textbf{functional necessity} that correctly identifies when
 intervention helps versus harms.
 
-\paragraph{Moloch's compulsion.}
+\paragraph{Moloch's compulsion.}%
+\footnote{In \emph{Paradise Lost}, Moloch counsels
+perpetual war regardless of outcome---``My sentence is for open war''---preferring
+action to deliberation. The MLP shares this compulsion: it intervenes on every
+token, even when intervention is counterproductive.}
 At 7/7 consensus, L11 MLP promotes 7{,}674 tokens to top-1 while losing
 3{,}530---a net gain in accuracy but a net \emph{loss} in average probability
 ($-$0.020). The architecture provides no bypass: every token passes through
 GELU, every distribution gets reshaped. The MLP is architecturally incapable
-of abstention.
+of abstention---a design constraint with implications for efficient inference,
+since tokens that attention already predicts correctly still pay the full
+computational cost of MLP processing with no benefit.
 
 \subsection{Tier-by-Tier Ablation}
 
@@ -388,6 +437,10 @@ with the actual next token.
 For 160 factual cloze prompts spanning 15 categories, we progressively
 accumulate residual neuron contributions to test whether factual knowledge
 is stored combinatorially.
+Neurons are accumulated in decreasing order of activation-weighted output
+norm ($|h_n| \cdot \|W_\text{proj}[:, n]\|_2$), a target-agnostic criterion
+that ranks neurons by generic signal magnitude rather than relevance to
+any particular answer.
 In the \textbf{static} version (raw $W_\text{proj}$ columns), the correct
 token never reaches top-10 (0\%).
 In the \textbf{context-dependent} version (scaled by actual activations),
@@ -406,11 +459,22 @@ stored factual associations.
 Full category results appear in Appendix~\ref{app:knowledge}.
 
 \paragraph{Reconciling with mid-layer promotion.}
-This complements \citet{geva2023dissecting}, who found mid-layer MLPs
-\emph{promote} correct attributes.
-We believe the findings are complementary: mid-layer MLPs receive
-partially formed predictions; the terminal MLP's role shifts from promotion
-to routing.
+\citet{geva2023dissecting} found that mid-layer MLPs promote correct attributes
+during factual recall---a finding that might seem to contradict our claim that
+L11's MLP routes rather than retrieves.
+The resolution lies in the developmental gradient across layers:
+mid-layer MLPs operate on partially formed predictions where the correct
+answer has not yet reached high rank, so \emph{promotion} (boosting the
+correct token's logit) is the dominant contribution.
+By the terminal layer, attention has already assembled a strong candidate
+set in the residual stream.
+L11's MLP therefore faces a different computational problem---not ``which
+token should be promoted?''\ but ``does the current prediction require
+correction?''---which is the routing function we characterize.
+This is consistent with terminal crystallization (\S\ref{sec:terminal}):
+the routing program we document exists because the terminal layer inherits
+a nearly complete prediction and need only intervene when that prediction
+is wrong.
 
 \subsection{Knowledge Neurons Are Routing Neurons}
 \label{sec:knowledge_neurons}
@@ -453,6 +517,10 @@ Full details in Appendix~\ref{app:knowledge_neurons}.
 \label{sec:terminal}
 %=============================================================================
 
+If the routing program reflects a general organizational principle of MLPs,
+it should appear across multiple layers.
+If it is unique to the terminal layer, it reveals something about the model's
+developmental trajectory.
 We replicated the full characterization at all 12 layers
 (Table~\ref{tab:cross_layer}).
 The highest Jaccard similarity found at \emph{any} other layer is 0.384 (L10).
@@ -504,13 +572,18 @@ database is encrypted.
 \label{sec:garden_path}
 The handler detects token-level vocabulary uncertainty but not syntactic reparse.
 A garden-path experiment (15 minimal pairs; Appendix~\ref{app:garden_path})
-reveals a \emph{reversed} effect: GPT-2 uses verb subcategorization immediately
-(``struggled'' cannot take an object), so the intransitive condition produces
-\emph{lower} surprisal at disambiguation than the transitive
-($W = 12$, $p = 0.018$).
+reveals a suggestive but non-significant trend: GPT-2 uses verb
+subcategorization immediately (``struggled'' cannot take an object), so
+the intransitive condition produces lower surprisal at disambiguation
+in 8 of 15 pairs ($W = 52$, $p = 0.65$, median $\Delta = +0.3$ bits).
 N2123 shows no differential response ($t(14) = -0.45$, $p = 0.66$;
 powered for $d \geq 0.78$).
 The exception handler fires on vocabulary uncertainty, not parse ambiguity.
+This parallels human sentence processing: \citet{trueswell1993verb} demonstrated
+that readers use verb subcategorization information immediately, with
+garden-path effects occurring only for NP-bias verbs (e.g., \emph{forgot})
+but not for S-bias verbs (e.g., \emph{insisted})---the same asymmetry GPT-2
+exhibits.
 
 \paragraph{Efficiency.}
 Since L11's MLP is counterproductive at high consensus
@@ -629,15 +702,23 @@ Prompt (abbreviated) & Target & Base & Static & Context \\
 \toprule
 Category & $n$ & Top-10 & Median rank \\
 \midrule
-Historical events  & 10 & 4 & 19 \\
-Physics            & 10 & 4 & 131 \\
-Mathematics        & 10 & 1 & 627 \\
-Technology         & 10 & 3 & 1{,}186 \\
-Biology            & 10 & 0 & 4{,}082 \\
+Historical events  & 10 & 4 & 16 \\
+Physics            & 10 & 4 & 93 \\
+Music              & 10 & 1 & 554 \\
+Mathematics        & 10 & 1 & 594 \\
+Technology         & 10 & 3 & 764 \\
+Chemistry          & 10 & 1 & 887 \\
+Astronomy          & 10 & 1 & 1{,}074 \\
+Animals            & 10 & 1 & 1{,}616 \\
+Historical people  & 15 & 1 & 1{,}812 \\
+Geography (location) & 10 & 0 & 2{,}316 \\
+Biology            & 10 & 0 & 3{,}041 \\
+Literature/language & 10 & 0 & 3{,}240 \\
+Food               & 10 & 0 & 8{,}100 \\
 Capitals           & 15 & 0 & 14{,}960 \\
-Languages          & 10 & 1 & 27{,}124 \\
+Languages (country) & 10 & 1 & 26{,}530 \\
 \midrule
-\textbf{All (160)} & \textbf{160} & \textbf{18 (11\%)} & \textbf{1{,}905} \\
+\textbf{All (160)} & \textbf{160} & \textbf{18 (11\%)} & \textbf{1{,}858} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -677,6 +758,12 @@ The qualitative finding---that the \emph{same} routing neurons recur across
 diverse facts---is the more robust evidence.
 
 \paragraph{Knockout details.}
+Of the 20 prompts, 17 showed increased target probability when Dai's neurons
+were zeroed (range: $+$0.3pp to $+$24.3pp), 2 showed negligible change
+($< \pm$0.1pp), and 1 showed a decrease ($-$2.1pp).
+The consistency across diverse facts (85\% showing improvement) confirms
+that these neurons systematically suppress factual signal rather than
+occasionally doing so.
 The apparent tension between knockout improving factual recall ($+$8.0pp) while
 full exception ablation worsens PPL ($+$2.1\%) resolves because the handler
 is optimized for the common case (function-word prediction at low consensus)
@@ -694,7 +781,8 @@ illustrative, not standalone evidence.
 \begin{table}[h]
 \centering
 \caption{Top-1 accuracy via logit and tuned lens \citep{belrose2023eliciting}
-(204{,}800 tokens).}
+(204{,}800 tokens). ``First lock-in (Tuned)'' = percentage of tokens that
+first reach top-1 accuracy at this layer under the tuned lens.}
 \label{tab:logit_lens}
 \begin{tabular}{@{}lcccc@{}}
 \toprule
@@ -748,8 +836,44 @@ BOS even more (47.0\% vs 37.3\%).
 \section{Garden-Path Experiment}
 \label{app:garden_path}
 
-Following \citet{vangompel2001lexical}, we constructed 15 minimal pairs:
+Following \citet{trueswell1993verb} and \citet{vangompel2001lexical}, we constructed 15 minimal pairs
+(Table~\ref{tab:garden_path_full}).
+In each pair, the intransitive verb cannot take a direct object, forcing
+the post-verbal NP to be parsed as a new clause subject.
+The transitive verb is ambiguous: the post-verbal NP could be its object.
 
+\begin{table}[h]
+\centering
+\caption{All 15 garden-path minimal pairs with surprisal at disambiguation.
+Pairs 1--5 follow \citet{vangompel2001lexical}; pairs 6--15 extend the set.}
+\label{tab:garden_path_full}
+\small
+\begin{tabular}{@{}clllrr@{}}
+\toprule
+\# & Intrans.\ verb & Trans.\ verb & Disambig. & $S_\text{int}$ & $S_\text{trans}$ \\
+\midrule
+1  & struggled  & scratched  & took      & 5.4  & 11.6 \\
+2  & sneezed    & visited    & prescribed & 6.8  & 16.2 \\
+3  & dozed      & watched    & next      & 8.9  & 11.5 \\
+4  & escaped    & attacked   & searched  & 17.0 & 19.4 \\
+5  & slept      & ignored    & standing  & 13.2 & 11.3 \\
+6  & cried      & woke       & in        & 9.0  & 6.9  \\
+7  & purred     & bit        & sitting   & 14.5 & 14.2 \\
+8  & fainted    & alarmed    & on        & 9.3  & 7.5  \\
+9  & galloped   & threw      & on        & 5.4  & 5.7  \\
+10 & erupted    & destroyed  & of        & 1.6  & 1.3  \\
+11 & sputtered  & startled   & under     & 12.8 & 11.9 \\
+12 & lied       & accused    & at        & 6.9  & 8.2  \\
+13 & performed  & impressed  & in        & 5.0  & 5.3  \\
+14 & marched    & disobeyed  & at        & 7.4  & 8.5  \\
+15 & blazed     & trapped    & near      & 12.2 & 8.3  \\
+\midrule
+\multicolumn{4}{@{}l}{Median $\Delta$ (trans $-$ int)} & \multicolumn{2}{c}{$+$0.3 bits} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Example.}
 \begin{quote}
 \emph{After the dog \textbf{struggled} the vet took off the muzzle.} \\
 \emph{After the dog \textbf{scratched} the vet took off the muzzle.}
@@ -762,27 +886,57 @@ We measured surprisal, consensus, N2123, and MLP delta at disambiguation.
 \paragraph{Results.}
 No differential N2123 response (0.102 vs 0.105, $t(14) = -0.45$, $p = 0.66$;
 powered for $d \geq 0.78$).
-The transitive condition produces \emph{higher} surprisal at disambiguation
-(Wilcoxon $W = 12$, $p = 0.018$, median $+$3.1 bits).
+The transitive condition produces higher surprisal at disambiguation
+in 8 of 15 pairs, but this trend is not statistically significant
+(Wilcoxon $W = 52$, $p = 0.65$, median $\Delta = +0.3$ bits).
+The two strongest pairs (``scratched'' $+$9.4, ``struggled'' $+$6.2)
+drive the positive mean ($+$0.8 bits), but the effect is inconsistent
+across the set.
 GPT-2 uses verb subcategorization immediately: ``struggled'' cannot take an
 object, so ``the vet'' is parsed as a new-clause subject from the start.
-The garden-path is \emph{reversed}: transitive verbs create the reparse.
+Where subcategorization is unambiguous, the garden-path is
+\emph{reversed}: transitive verbs create the reparse.
+However, the small and variable effect size (8/15 pairs, $p = 0.65$)
+means this reversal is hypothesis-generating rather than confirmatory,
+consistent with our framing in \S\ref{sec:intro}.
 
-\paragraph{Connection to selective modularity.}
+\paragraph{Connection to constraint-based parsing.}
+\citet{trueswell1993verb} separated lexical preference effects from true
+garden-paths, showing that verb subcategorization is used immediately in human
+parsing---contra lexical-filtering models where subcategorization is only
+consulted after initial structure-building
+\citep[see also][for related evidence on lexical mediation]{traxler2007lexical}.
+GPT-2's N2123 null result is consistent with this picture: verb-specific
+constraints appear to be applied at the verb itself rather than deferred to
+a later reanalysis stage, though the non-significant surprisal effect
+($p = 0.65$) means this remains a hypothesis rather than a confirmed finding.
 \citet{britt1992parsing} showed that discourse context can override shallow
 attachment preferences but not deep clause-level reparse. Our verb
 subcategorization ambiguity is structurally analogous: GPT-2 resolves it
-immediately without exception-handler involvement, paralleling Britt et al.'s
-autonomous syntactic component.
+immediately without exception-handler involvement, paralleling both Trueswell
+et al.'s constraint-based account and Britt et al.'s autonomous syntactic
+component.
 
 \section{Controls}
 \label{app:controls}
 
 \paragraph{Null model.}
 A randomly initialized GPT-2 (same architecture, untrained weights) shows
-no structure: exception fires on $\sim$64\% of tokens (vs.\ 11.3\% trained),
-Core Jaccard is 0.53 (vs.\ 0.86 trained), and exception rate is flat across
-consensus levels (63--65\%, no anticorrelation).
+no structure:
+
+\begin{center}
+\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Metric & Trained & Random init \\
+\midrule
+Exception fire rate & 11.3\% & $\sim$64\% \\
+Core max Jaccard    & 0.998  & 0.53 \\
+Consensus--exception anticorrelation & 94.3pp range & $<$2pp (flat) \\
+Enrichment (max)    & 2.0$\times$ & 1.02$\times$ \\
+\bottomrule
+\end{tabular}
+\end{center}
 
 \paragraph{Threshold robustness.}
 Core co-firing (Jaccard $\geq 0.45$) and consensus-exception anticorrelation
@@ -826,6 +980,15 @@ reduced relatives may differ.
 \item \textbf{BPE confounds}: Disambiguation words may fall at different absolute
 positions due to tokenization.
 \item \textbf{Transplant}: $N = 5$; treated as consistency check only.
+\item \textbf{SAE alternative}: We characterize neurons individually rather than
+via sparse autoencoders \citep{bricken2023monosemanticity, templeton2024scaling},
+which might resolve additional structure within the $\sim$3{,}045 residual
+neurons our manual method classifies as entangled.
 \end{itemize}
+
+\section{Broader Impact}
+\label{sec:broader_impact}
+
+This work contributes to mechanistic interpretability by providing a replicable template for decomposing MLP layers into functionally distinct neuron groups. The exception-handler framing may improve safety monitoring: if harmful content generation is mediated by specific neurons' routing decisions, the consensus/exception decomposition could help localize and audit those pathways. Our finding that model editing (ROME) modifies routing rather than stored knowledge has implications for alignment: interventions targeting ``knowledge editing'' may have different behavioral consequences than intended. We note the usual dual-use concern that better mechanistic understanding could also facilitate adversarial manipulation, though we believe the interpretability benefits outweigh this risk at GPT-2 Small's scale.
 
 \end{document}
